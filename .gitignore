@@ -1,0 +1,43 @@
+# ---- Build outputs (RXDK samples) ----
+# Each sample builds its PE/XBE/XISO under an out/ tree; never commit those.
+out/
+**/out/
+Build/
+XISO/
+
+# ---- Visual Studio / MSBuild ----
+.vs/
+*.user
+*.suo
+*.vcxproj.user
+[Bb]in/
+[Oo]bj/
+
+# ---- .NET (RxdkSampleRunner) ----
+[Dd]ebug/
+[Rr]elease/
+project.lock.json
+*.nuget.props
+*.nuget.targets
+
+# ---- Zig ----
+.zig-cache/
+zig-out/
+
+# ---- Generated / intermediate artifacts ----
+*.xbe
+*.iso
+*.exe
+*.dll
+*.pdb
+*.obj
+*.o
+*.ilk
+*.exp
+*.map
+
+# ---- OS / editor cruft ----
+Thumbs.db
+desktop.ini
+.DS_Store
+*.swp
