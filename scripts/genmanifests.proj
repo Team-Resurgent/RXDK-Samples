@@ -1,0 +1,24 @@
+<!--
+  Regenerates the per-configuration RXDK manifests for every sample by invoking the
+  RxdkGenerateManifest target (provided by the installed "Xbox" MSBuild platform) once
+  per project, per configuration. The two single-config JSONs land in each project's
+  gitignored out\ folder; combine-manifests.py then merges them into the committed
+  multi-config rxdk.project.json. Driven by Generate-Manifests.ps1.
+
+  Usage: msbuild scripts\genmanifests.proj -t:GenAll
+-->
+<Project>
+  <ItemGroup>
+    <Proj Include="$(MSBuildThisFileDirectory)..\RxdkSamples\**\*.vcxproj" />
+  </ItemGroup>
+  <Target Name="GenAll">
+    <Message Importance="high" Text="Generating Debug manifests for @(Proj->Count()) projects..." />
+    <MSBuild Projects="@(Proj)" Targets="RxdkGenerateManifest"
+             Properties="Configuration=Debug;Platform=Xbox;RxdkManifestFile=%(Proj.RootDir)%(Proj.Directory)out\rxdk.Debug.json"
+             ContinueOnError="true" />
+    <Message Importance="high" Text="Generating Release manifests..." />
+    <MSBuild Projects="@(Proj)" Targets="RxdkGenerateManifest"
+             Properties="Configuration=Release;Platform=Xbox;RxdkManifestFile=%(Proj.RootDir)%(Proj.Directory)out\rxdk.Release.json"
+             ContinueOnError="true" />
+  </Target>
+</Project>

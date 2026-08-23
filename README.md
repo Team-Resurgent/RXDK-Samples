@@ -50,6 +50,25 @@ msbuild <Sample>.vcxproj /p:Configuration=Debug /p:Platform=Xbox
 This compiles the PE, converts it to an `.xbe` (imagebld), and packs an `.xbe` +
 `.iso` under `out/`. Deploy the `.xbe` (or run the `.iso` in xemu) to test.
 
+## Project manifests (`rxdk.project.json`)
+
+Every sample commits an `rxdk.project.json` alongside its `.vcxproj`. It's a
+multi-config manifest (`Debug`/`Release`) that **RXDK-VSCode** loads to build the
+sample on Windows, Linux, or macOS — so the same project opens in either IDE. The
+`.vcxproj` is authoritative: the manifest is *derived* from it.
+
+If you edit a sample's `.vcxproj` (add a source, change libraries/defines, …),
+regenerate the committed manifests and commit the result:
+
+```powershell
+pwsh scripts/Generate-Manifests.ps1
+```
+
+This runs the `RxdkGenerateManifest` MSBuild target for both configurations across
+all samples and merges each pair into the committed manifest. It needs the RXDK
+`Xbox` platform installed (VS command *RXDK: Install Xbox Platform*). CI runs
+`scripts/Generate-Manifests.ps1 -Check` and fails a PR whose manifests are stale.
+
 ## Using the runner
 
 `RxdkSampleRunner` discovers the sample projects, builds them, and either:

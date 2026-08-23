@@ -1,0 +1,62 @@
+name: Check manifests
+
+# The committed multi-config rxdk.project.json in each sample is DERIVED from its .vcxproj
+# (it's what RXDK-VSCode loads on non-Windows). This gate regenerates every manifest from the
+# .vcxproj and fails if any committed file is stale -- i.e. a .vcxproj was edited without running
+# scripts/Generate-Manifests.ps1. Regeneration needs the RXDK "Xbox" MSBuild platform, which is
+# sourced from a RXDK-VS20XX checkout and installed into the runner's VCTargetsPath.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'RxdkSamples/**/*.vcxproj'
+      - 'RxdkSamples/**/rxdk.project.json'
+      - 'scripts/genmanifests.proj'
+      - 'scripts/combine-manifests.py'
+      - 'scripts/Generate-Manifests.ps1'
+      - '.github/workflows/manifests.yml'
+  pull_request:
+    paths:
+      - 'RxdkSamples/**/*.vcxproj'
+      - 'RxdkSamples/**/rxdk.project.json'
+      - 'scripts/genmanifests.proj'
+      - 'scripts/combine-manifests.py'
+      - 'scripts/Generate-Manifests.ps1'
+      - '.github/workflows/manifests.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    name: Manifests in sync with .vcxproj
+    runs-on: windows-latest
+    defaults:
+      run:
+        shell: pwsh
+    steps:
+      - name: Checkout RXDK-Samples
+        uses: actions/checkout@v5
+
+      # Source of the "Xbox" MSBuild platform (RxdkVs.Package/VcPlatform/Platforms/Xbox), which
+      # provides the RxdkGenerateManifest target. Generate-Manifests.ps1 installs it into the
+      # runner's VCTargetsPath when -Vs20xxRepo is passed.
+      - name: Checkout RXDK-VS20XX (Xbox platform payload)
+        uses: actions/checkout@v5
+        with:
+          repository: Team-Resurgent/RXDK-VS20XX
+          path: RXDK-VS20XX
+
+      # Puts the runner's VS 2022 MSBuild (with the preinstalled C++ workload -> x64 platform that
+      # the Xbox alias imports) on PATH; vswhere then locates it for the script.
+      - name: Setup MSBuild
+        uses: microsoft/setup-msbuild@v2
+
+      - name: Regenerate manifests and fail on drift
+        run: ./scripts/Generate-Manifests.ps1 -Check -Vs20xxRepo RXDK-VS20XX
