@@ -38,7 +38,7 @@
     <RxdkImageDebug>true</RxdkImageDebug>
     <RxdkDontMountUtilityDrive>true</RxdkDontMountUtilityDrive>
     <RxdkNoLibWarn>true</RxdkNoLibWarn>
-    <RxdkTestId>0xFFEDAAAA</RxdkTestId>
+    <RxdkTestId>0xFFFE0003</RxdkTestId>
     <RxdkTestName>TEAMS</RxdkTestName>
     <RxdkTestVersion>4096</RxdkTestVersion>
     <RxdkTitleImage>..\..\Common\rxdk-titleimage.xbx</RxdkTitleImage>
@@ -54,7 +54,7 @@
     <RxdkStackSize>65536</RxdkStackSize>
     <RxdkImageDebug>true</RxdkImageDebug>
     <RxdkDontMountUtilityDrive>true</RxdkDontMountUtilityDrive>
-    <RxdkTestId>0xFFEDAAAA</RxdkTestId>
+    <RxdkTestId>0xFFFE0003</RxdkTestId>
     <RxdkTestName>TEAMS</RxdkTestName>
     <RxdkTestVersion>4096</RxdkTestVersion>
     <RxdkTitleImage>..\..\Common\rxdk-titleimage.xbx</RxdkTitleImage>

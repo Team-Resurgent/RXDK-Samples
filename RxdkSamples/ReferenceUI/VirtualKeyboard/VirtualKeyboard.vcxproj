@@ -38,7 +38,7 @@
     <RxdkImageDebug>true</RxdkImageDebug>
     <RxdkDontMountUtilityDrive>true</RxdkDontMountUtilityDrive>
     <RxdkNoLibWarn>true</RxdkNoLibWarn>
-    <RxdkTestId>0xffff0101</RxdkTestId>
+    <RxdkTestId>0xFFFE0006</RxdkTestId>
     <RxdkTestName>VirtualKeyboard</RxdkTestName>
     <RxdkTestVersion>4096</RxdkTestVersion>
     <RxdkTitleImage>..\..\Common\rxdk-titleimage.xbx</RxdkTitleImage>
@@ -54,7 +54,7 @@
     <RxdkStackSize>65536</RxdkStackSize>
     <RxdkImageDebug>true</RxdkImageDebug>
     <RxdkDontMountUtilityDrive>true</RxdkDontMountUtilityDrive>
-    <RxdkTestId>0xffff0101</RxdkTestId>
+    <RxdkTestId>0xFFFE0006</RxdkTestId>
     <RxdkTestName>VirtualKeyboard</RxdkTestName>
     <RxdkTestVersion>4096</RxdkTestVersion>
     <RxdkTitleImage>..\..\Common\rxdk-titleimage.xbx</RxdkTitleImage>
