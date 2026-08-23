@@ -15,6 +15,7 @@ on:
       - 'scripts/genmanifests.proj'
       - 'scripts/combine-manifests.py'
       - 'scripts/Generate-Manifests.ps1'
+      - 'scripts/check-manifest-case.py'
       - '.github/workflows/manifests.yml'
   pull_request:
     paths:
@@ -23,6 +24,7 @@ on:
       - 'scripts/genmanifests.proj'
       - 'scripts/combine-manifests.py'
       - 'scripts/Generate-Manifests.ps1'
+      - 'scripts/check-manifest-case.py'
       - '.github/workflows/manifests.yml'
   workflow_dispatch:
 
@@ -34,6 +36,18 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+  # Fast, cross-platform gate: every committed manifest path reference must match the on-disk
+  # case exactly, or a case-sensitive (Linux/macOS) RXDK-VSCode build breaks. Needs nothing but
+  # Python + the checkout, so it runs on Linux -- the actual case-sensitive target.
+  case:
+    name: Manifest path case matches disk
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout RXDK-Samples
+        uses: actions/checkout@v5
+      - name: Check manifest path case
+        run: python3 scripts/check-manifest-case.py
+
   check:
     name: Manifests in sync with .vcxproj
     runs-on: windows-latest
