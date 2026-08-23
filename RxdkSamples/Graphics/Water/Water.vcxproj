@@ -31,9 +31,9 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Xbox'">
     <RxdkBuildFlavor>Debug</RxdkBuildFlavor>
     <RxdkDefines>_USE_XGMATH;XBOX_SAMPLE</RxdkDefines>
-    <RxdkIncludePaths>..\..\Common\include</RxdkIncludePaths>
+    <RxdkIncludePaths>..\..\Common\Include</RxdkIncludePaths>
     <RxdkLibraries>libxbdm;libxapi;libd3d8;libd3dx8;libxgraphics;libdsound;libkernel;libc;libcpp</RxdkLibraries>
-    <RxdkDeployPaths>media</RxdkDeployPaths>
+    <RxdkDeployPaths>Media</RxdkDeployPaths>
     <RxdkStackSize>65536</RxdkStackSize>
     <RxdkImageDebug>true</RxdkImageDebug>
     <RxdkDontMountUtilityDrive>true</RxdkDontMountUtilityDrive>
@@ -46,9 +46,9 @@
     <RxdkBuildFlavor>Release</RxdkBuildFlavor>
     <RxdkReleaseOptimize>ReleaseFast</RxdkReleaseOptimize>
     <RxdkDefines>_USE_XGMATH;XBOX_SAMPLE</RxdkDefines>
-    <RxdkIncludePaths>..\..\Common\include</RxdkIncludePaths>
+    <RxdkIncludePaths>..\..\Common\Include</RxdkIncludePaths>
     <RxdkLibraries>libxapi;libd3d8;libd3dx8;libxgraphics;libdsound;libkernel;libc;libcpp</RxdkLibraries>
-    <RxdkDeployPaths>media</RxdkDeployPaths>
+    <RxdkDeployPaths>Media</RxdkDeployPaths>
     <RxdkStackSize>65536</RxdkStackSize>
     <RxdkImageDebug>true</RxdkImageDebug>
     <RxdkDontMountUtilityDrive>true</RxdkDontMountUtilityDrive>
@@ -57,43 +57,43 @@
     <RxdkTestVersion>4096</RxdkTestVersion>
   </PropertyGroup>
   <ItemGroup>
-    <ClCompile Include="Model.cpp" />
-    <ClCompile Include="NoneWater.cpp" />
-    <ClCompile Include="PackMan.cpp" />
-    <ClCompile Include="Reflection.cpp" />
-    <ClCompile Include="Refraction.cpp" />
-    <ClCompile Include="ResMan.cpp" />
-    <ClCompile Include="Sky.cpp" />
-    <ClCompile Include="Water.cpp" />
-    <ClCompile Include="WaterApp.cpp" />
-    <ClCompile Include="..\..\Common\src\XBApp.cpp" />
-    <ClCompile Include="..\..\Common\src\XBFont.cpp" />
-    <ClCompile Include="..\..\Common\src\XBHelp.cpp" />
-    <ClCompile Include="..\..\Common\src\XBInput.cpp" />
-    <ClCompile Include="..\..\Common\src\XBMesh.cpp" />
-    <ClCompile Include="..\..\Common\src\XBProfiling.cpp" />
-    <ClCompile Include="..\..\Common\src\XBResource.cpp" />
-    <ClCompile Include="..\..\Common\src\XBUtil.cpp" />
+    <ClCompile Include="model.cpp" />
+    <ClCompile Include="nonewater.cpp" />
+    <ClCompile Include="packman.cpp" />
+    <ClCompile Include="reflection.cpp" />
+    <ClCompile Include="refraction.cpp" />
+    <ClCompile Include="resman.cpp" />
+    <ClCompile Include="sky.cpp" />
+    <ClCompile Include="water.cpp" />
+    <ClCompile Include="waterapp.cpp" />
+    <ClCompile Include="..\..\Common\Src\xbapp.cpp" />
+    <ClCompile Include="..\..\Common\Src\xbfont.cpp" />
+    <ClCompile Include="..\..\Common\Src\xbhelp.cpp" />
+    <ClCompile Include="..\..\Common\Src\xbinput.cpp" />
+    <ClCompile Include="..\..\Common\Src\xbmesh.cpp" />
+    <ClCompile Include="..\..\Common\Src\xbprofiling.cpp" />
+    <ClCompile Include="..\..\Common\Src\xbresource.cpp" />
+    <ClCompile Include="..\..\Common\Src\xbutil.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Model.h" />
-    <ClInclude Include="NoneWater.h" />
-    <ClInclude Include="PackMan.h" />
-    <ClInclude Include="Reflection.h" />
-    <ClInclude Include="Refraction.h" />
-    <ClInclude Include="ResMan.h" />
-    <ClInclude Include="Sky.h" />
-    <ClInclude Include="Water.h" />
-    <ClInclude Include="WaterApp.h" />
-    <ClInclude Include="WaterDefs.h" />
-    <ClInclude Include="..\..\Common\include\XBApp.h" />
-    <ClInclude Include="..\..\Common\include\XBFont.h" />
-    <ClInclude Include="..\..\Common\include\XBHelp.h" />
-    <ClInclude Include="..\..\Common\include\XBInput.h" />
-    <ClInclude Include="..\..\Common\include\XBMesh.h" />
-    <ClInclude Include="..\..\Common\include\XBProfiling.h" />
-    <ClInclude Include="..\..\Common\include\XBResource.h" />
-    <ClInclude Include="..\..\Common\include\XBUtil.h" />
+    <ClInclude Include="model.h" />
+    <ClInclude Include="nonewater.h" />
+    <ClInclude Include="packman.h" />
+    <ClInclude Include="reflection.h" />
+    <ClInclude Include="refraction.h" />
+    <ClInclude Include="resman.h" />
+    <ClInclude Include="sky.h" />
+    <ClInclude Include="water.h" />
+    <ClInclude Include="waterapp.h" />
+    <ClInclude Include="waterdefs.h" />
+    <ClInclude Include="..\..\Common\Include\xbapp.h" />
+    <ClInclude Include="..\..\Common\Include\xbfont.h" />
+    <ClInclude Include="..\..\Common\Include\xbhelp.h" />
+    <ClInclude Include="..\..\Common\Include\xbinput.h" />
+    <ClInclude Include="..\..\Common\Include\xbmesh.h" />
+    <ClInclude Include="..\..\Common\Include\xbprofiling.h" />
+    <ClInclude Include="..\..\Common\Include\xbresource.h" />
+    <ClInclude Include="..\..\Common\Include\xbutil.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Font.rdf" />

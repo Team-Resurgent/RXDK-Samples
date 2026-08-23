@@ -12,7 +12,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Meshes.cpp">
+    <ClCompile Include="meshes.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

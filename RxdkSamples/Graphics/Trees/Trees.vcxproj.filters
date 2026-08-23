@@ -30,49 +30,49 @@
     <ClCompile Include="debug.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Mipmap.cpp">
+    <ClCompile Include="mipmap.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="SliceObject.cpp">
+    <ClCompile Include="sliceobject.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="SliceTexture.cpp">
+    <ClCompile Include="slicetexture.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Terrain.cpp">
+    <ClCompile Include="terrain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Tree.cpp">
+    <ClCompile Include="tree.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="TreeBranch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Trees.cpp">
+    <ClCompile Include="trees.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Common\src\XBApp.cpp">
+    <ClCompile Include="..\..\Common\Src\xbapp.cpp">
       <Filter>Common Files\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Common\src\XBFont.cpp">
+    <ClCompile Include="..\..\Common\Src\xbfont.cpp">
       <Filter>Common Files\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Common\src\XBHelp.cpp">
+    <ClCompile Include="..\..\Common\Src\xbhelp.cpp">
       <Filter>Common Files\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Common\src\XBInput.cpp">
+    <ClCompile Include="..\..\Common\Src\xbinput.cpp">
       <Filter>Common Files\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Common\src\XBMesh.cpp">
+    <ClCompile Include="..\..\Common\Src\xbmesh.cpp">
       <Filter>Common Files\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Common\src\XBProfiling.cpp">
+    <ClCompile Include="..\..\Common\Src\xbprofiling.cpp">
       <Filter>Common Files\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Common\src\XBResource.cpp">
+    <ClCompile Include="..\..\Common\Src\xbresource.cpp">
       <Filter>Common Files\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Common\src\XBUtil.cpp">
+    <ClCompile Include="..\..\Common\Src\xbutil.cpp">
       <Filter>Common Files\Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -80,46 +80,46 @@
     <ClInclude Include="debug.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Mipmap.h">
+    <ClInclude Include="mipmap.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="SliceObject.h">
+    <ClInclude Include="sliceobject.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="SliceTexture.h">
+    <ClInclude Include="slicetexture.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Terrain.h">
+    <ClInclude Include="terrain.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Tree.h">
+    <ClInclude Include="tree.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="TreeBranch.h">
+    <ClInclude Include="treebranch.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Common\include\XBApp.h">
+    <ClInclude Include="..\..\Common\Include\xbapp.h">
       <Filter>Common Files\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Common\include\XBFont.h">
+    <ClInclude Include="..\..\Common\Include\xbfont.h">
       <Filter>Common Files\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Common\include\XBHelp.h">
+    <ClInclude Include="..\..\Common\Include\xbhelp.h">
       <Filter>Common Files\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Common\include\XBInput.h">
+    <ClInclude Include="..\..\Common\Include\xbinput.h">
       <Filter>Common Files\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Common\include\XBMesh.h">
+    <ClInclude Include="..\..\Common\Include\xbmesh.h">
       <Filter>Common Files\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Common\include\XBProfiling.h">
+    <ClInclude Include="..\..\Common\Include\xbprofiling.h">
       <Filter>Common Files\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Common\include\XBResource.h">
+    <ClInclude Include="..\..\Common\Include\xbresource.h">
       <Filter>Common Files\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Common\include\XBUtil.h">
+    <ClInclude Include="..\..\Common\Include\xbutil.h">
       <Filter>Common Files\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -136,10 +136,10 @@
     <None Include="resource.rdf">
       <Filter>Resources</Filter>
     </None>
-    <None Include="Media\Shaders\Terrain.vsh">
+    <None Include="Media\Shaders\terrain.vsh">
       <Filter>Vertex Shaders</Filter>
     </None>
-    <None Include="Media\Shaders\Tree.vsh">
+    <None Include="Media\Shaders\tree.vsh">
       <Filter>Vertex Shaders</Filter>
     </None>
     <None Include="Media\Shaders\Mipmap.psh">

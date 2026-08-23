@@ -31,9 +31,9 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Xbox'">
     <RxdkBuildFlavor>Debug</RxdkBuildFlavor>
     <RxdkDefines>_USE_XGMATH;XBOX_SAMPLE</RxdkDefines>
-    <RxdkIncludePaths>..\..\Common\include</RxdkIncludePaths>
+    <RxdkIncludePaths>..\..\Common\Include</RxdkIncludePaths>
     <RxdkLibraries>libxbdm;libxapi;libd3d8;libd3dx8;libxgraphics;libdsound;libxact;libkernel;libxonline;libxneto;libxvoice;libc;libcpp</RxdkLibraries>
-    <RxdkDeployPaths>media</RxdkDeployPaths>
+    <RxdkDeployPaths>Media</RxdkDeployPaths>
     <RxdkStackSize>65536</RxdkStackSize>
     <RxdkImageDebug>true</RxdkImageDebug>
     <RxdkDontMountUtilityDrive>true</RxdkDontMountUtilityDrive>
@@ -46,9 +46,9 @@
     <RxdkBuildFlavor>Release</RxdkBuildFlavor>
     <RxdkReleaseOptimize>ReleaseFast</RxdkReleaseOptimize>
     <RxdkDefines>_USE_XGMATH;XBOX_SAMPLE</RxdkDefines>
-    <RxdkIncludePaths>..\..\Common\include</RxdkIncludePaths>
+    <RxdkIncludePaths>..\..\Common\Include</RxdkIncludePaths>
     <RxdkLibraries>libxapi;libd3d8;libd3dx8;libxgraphics;libdsound;libxact;libkernel;libxonline;libxneto;libxvoice;libc;libcpp</RxdkLibraries>
-    <RxdkDeployPaths>media</RxdkDeployPaths>
+    <RxdkDeployPaths>Media</RxdkDeployPaths>
     <RxdkStackSize>65536</RxdkStackSize>
     <RxdkImageDebug>true</RxdkImageDebug>
     <RxdkDontMountUtilityDrive>true</RxdkDontMountUtilityDrive>
@@ -58,57 +58,57 @@
   </PropertyGroup>
   <ItemGroup>
     <ClCompile Include="Audio.cpp" />
-    <ClCompile Include="Draw2D.cpp" />
-    <ClCompile Include="Marketplace.cpp" />
-    <ClCompile Include="Match.cpp" />
+    <ClCompile Include="draw2d.cpp" />
+    <ClCompile Include="marketplace.cpp" />
+    <ClCompile Include="match.cpp" />
     <ClCompile Include="Object.cpp" />
     <ClCompile Include="Player.cpp" />
-    <ClCompile Include="SoundbitDB.cpp" />
-    <ClCompile Include="VoiceMgr.cpp" />
-    <ClCompile Include="..\..\Common\src\XBApp.cpp" />
-    <ClCompile Include="..\..\Common\src\XBFont.cpp" />
-    <ClCompile Include="..\..\Common\src\XBHelp.cpp" />
-    <ClCompile Include="..\..\Common\src\XBInput.cpp" />
-    <ClCompile Include="..\..\Common\src\XBMesh.cpp" />
-    <ClCompile Include="..\..\Common\src\XBProfiling.cpp" />
-    <ClCompile Include="..\..\Common\src\XBResource.cpp" />
-    <ClCompile Include="..\..\Common\src\XBUtil.cpp" />
-    <ClCompile Include="..\..\Common\src\XbSocket.cpp" />
-    <ClCompile Include="..\..\Common\src\XbStopWatch.cpp" />
-    <ClCompile Include="..\..\Common\src\XbOnline.cpp" />
-    <ClCompile Include="..\..\Common\src\XbNet.cpp" />
+    <ClCompile Include="soundbitdb.cpp" />
+    <ClCompile Include="voicemgr.cpp" />
+    <ClCompile Include="..\..\Common\Src\xbapp.cpp" />
+    <ClCompile Include="..\..\Common\Src\xbfont.cpp" />
+    <ClCompile Include="..\..\Common\Src\xbhelp.cpp" />
+    <ClCompile Include="..\..\Common\Src\xbinput.cpp" />
+    <ClCompile Include="..\..\Common\Src\xbmesh.cpp" />
+    <ClCompile Include="..\..\Common\Src\xbprofiling.cpp" />
+    <ClCompile Include="..\..\Common\Src\xbresource.cpp" />
+    <ClCompile Include="..\..\Common\Src\xbutil.cpp" />
+    <ClCompile Include="..\..\Common\Src\xbsocket.cpp" />
+    <ClCompile Include="..\..\Common\Src\xbstopwatch.cpp" />
+    <ClCompile Include="..\..\Common\Src\XbOnline.cpp" />
+    <ClCompile Include="..\..\Common\Src\xbNet.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Audio.h" />
     <ClInclude Include="CommonInclude.h" />
     <ClInclude Include="constants.h" />
-    <ClInclude Include="Draw2d.h" />
-    <ClInclude Include="Marketplace.h" />
+    <ClInclude Include="draw2d.h" />
+    <ClInclude Include="marketplace.h" />
     <ClInclude Include="match.h" />
     <ClInclude Include="object.h" />
     <ClInclude Include="packet.h" />
     <ClInclude Include="player.h" />
     <ClInclude Include="soundbitdb.h" />
     <ClInclude Include="voicemgr.h" />
-    <ClInclude Include="..\..\Common\include\XBApp.h" />
-    <ClInclude Include="..\..\Common\include\XBFont.h" />
-    <ClInclude Include="..\..\Common\include\XBHelp.h" />
-    <ClInclude Include="..\..\Common\include\XBInput.h" />
-    <ClInclude Include="..\..\Common\include\XBMesh.h" />
-    <ClInclude Include="..\..\Common\include\XBProfiling.h" />
-    <ClInclude Include="..\..\Common\include\XBResource.h" />
-    <ClInclude Include="..\..\Common\include\XBUtil.h" />
-    <ClInclude Include="..\..\Common\include\XbSocket.h" />
-    <ClInclude Include="..\..\Common\include\XbStopWatch.h" />
-    <ClInclude Include="..\..\Common\include\XbOnline.h" />
-    <ClInclude Include="..\..\Common\include\XbNet.h" />
+    <ClInclude Include="..\..\Common\Include\xbapp.h" />
+    <ClInclude Include="..\..\Common\Include\xbfont.h" />
+    <ClInclude Include="..\..\Common\Include\xbhelp.h" />
+    <ClInclude Include="..\..\Common\Include\xbinput.h" />
+    <ClInclude Include="..\..\Common\Include\xbmesh.h" />
+    <ClInclude Include="..\..\Common\Include\xbprofiling.h" />
+    <ClInclude Include="..\..\Common\Include\xbresource.h" />
+    <ClInclude Include="..\..\Common\Include\xbutil.h" />
+    <ClInclude Include="..\..\Common\Include\XBSocket.h" />
+    <ClInclude Include="..\..\Common\Include\xbstopwatch.h" />
+    <ClInclude Include="..\..\Common\Include\xbOnline.h" />
+    <ClInclude Include="..\..\Common\Include\xbNet.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="font.rdf" />
     <None Include="gamepad.rdf" />
     <None Include="iconfont.rdf" />
     <None Include="marketplacemedia.rdf" />
-    <None Include="XactSounds.xap" />
+    <None Include="xactsounds.xap" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
 </Project>

@@ -9,7 +9,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Vertices.cpp">
+    <ClCompile Include="vertices.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -15,7 +15,7 @@
     <ClCompile Include="SimpleMatch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="SignIn.cpp">
+    <ClCompile Include="Signin.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Match.cpp">

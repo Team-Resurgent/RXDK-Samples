@@ -5,7 +5,7 @@
     "Debug": {
       "configuration": "debug",
       "sources": [
-        "Meshes.cpp"
+        "meshes.cpp"
       ],
       "resources": [
         "resource.rdf"
@@ -22,14 +22,14 @@
         "libcpp"
       ],
       "includePaths": [
-        "..\\..\\..\\Common\\include"
+        "..\\..\\..\\Common\\Include"
       ],
       "defines": [
         "_USE_XGMATH",
         "XBOX_SAMPLE"
       ],
       "deployPaths": [
-        "media"
+        "Media"
       ],
       "createIso": true,
       "imageBuild": {
@@ -50,7 +50,7 @@
     "Release": {
       "configuration": "release",
       "sources": [
-        "Meshes.cpp"
+        "meshes.cpp"
       ],
       "resources": [
         "resource.rdf"
@@ -66,14 +66,14 @@
         "libcpp"
       ],
       "includePaths": [
-        "..\\..\\..\\Common\\include"
+        "..\\..\\..\\Common\\Include"
       ],
       "defines": [
         "_USE_XGMATH",
         "XBOX_SAMPLE"
       ],
       "deployPaths": [
-        "media"
+        "Media"
       ],
       "createIso": true,
       "imageBuild": {

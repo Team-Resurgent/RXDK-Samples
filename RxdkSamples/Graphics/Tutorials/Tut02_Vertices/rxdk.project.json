@@ -5,7 +5,7 @@
     "Debug": {
       "configuration": "debug",
       "sources": [
-        "Vertices.cpp"
+        "vertices.cpp"
       ],
       "libraries": [
         "libxbdm",
@@ -19,7 +19,7 @@
         "libcpp"
       ],
       "includePaths": [
-        "..\\..\\..\\Common\\include"
+        "..\\..\\..\\Common\\Include"
       ],
       "defines": [
         "_USE_XGMATH",
@@ -44,7 +44,7 @@
     "Release": {
       "configuration": "release",
       "sources": [
-        "Vertices.cpp"
+        "vertices.cpp"
       ],
       "libraries": [
         "libxapi",
@@ -57,7 +57,7 @@
         "libcpp"
       ],
       "includePaths": [
-        "..\\..\\..\\Common\\include"
+        "..\\..\\..\\Common\\Include"
       ],
       "defines": [
         "_USE_XGMATH",

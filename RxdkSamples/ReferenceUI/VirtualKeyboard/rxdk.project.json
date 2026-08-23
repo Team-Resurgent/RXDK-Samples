@@ -5,17 +5,17 @@
     "Debug": {
       "configuration": "debug",
       "sources": [
-        "VirtualKeyboard.cpp",
-        "..\\..\\Common\\src\\XBApp.cpp",
-        "..\\..\\Common\\src\\XBFont.cpp",
-        "..\\..\\Common\\src\\XBHelp.cpp",
-        "..\\..\\Common\\src\\XBInput.cpp",
-        "..\\..\\Common\\src\\XBMesh.cpp",
-        "..\\..\\Common\\src\\XBProfiling.cpp",
-        "..\\..\\Common\\src\\XBResource.cpp",
-        "..\\..\\Common\\src\\XBUtil.cpp",
-        "..\\..\\Common\\src\\XbSound.cpp",
-        "..\\..\\Common\\src\\XbStopWatch.cpp"
+        "virtualkeyboard.cpp",
+        "..\\..\\Common\\Src\\xbapp.cpp",
+        "..\\..\\Common\\Src\\xbfont.cpp",
+        "..\\..\\Common\\Src\\xbhelp.cpp",
+        "..\\..\\Common\\Src\\xbinput.cpp",
+        "..\\..\\Common\\Src\\xbmesh.cpp",
+        "..\\..\\Common\\Src\\xbprofiling.cpp",
+        "..\\..\\Common\\Src\\xbresource.cpp",
+        "..\\..\\Common\\Src\\xbutil.cpp",
+        "..\\..\\Common\\Src\\xbsound.cpp",
+        "..\\..\\Common\\Src\\xbstopwatch.cpp"
       ],
       "resources": [
         "ControllerS.rdf",
@@ -23,7 +23,7 @@
         "font18.rdf",
         "gamepad.rdf",
         "resource.rdf",
-        "Xboxdings_24.rdf"
+        "xboxdings_24.rdf"
       ],
       "libraries": [
         "libxbdm",
@@ -37,14 +37,14 @@
         "libcpp"
       ],
       "includePaths": [
-        "..\\..\\Common\\include"
+        "..\\..\\Common\\Include"
       ],
       "defines": [
         "_USE_XGMATH",
         "XBOX_SAMPLE"
       ],
       "deployPaths": [
-        "media"
+        "Media"
       ],
       "createIso": true,
       "imageBuild": {
@@ -65,17 +65,17 @@
     "Release": {
       "configuration": "release",
       "sources": [
-        "VirtualKeyboard.cpp",
-        "..\\..\\Common\\src\\XBApp.cpp",
-        "..\\..\\Common\\src\\XBFont.cpp",
-        "..\\..\\Common\\src\\XBHelp.cpp",
-        "..\\..\\Common\\src\\XBInput.cpp",
-        "..\\..\\Common\\src\\XBMesh.cpp",
-        "..\\..\\Common\\src\\XBProfiling.cpp",
-        "..\\..\\Common\\src\\XBResource.cpp",
-        "..\\..\\Common\\src\\XBUtil.cpp",
-        "..\\..\\Common\\src\\XbSound.cpp",
-        "..\\..\\Common\\src\\XbStopWatch.cpp"
+        "virtualkeyboard.cpp",
+        "..\\..\\Common\\Src\\xbapp.cpp",
+        "..\\..\\Common\\Src\\xbfont.cpp",
+        "..\\..\\Common\\Src\\xbhelp.cpp",
+        "..\\..\\Common\\Src\\xbinput.cpp",
+        "..\\..\\Common\\Src\\xbmesh.cpp",
+        "..\\..\\Common\\Src\\xbprofiling.cpp",
+        "..\\..\\Common\\Src\\xbresource.cpp",
+        "..\\..\\Common\\Src\\xbutil.cpp",
+        "..\\..\\Common\\Src\\xbsound.cpp",
+        "..\\..\\Common\\Src\\xbstopwatch.cpp"
       ],
       "resources": [
         "ControllerS.rdf",
@@ -83,7 +83,7 @@
         "font18.rdf",
         "gamepad.rdf",
         "resource.rdf",
-        "Xboxdings_24.rdf"
+        "xboxdings_24.rdf"
       ],
       "libraries": [
         "libxapi",
@@ -96,14 +96,14 @@
         "libcpp"
       ],
       "includePaths": [
-        "..\\..\\Common\\include"
+        "..\\..\\Common\\Include"
       ],
       "defines": [
         "_USE_XGMATH",
         "XBOX_SAMPLE"
       ],
       "deployPaths": [
-        "media"
+        "Media"
       ],
       "createIso": true,
       "imageBuild": {

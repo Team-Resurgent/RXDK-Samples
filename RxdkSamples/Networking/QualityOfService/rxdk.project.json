@@ -8,22 +8,22 @@
         "QualityOfService.cpp",
         "UserInterface.cpp",
         "MatchSimDefs.cpp",
-        "..\\..\\Common\\src\\XBApp.cpp",
-        "..\\..\\Common\\src\\XBFont.cpp",
-        "..\\..\\Common\\src\\XBHelp.cpp",
-        "..\\..\\Common\\src\\XBInput.cpp",
-        "..\\..\\Common\\src\\XBMesh.cpp",
-        "..\\..\\Common\\src\\XBProfiling.cpp",
-        "..\\..\\Common\\src\\XBResource.cpp",
-        "..\\..\\Common\\src\\XBUtil.cpp",
-        "..\\..\\Common\\src\\XbMemUnit.cpp",
-        "..\\..\\Common\\src\\XbNet.cpp",
-        "..\\..\\Common\\src\\XbOnline.cpp",
-        "..\\..\\Common\\src\\XbOnlineTask.cpp",
-        "..\\..\\Common\\src\\XbRandName.cpp",
-        "..\\..\\Common\\src\\XbSocket.cpp",
-        "..\\..\\Common\\src\\XbStopWatch.cpp",
-        "..\\..\\Common\\src\\XbVoice.cpp"
+        "..\\..\\Common\\Src\\xbapp.cpp",
+        "..\\..\\Common\\Src\\xbfont.cpp",
+        "..\\..\\Common\\Src\\xbhelp.cpp",
+        "..\\..\\Common\\Src\\xbinput.cpp",
+        "..\\..\\Common\\Src\\xbmesh.cpp",
+        "..\\..\\Common\\Src\\xbprofiling.cpp",
+        "..\\..\\Common\\Src\\xbresource.cpp",
+        "..\\..\\Common\\Src\\xbutil.cpp",
+        "..\\..\\Common\\Src\\xbmemunit.cpp",
+        "..\\..\\Common\\Src\\xbNet.cpp",
+        "..\\..\\Common\\Src\\XbOnline.cpp",
+        "..\\..\\Common\\Src\\xbOnlineTask.cpp",
+        "..\\..\\Common\\Src\\XbRandName.cpp",
+        "..\\..\\Common\\Src\\xbsocket.cpp",
+        "..\\..\\Common\\Src\\xbstopwatch.cpp",
+        "..\\..\\Common\\Src\\xbVoice.cpp"
       ],
       "resources": [
         "font.rdf",
@@ -45,14 +45,14 @@
         "libcpp"
       ],
       "includePaths": [
-        "..\\..\\Common\\include"
+        "..\\..\\Common\\Include"
       ],
       "defines": [
         "_USE_XGMATH",
         "XBOX_SAMPLE"
       ],
       "deployPaths": [
-        "media"
+        "Media"
       ],
       "createIso": true,
       "imageBuild": {
@@ -76,22 +76,22 @@
         "QualityOfService.cpp",
         "UserInterface.cpp",
         "MatchSimDefs.cpp",
-        "..\\..\\Common\\src\\XBApp.cpp",
-        "..\\..\\Common\\src\\XBFont.cpp",
-        "..\\..\\Common\\src\\XBHelp.cpp",
-        "..\\..\\Common\\src\\XBInput.cpp",
-        "..\\..\\Common\\src\\XBMesh.cpp",
-        "..\\..\\Common\\src\\XBProfiling.cpp",
-        "..\\..\\Common\\src\\XBResource.cpp",
-        "..\\..\\Common\\src\\XBUtil.cpp",
-        "..\\..\\Common\\src\\XbMemUnit.cpp",
-        "..\\..\\Common\\src\\XbNet.cpp",
-        "..\\..\\Common\\src\\XbOnline.cpp",
-        "..\\..\\Common\\src\\XbOnlineTask.cpp",
-        "..\\..\\Common\\src\\XbRandName.cpp",
-        "..\\..\\Common\\src\\XbSocket.cpp",
-        "..\\..\\Common\\src\\XbStopWatch.cpp",
-        "..\\..\\Common\\src\\XbVoice.cpp"
+        "..\\..\\Common\\Src\\xbapp.cpp",
+        "..\\..\\Common\\Src\\xbfont.cpp",
+        "..\\..\\Common\\Src\\xbhelp.cpp",
+        "..\\..\\Common\\Src\\xbinput.cpp",
+        "..\\..\\Common\\Src\\xbmesh.cpp",
+        "..\\..\\Common\\Src\\xbprofiling.cpp",
+        "..\\..\\Common\\Src\\xbresource.cpp",
+        "..\\..\\Common\\Src\\xbutil.cpp",
+        "..\\..\\Common\\Src\\xbmemunit.cpp",
+        "..\\..\\Common\\Src\\xbNet.cpp",
+        "..\\..\\Common\\Src\\XbOnline.cpp",
+        "..\\..\\Common\\Src\\xbOnlineTask.cpp",
+        "..\\..\\Common\\Src\\XbRandName.cpp",
+        "..\\..\\Common\\Src\\xbsocket.cpp",
+        "..\\..\\Common\\Src\\xbstopwatch.cpp",
+        "..\\..\\Common\\Src\\xbVoice.cpp"
       ],
       "resources": [
         "font.rdf",
@@ -112,14 +112,14 @@
         "libcpp"
       ],
       "includePaths": [
-        "..\\..\\Common\\include"
+        "..\\..\\Common\\Include"
       ],
       "defines": [
         "_USE_XGMATH",
         "XBOX_SAMPLE"
       ],
       "deployPaths": [
-        "media"
+        "Media"
       ],
       "createIso": true,
       "imageBuild": {

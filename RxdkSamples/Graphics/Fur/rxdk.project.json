@@ -5,20 +5,20 @@
     "Debug": {
       "configuration": "debug",
       "sources": [
-        "Fur.cpp",
+        "fur.cpp",
         "Mipmap.cpp",
-        "OctoSphere.cpp",
+        "octosphere.cpp",
         "XBFur.cpp",
         "XBFurMesh.cpp",
-        "..\\..\\Common\\src\\XBApp.cpp",
-        "..\\..\\Common\\src\\XBFont.cpp",
-        "..\\..\\Common\\src\\XBHelp.cpp",
-        "..\\..\\Common\\src\\XBInput.cpp",
-        "..\\..\\Common\\src\\XBMesh.cpp",
-        "..\\..\\Common\\src\\XBProfiling.cpp",
-        "..\\..\\Common\\src\\XBResource.cpp",
-        "..\\..\\Common\\src\\XBUtil.cpp",
-        "..\\..\\Common\\src\\XBSound.cpp"
+        "..\\..\\Common\\Src\\xbapp.cpp",
+        "..\\..\\Common\\Src\\xbfont.cpp",
+        "..\\..\\Common\\Src\\xbhelp.cpp",
+        "..\\..\\Common\\Src\\xbinput.cpp",
+        "..\\..\\Common\\Src\\xbmesh.cpp",
+        "..\\..\\Common\\Src\\xbprofiling.cpp",
+        "..\\..\\Common\\Src\\xbresource.cpp",
+        "..\\..\\Common\\Src\\xbutil.cpp",
+        "..\\..\\Common\\Src\\xbsound.cpp"
       ],
       "resources": [
         "font.rdf",
@@ -36,14 +36,14 @@
         "libcpp"
       ],
       "includePaths": [
-        "..\\..\\Common\\include"
+        "..\\..\\Common\\Include"
       ],
       "defines": [
         "_USE_XGMATH",
         "XBOX_SAMPLE"
       ],
       "deployPaths": [
-        "media"
+        "Media"
       ],
       "createIso": true,
       "imageBuild": {
@@ -64,20 +64,20 @@
     "Release": {
       "configuration": "release",
       "sources": [
-        "Fur.cpp",
+        "fur.cpp",
         "Mipmap.cpp",
-        "OctoSphere.cpp",
+        "octosphere.cpp",
         "XBFur.cpp",
         "XBFurMesh.cpp",
-        "..\\..\\Common\\src\\XBApp.cpp",
-        "..\\..\\Common\\src\\XBFont.cpp",
-        "..\\..\\Common\\src\\XBHelp.cpp",
-        "..\\..\\Common\\src\\XBInput.cpp",
-        "..\\..\\Common\\src\\XBMesh.cpp",
-        "..\\..\\Common\\src\\XBProfiling.cpp",
-        "..\\..\\Common\\src\\XBResource.cpp",
-        "..\\..\\Common\\src\\XBUtil.cpp",
-        "..\\..\\Common\\src\\XBSound.cpp"
+        "..\\..\\Common\\Src\\xbapp.cpp",
+        "..\\..\\Common\\Src\\xbfont.cpp",
+        "..\\..\\Common\\Src\\xbhelp.cpp",
+        "..\\..\\Common\\Src\\xbinput.cpp",
+        "..\\..\\Common\\Src\\xbmesh.cpp",
+        "..\\..\\Common\\Src\\xbprofiling.cpp",
+        "..\\..\\Common\\Src\\xbresource.cpp",
+        "..\\..\\Common\\Src\\xbutil.cpp",
+        "..\\..\\Common\\Src\\xbsound.cpp"
       ],
       "resources": [
         "font.rdf",
@@ -94,14 +94,14 @@
         "libcpp"
       ],
       "includePaths": [
-        "..\\..\\Common\\include"
+        "..\\..\\Common\\Include"
       ],
       "defines": [
         "_USE_XGMATH",
         "XBOX_SAMPLE"
       ],
       "deployPaths": [
-        "media"
+        "Media"
       ],
       "createIso": true,
       "imageBuild": {

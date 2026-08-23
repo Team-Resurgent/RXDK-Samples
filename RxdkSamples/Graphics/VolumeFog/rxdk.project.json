@@ -5,20 +5,20 @@
     "Debug": {
       "configuration": "debug",
       "sources": [
-        "VolumeFog.cpp",
-        "..\\..\\Common\\src\\XBApp.cpp",
-        "..\\..\\Common\\src\\XBFont.cpp",
-        "..\\..\\Common\\src\\XBHelp.cpp",
-        "..\\..\\Common\\src\\XBInput.cpp",
-        "..\\..\\Common\\src\\XBMesh.cpp",
-        "..\\..\\Common\\src\\XBProfiling.cpp",
-        "..\\..\\Common\\src\\XBResource.cpp",
-        "..\\..\\Common\\src\\XBUtil.cpp"
+        "volumefog.cpp",
+        "..\\..\\Common\\Src\\xbapp.cpp",
+        "..\\..\\Common\\Src\\xbfont.cpp",
+        "..\\..\\Common\\Src\\xbhelp.cpp",
+        "..\\..\\Common\\Src\\xbinput.cpp",
+        "..\\..\\Common\\Src\\xbmesh.cpp",
+        "..\\..\\Common\\Src\\xbprofiling.cpp",
+        "..\\..\\Common\\Src\\xbresource.cpp",
+        "..\\..\\Common\\Src\\xbutil.cpp"
       ],
       "resources": [
         "font.rdf",
         "gamepad.rdf",
-        "Resource.rdf"
+        "resource.rdf"
       ],
       "libraries": [
         "libxbdm",
@@ -32,14 +32,14 @@
         "libcpp"
       ],
       "includePaths": [
-        "..\\..\\Common\\include"
+        "..\\..\\Common\\Include"
       ],
       "defines": [
         "_USE_XGMATH",
         "XBOX_SAMPLE"
       ],
       "deployPaths": [
-        "media"
+        "Media"
       ],
       "createIso": true,
       "imageBuild": {
@@ -60,20 +60,20 @@
     "Release": {
       "configuration": "release",
       "sources": [
-        "VolumeFog.cpp",
-        "..\\..\\Common\\src\\XBApp.cpp",
-        "..\\..\\Common\\src\\XBFont.cpp",
-        "..\\..\\Common\\src\\XBHelp.cpp",
-        "..\\..\\Common\\src\\XBInput.cpp",
-        "..\\..\\Common\\src\\XBMesh.cpp",
-        "..\\..\\Common\\src\\XBProfiling.cpp",
-        "..\\..\\Common\\src\\XBResource.cpp",
-        "..\\..\\Common\\src\\XBUtil.cpp"
+        "volumefog.cpp",
+        "..\\..\\Common\\Src\\xbapp.cpp",
+        "..\\..\\Common\\Src\\xbfont.cpp",
+        "..\\..\\Common\\Src\\xbhelp.cpp",
+        "..\\..\\Common\\Src\\xbinput.cpp",
+        "..\\..\\Common\\Src\\xbmesh.cpp",
+        "..\\..\\Common\\Src\\xbprofiling.cpp",
+        "..\\..\\Common\\Src\\xbresource.cpp",
+        "..\\..\\Common\\Src\\xbutil.cpp"
       ],
       "resources": [
         "font.rdf",
         "gamepad.rdf",
-        "Resource.rdf"
+        "resource.rdf"
       ],
       "libraries": [
         "libxapi",
@@ -86,14 +86,14 @@
         "libcpp"
       ],
       "includePaths": [
-        "..\\..\\Common\\include"
+        "..\\..\\Common\\Include"
       ],
       "defines": [
         "_USE_XGMATH",
         "XBOX_SAMPLE"
       ],
       "deployPaths": [
-        "media"
+        "Media"
       ],
       "createIso": true,
       "imageBuild": {

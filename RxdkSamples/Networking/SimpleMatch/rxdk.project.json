@@ -6,7 +6,7 @@
       "configuration": "debug",
       "sources": [
         "SimpleMatch.cpp",
-        "SignIn.cpp",
+        "Signin.cpp",
         "Match.cpp"
       ],
       "libraries": [
@@ -23,7 +23,7 @@
         "libcpp"
       ],
       "includePaths": [
-        "..\\..\\Common\\include"
+        "..\\..\\Common\\Include"
       ],
       "defines": [
         "_USE_XGMATH",
@@ -49,7 +49,7 @@
       "configuration": "release",
       "sources": [
         "SimpleMatch.cpp",
-        "SignIn.cpp",
+        "Signin.cpp",
         "Match.cpp"
       ],
       "libraries": [
@@ -65,7 +65,7 @@
         "libcpp"
       ],
       "includePaths": [
-        "..\\..\\Common\\include"
+        "..\\..\\Common\\Include"
       ],
       "defines": [
         "_USE_XGMATH",

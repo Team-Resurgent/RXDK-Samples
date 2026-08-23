@@ -31,7 +31,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Xbox'">
     <RxdkBuildFlavor>Debug</RxdkBuildFlavor>
     <RxdkDefines>_USE_XGMATH;XBOX_SAMPLE</RxdkDefines>
-    <RxdkIncludePaths>..\..\..\Common\include</RxdkIncludePaths>
+    <RxdkIncludePaths>..\..\..\Common\Include</RxdkIncludePaths>
     <RxdkLibraries>libxbdm;libxapi;libd3d8;libd3dx8;libxgraphics;libdsound;libkernel;libc;libcpp</RxdkLibraries>
     <RxdkStackSize>65536</RxdkStackSize>
     <RxdkImageDebug>true</RxdkImageDebug>
@@ -45,7 +45,7 @@
     <RxdkBuildFlavor>Release</RxdkBuildFlavor>
     <RxdkReleaseOptimize>ReleaseFast</RxdkReleaseOptimize>
     <RxdkDefines>_USE_XGMATH;XBOX_SAMPLE</RxdkDefines>
-    <RxdkIncludePaths>..\..\..\Common\include</RxdkIncludePaths>
+    <RxdkIncludePaths>..\..\..\Common\Include</RxdkIncludePaths>
     <RxdkLibraries>libxapi;libd3d8;libd3dx8;libxgraphics;libdsound;libkernel;libc;libcpp</RxdkLibraries>
     <RxdkStackSize>65536</RxdkStackSize>
     <RxdkImageDebug>true</RxdkImageDebug>
@@ -55,7 +55,7 @@
     <RxdkTestVersion>4096</RxdkTestVersion>
   </PropertyGroup>
   <ItemGroup>
-    <ClCompile Include="Matrices.cpp" />
+    <ClCompile Include="matrices.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
 </Project>

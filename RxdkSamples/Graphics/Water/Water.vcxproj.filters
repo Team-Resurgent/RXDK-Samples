@@ -21,111 +21,111 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Model.cpp">
+    <ClCompile Include="model.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="NoneWater.cpp">
+    <ClCompile Include="nonewater.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="PackMan.cpp">
+    <ClCompile Include="packman.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Reflection.cpp">
+    <ClCompile Include="reflection.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Refraction.cpp">
+    <ClCompile Include="refraction.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ResMan.cpp">
+    <ClCompile Include="resman.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Sky.cpp">
+    <ClCompile Include="sky.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Water.cpp">
+    <ClCompile Include="water.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="WaterApp.cpp">
+    <ClCompile Include="waterapp.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Common\src\XBApp.cpp">
+    <ClCompile Include="..\..\Common\Src\xbapp.cpp">
       <Filter>Common Files\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Common\src\XBFont.cpp">
+    <ClCompile Include="..\..\Common\Src\xbfont.cpp">
       <Filter>Common Files\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Common\src\XBHelp.cpp">
+    <ClCompile Include="..\..\Common\Src\xbhelp.cpp">
       <Filter>Common Files\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Common\src\XBInput.cpp">
+    <ClCompile Include="..\..\Common\Src\xbinput.cpp">
       <Filter>Common Files\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Common\src\XBMesh.cpp">
+    <ClCompile Include="..\..\Common\Src\xbmesh.cpp">
       <Filter>Common Files\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Common\src\XBProfiling.cpp">
+    <ClCompile Include="..\..\Common\Src\xbprofiling.cpp">
       <Filter>Common Files\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Common\src\XBResource.cpp">
+    <ClCompile Include="..\..\Common\Src\xbresource.cpp">
       <Filter>Common Files\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Common\src\XBUtil.cpp">
+    <ClCompile Include="..\..\Common\Src\xbutil.cpp">
       <Filter>Common Files\Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Model.h">
+    <ClInclude Include="model.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="NoneWater.h">
+    <ClInclude Include="nonewater.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="PackMan.h">
+    <ClInclude Include="packman.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Reflection.h">
+    <ClInclude Include="reflection.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Refraction.h">
+    <ClInclude Include="refraction.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ResMan.h">
+    <ClInclude Include="resman.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Sky.h">
+    <ClInclude Include="sky.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Water.h">
+    <ClInclude Include="water.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="WaterApp.h">
+    <ClInclude Include="waterapp.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="WaterDefs.h">
+    <ClInclude Include="waterdefs.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Common\include\XBApp.h">
+    <ClInclude Include="..\..\Common\Include\xbapp.h">
       <Filter>Common Files\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Common\include\XBFont.h">
+    <ClInclude Include="..\..\Common\Include\xbfont.h">
       <Filter>Common Files\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Common\include\XBHelp.h">
+    <ClInclude Include="..\..\Common\Include\xbhelp.h">
       <Filter>Common Files\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Common\include\XBInput.h">
+    <ClInclude Include="..\..\Common\Include\xbinput.h">
       <Filter>Common Files\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Common\include\XBMesh.h">
+    <ClInclude Include="..\..\Common\Include\xbmesh.h">
       <Filter>Common Files\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Common\include\XBProfiling.h">
+    <ClInclude Include="..\..\Common\Include\xbprofiling.h">
       <Filter>Common Files\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Common\include\XBResource.h">
+    <ClInclude Include="..\..\Common\Include\xbresource.h">
       <Filter>Common Files\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Common\include\XBUtil.h">
+    <ClInclude Include="..\..\Common\Include\xbutil.h">
       <Filter>Common Files\Header Files</Filter>
     </ClInclude>
   </ItemGroup>

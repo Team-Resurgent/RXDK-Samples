@@ -6,32 +6,32 @@
       "configuration": "debug",
       "sources": [
         "Audio.cpp",
-        "Draw2D.cpp",
-        "Marketplace.cpp",
-        "Match.cpp",
+        "draw2d.cpp",
+        "marketplace.cpp",
+        "match.cpp",
         "Object.cpp",
         "Player.cpp",
-        "SoundbitDB.cpp",
-        "VoiceMgr.cpp",
-        "..\\..\\Common\\src\\XBApp.cpp",
-        "..\\..\\Common\\src\\XBFont.cpp",
-        "..\\..\\Common\\src\\XBHelp.cpp",
-        "..\\..\\Common\\src\\XBInput.cpp",
-        "..\\..\\Common\\src\\XBMesh.cpp",
-        "..\\..\\Common\\src\\XBProfiling.cpp",
-        "..\\..\\Common\\src\\XBResource.cpp",
-        "..\\..\\Common\\src\\XBUtil.cpp",
-        "..\\..\\Common\\src\\XbSocket.cpp",
-        "..\\..\\Common\\src\\XbStopWatch.cpp",
-        "..\\..\\Common\\src\\XbOnline.cpp",
-        "..\\..\\Common\\src\\XbNet.cpp"
+        "soundbitdb.cpp",
+        "voicemgr.cpp",
+        "..\\..\\Common\\Src\\xbapp.cpp",
+        "..\\..\\Common\\Src\\xbfont.cpp",
+        "..\\..\\Common\\Src\\xbhelp.cpp",
+        "..\\..\\Common\\Src\\xbinput.cpp",
+        "..\\..\\Common\\Src\\xbmesh.cpp",
+        "..\\..\\Common\\Src\\xbprofiling.cpp",
+        "..\\..\\Common\\Src\\xbresource.cpp",
+        "..\\..\\Common\\Src\\xbutil.cpp",
+        "..\\..\\Common\\Src\\xbsocket.cpp",
+        "..\\..\\Common\\Src\\xbstopwatch.cpp",
+        "..\\..\\Common\\Src\\XbOnline.cpp",
+        "..\\..\\Common\\Src\\xbNet.cpp"
       ],
       "resources": [
         "font.rdf",
         "gamepad.rdf",
         "iconfont.rdf",
         "marketplacemedia.rdf",
-        "XactSounds.xap"
+        "xactsounds.xap"
       ],
       "libraries": [
         "libxbdm",
@@ -49,14 +49,14 @@
         "libcpp"
       ],
       "includePaths": [
-        "..\\..\\Common\\include"
+        "..\\..\\Common\\Include"
       ],
       "defines": [
         "_USE_XGMATH",
         "XBOX_SAMPLE"
       ],
       "deployPaths": [
-        "media"
+        "Media"
       ],
       "createIso": true,
       "imageBuild": {
@@ -78,32 +78,32 @@
       "configuration": "release",
       "sources": [
         "Audio.cpp",
-        "Draw2D.cpp",
-        "Marketplace.cpp",
-        "Match.cpp",
+        "draw2d.cpp",
+        "marketplace.cpp",
+        "match.cpp",
         "Object.cpp",
         "Player.cpp",
-        "SoundbitDB.cpp",
-        "VoiceMgr.cpp",
-        "..\\..\\Common\\src\\XBApp.cpp",
-        "..\\..\\Common\\src\\XBFont.cpp",
-        "..\\..\\Common\\src\\XBHelp.cpp",
-        "..\\..\\Common\\src\\XBInput.cpp",
-        "..\\..\\Common\\src\\XBMesh.cpp",
-        "..\\..\\Common\\src\\XBProfiling.cpp",
-        "..\\..\\Common\\src\\XBResource.cpp",
-        "..\\..\\Common\\src\\XBUtil.cpp",
-        "..\\..\\Common\\src\\XbSocket.cpp",
-        "..\\..\\Common\\src\\XbStopWatch.cpp",
-        "..\\..\\Common\\src\\XbOnline.cpp",
-        "..\\..\\Common\\src\\XbNet.cpp"
+        "soundbitdb.cpp",
+        "voicemgr.cpp",
+        "..\\..\\Common\\Src\\xbapp.cpp",
+        "..\\..\\Common\\Src\\xbfont.cpp",
+        "..\\..\\Common\\Src\\xbhelp.cpp",
+        "..\\..\\Common\\Src\\xbinput.cpp",
+        "..\\..\\Common\\Src\\xbmesh.cpp",
+        "..\\..\\Common\\Src\\xbprofiling.cpp",
+        "..\\..\\Common\\Src\\xbresource.cpp",
+        "..\\..\\Common\\Src\\xbutil.cpp",
+        "..\\..\\Common\\Src\\xbsocket.cpp",
+        "..\\..\\Common\\Src\\xbstopwatch.cpp",
+        "..\\..\\Common\\Src\\XbOnline.cpp",
+        "..\\..\\Common\\Src\\xbNet.cpp"
       ],
       "resources": [
         "font.rdf",
         "gamepad.rdf",
         "iconfont.rdf",
         "marketplacemedia.rdf",
-        "XactSounds.xap"
+        "xactsounds.xap"
       ],
       "libraries": [
         "libxapi",
@@ -120,14 +120,14 @@
         "libcpp"
       ],
       "includePaths": [
-        "..\\..\\Common\\include"
+        "..\\..\\Common\\Include"
       ],
       "defines": [
         "_USE_XGMATH",
         "XBOX_SAMPLE"
       ],
       "deployPaths": [
-        "media"
+        "Media"
       ],
       "createIso": true,
       "imageBuild": {

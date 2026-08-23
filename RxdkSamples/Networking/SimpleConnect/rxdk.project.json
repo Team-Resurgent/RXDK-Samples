@@ -7,7 +7,7 @@
       "sources": [
         "SimpleConnect.cpp",
         "SignIn.cpp",
-        "Match.cpp"
+        "match.cpp"
       ],
       "libraries": [
         "libxbdm",
@@ -23,7 +23,7 @@
         "libcpp"
       ],
       "includePaths": [
-        "..\\..\\Common\\include"
+        "..\\..\\Common\\Include"
       ],
       "defines": [
         "_USE_XGMATH",
@@ -50,7 +50,7 @@
       "sources": [
         "SimpleConnect.cpp",
         "SignIn.cpp",
-        "Match.cpp"
+        "match.cpp"
       ],
       "libraries": [
         "libxapi",
@@ -65,7 +65,7 @@
         "libcpp"
       ],
       "includePaths": [
-        "..\\..\\Common\\include"
+        "..\\..\\Common\\Include"
       ],
       "defines": [
         "_USE_XGMATH",

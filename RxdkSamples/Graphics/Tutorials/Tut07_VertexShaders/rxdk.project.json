@@ -5,7 +5,7 @@
     "Debug": {
       "configuration": "debug",
       "sources": [
-        "VertexShaders.cpp"
+        "vertexshaders.cpp"
       ],
       "libraries": [
         "libxbdm",
@@ -19,14 +19,14 @@
         "libcpp"
       ],
       "includePaths": [
-        "..\\..\\..\\Common\\include"
+        "..\\..\\..\\Common\\Include"
       ],
       "defines": [
         "_USE_XGMATH",
         "XBOX_SAMPLE"
       ],
       "deployPaths": [
-        "media"
+        "Media"
       ],
       "createIso": true,
       "imageBuild": {
@@ -47,7 +47,7 @@
     "Release": {
       "configuration": "release",
       "sources": [
-        "VertexShaders.cpp"
+        "vertexshaders.cpp"
       ],
       "libraries": [
         "libxapi",
@@ -60,14 +60,14 @@
         "libcpp"
       ],
       "includePaths": [
-        "..\\..\\..\\Common\\include"
+        "..\\..\\..\\Common\\Include"
       ],
       "defines": [
         "_USE_XGMATH",
         "XBOX_SAMPLE"
       ],
       "deployPaths": [
-        "media"
+        "Media"
       ],
       "createIso": true,
       "imageBuild": {

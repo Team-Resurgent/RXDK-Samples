@@ -24,228 +24,228 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="App.cpp">
+    <ClCompile Include="app.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="AudioEngine.cpp">
+    <ClCompile Include="audioengine.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Controller.cpp">
+    <ClCompile Include="controller.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Demo.cpp">
+    <ClCompile Include="demo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="File.cpp">
+    <ClCompile Include="file.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Game.cpp">
+    <ClCompile Include="game.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Globals.cpp">
+    <ClCompile Include="globals.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="HeightField.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Light.cpp">
+    <ClCompile Include="light.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="LoadSave.cpp">
+    <ClCompile Include="loadsave.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Math3d.cpp">
+    <ClCompile Include="math3d.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Menu.cpp">
+    <ClCompile Include="menu.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="MenuOptions.cpp">
+    <ClCompile Include="menuoptions.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Mesh.cpp">
+    <ClCompile Include="mesh.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="PhysicsObject.cpp">
+    <ClCompile Include="physicsobject.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="PhysicsSystem.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Polyhedron.cpp">
+    <ClCompile Include="polyhedron.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Shader.cpp">
+    <ClCompile Include="shader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="SoundEffect.cpp">
+    <ClCompile Include="soundeffect.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Splash.cpp">
+    <ClCompile Include="splash.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="StartScreen.cpp">
+    <ClCompile Include="startscreen.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Text.cpp">
+    <ClCompile Include="text.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Vehicle.cpp">
+    <ClCompile Include="vehicle.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Common\src\XBApp.cpp">
+    <ClCompile Include="..\..\Common\Src\xbapp.cpp">
       <Filter>Common Files\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Common\src\XBFont.cpp">
+    <ClCompile Include="..\..\Common\Src\xbfont.cpp">
       <Filter>Common Files\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Common\src\XBHelp.cpp">
+    <ClCompile Include="..\..\Common\Src\xbhelp.cpp">
       <Filter>Common Files\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Common\src\XBInput.cpp">
+    <ClCompile Include="..\..\Common\Src\xbinput.cpp">
       <Filter>Common Files\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Common\src\XBMesh.cpp">
+    <ClCompile Include="..\..\Common\Src\xbmesh.cpp">
       <Filter>Common Files\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Common\src\XBProfiling.cpp">
+    <ClCompile Include="..\..\Common\Src\xbprofiling.cpp">
       <Filter>Common Files\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Common\src\XBResource.cpp">
+    <ClCompile Include="..\..\Common\Src\xbresource.cpp">
       <Filter>Common Files\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Common\src\XBUtil.cpp">
+    <ClCompile Include="..\..\Common\Src\xbutil.cpp">
       <Filter>Common Files\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Common\src\XbConfig.cpp">
+    <ClCompile Include="..\..\Common\Src\xbconfig.cpp">
       <Filter>Common Files\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Common\src\XbMemUnit.cpp">
+    <ClCompile Include="..\..\Common\Src\xbmemunit.cpp">
       <Filter>Common Files\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Common\src\XbSavedGame.cpp">
+    <ClCompile Include="..\..\Common\Src\xbsavedgame.cpp">
       <Filter>Common Files\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Common\src\XbSound.cpp">
+    <ClCompile Include="..\..\Common\Src\xbsound.cpp">
       <Filter>Common Files\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Common\src\XbStopWatch.cpp">
+    <ClCompile Include="..\..\Common\Src\xbstopwatch.cpp">
       <Filter>Common Files\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Common\src\XbStorageDevice.cpp">
+    <ClCompile Include="..\..\Common\Src\xbstoragedevice.cpp">
       <Filter>Common Files\Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="App.h">
+    <ClInclude Include="app.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="AudioEngine.h">
+    <ClInclude Include="audioengine.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Controller.h">
+    <ClInclude Include="controller.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Demo.h">
+    <ClInclude Include="demo.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="File.h">
+    <ClInclude Include="file.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Game.h">
+    <ClInclude Include="game.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Globals.h">
+    <ClInclude Include="globals.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="HeightField.h">
+    <ClInclude Include="heightfield.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Light.h">
+    <ClInclude Include="light.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="LoadSave.h">
+    <ClInclude Include="loadsave.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Math3d.h">
+    <ClInclude Include="math3d.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Menu.h">
+    <ClInclude Include="menu.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="MenuOptions.h">
+    <ClInclude Include="menuoptions.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Mesh.h">
+    <ClInclude Include="mesh.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="PhysicsObject.h">
+    <ClInclude Include="physicsobject.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="PhysicsSystem.h">
+    <ClInclude Include="physicssystem.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Polyhedron.h">
+    <ClInclude Include="polyhedron.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Shader.h">
+    <ClInclude Include="shader.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="SoundEffect.h">
+    <ClInclude Include="soundeffect.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Splash.h">
+    <ClInclude Include="splash.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="StartScreen.h">
+    <ClInclude Include="startscreen.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Text.h">
+    <ClInclude Include="text.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Vehicle.h">
+    <ClInclude Include="vehicle.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Common\include\XBApp.h">
+    <ClInclude Include="..\..\Common\Include\xbapp.h">
       <Filter>Common Files\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Common\include\XBFont.h">
+    <ClInclude Include="..\..\Common\Include\xbfont.h">
       <Filter>Common Files\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Common\include\XBHelp.h">
+    <ClInclude Include="..\..\Common\Include\xbhelp.h">
       <Filter>Common Files\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Common\include\XBInput.h">
+    <ClInclude Include="..\..\Common\Include\xbinput.h">
       <Filter>Common Files\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Common\include\XBMesh.h">
+    <ClInclude Include="..\..\Common\Include\xbmesh.h">
       <Filter>Common Files\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Common\include\XBProfiling.h">
+    <ClInclude Include="..\..\Common\Include\xbprofiling.h">
       <Filter>Common Files\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Common\include\XBResource.h">
+    <ClInclude Include="..\..\Common\Include\xbresource.h">
       <Filter>Common Files\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Common\include\XBUtil.h">
+    <ClInclude Include="..\..\Common\Include\xbutil.h">
       <Filter>Common Files\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Common\include\XbConfig.h">
+    <ClInclude Include="..\..\Common\Include\xbconfig.h">
       <Filter>Common Files\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Common\include\XbMemUnit.h">
+    <ClInclude Include="..\..\Common\Include\xbmemunit.h">
       <Filter>Common Files\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Common\include\XbSavedGame.h">
+    <ClInclude Include="..\..\Common\Include\xbsavedgame.h">
       <Filter>Common Files\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Common\include\XbSound.h">
+    <ClInclude Include="..\..\Common\Include\xbsound.h">
       <Filter>Common Files\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Common\include\XbStopWatch.h">
+    <ClInclude Include="..\..\Common\Include\xbstopwatch.h">
       <Filter>Common Files\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Common\include\XbStorageDevice.h">
+    <ClInclude Include="..\..\Common\Include\xbstoragedevice.h">
       <Filter>Common Files\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -262,10 +262,10 @@
     <None Include="font9.rdf">
       <Filter>Resources</Filter>
     </None>
-    <None Include="LoadSaveResource.rdf">
+    <None Include="loadsaveresource.rdf">
       <Filter>Resources</Filter>
     </None>
-    <None Include="MenuResource.rdf">
+    <None Include="menuresource.rdf">
       <Filter>Resources</Filter>
     </None>
     <None Include="Xboxdings_24.rdf">

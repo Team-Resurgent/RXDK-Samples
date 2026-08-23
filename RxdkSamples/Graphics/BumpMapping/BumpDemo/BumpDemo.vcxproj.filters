@@ -21,63 +21,63 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BumpDemo.cpp">
+    <ClCompile Include="bumpdemo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="GearModel.cpp">
+    <ClCompile Include="gearmodel.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\Common\src\XBApp.cpp">
+    <ClCompile Include="..\..\..\Common\Src\xbapp.cpp">
       <Filter>Common Files\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\Common\src\XBFont.cpp">
+    <ClCompile Include="..\..\..\Common\Src\xbfont.cpp">
       <Filter>Common Files\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\Common\src\XBHelp.cpp">
+    <ClCompile Include="..\..\..\Common\Src\xbhelp.cpp">
       <Filter>Common Files\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\Common\src\XBInput.cpp">
+    <ClCompile Include="..\..\..\Common\Src\xbinput.cpp">
       <Filter>Common Files\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\Common\src\XBMesh.cpp">
+    <ClCompile Include="..\..\..\Common\Src\xbmesh.cpp">
       <Filter>Common Files\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\Common\src\XBProfiling.cpp">
+    <ClCompile Include="..\..\..\Common\Src\xbprofiling.cpp">
       <Filter>Common Files\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\Common\src\XBResource.cpp">
+    <ClCompile Include="..\..\..\Common\Src\xbresource.cpp">
       <Filter>Common Files\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\Common\src\XBUtil.cpp">
+    <ClCompile Include="..\..\..\Common\Src\xbutil.cpp">
       <Filter>Common Files\Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="GearModel.h">
+    <ClInclude Include="gearmodel.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\Common\include\XBApp.h">
+    <ClInclude Include="..\..\..\Common\Include\xbapp.h">
       <Filter>Common Files\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\Common\include\XBFont.h">
+    <ClInclude Include="..\..\..\Common\Include\xbfont.h">
       <Filter>Common Files\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\Common\include\XBHelp.h">
+    <ClInclude Include="..\..\..\Common\Include\xbhelp.h">
       <Filter>Common Files\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\Common\include\XBInput.h">
+    <ClInclude Include="..\..\..\Common\Include\xbinput.h">
       <Filter>Common Files\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\Common\include\XBMesh.h">
+    <ClInclude Include="..\..\..\Common\Include\xbmesh.h">
       <Filter>Common Files\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\Common\include\XBProfiling.h">
+    <ClInclude Include="..\..\..\Common\Include\xbprofiling.h">
       <Filter>Common Files\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\Common\include\XBResource.h">
+    <ClInclude Include="..\..\..\Common\Include\xbresource.h">
       <Filter>Common Files\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\Common\include\XBUtil.h">
+    <ClInclude Include="..\..\..\Common\Include\xbutil.h">
       <Filter>Common Files\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
