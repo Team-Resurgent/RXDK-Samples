@@ -162,8 +162,8 @@ Wave Bank
 
     Entry
     {
-        Name = media\sounds\anfast_lp\strings_track1\alt_out\end;
-        File = media\sounds\anfast_lp\strings_track1\alt_out\end.aif;
+        Name = media\sounds\anfast_lp\strings_track1\outro\end;
+        File = media\sounds\anfast_lp\strings_track1\outro\end.aif;
         ADPCM Filter = 1;
         Format Tag = 0;
         Channels = 2;
@@ -387,7 +387,7 @@ Sound Bank
 
     Sound
     {
-        Name = media\sounds\anfast_lp\strings_track1\alt_out\end;
+        Name = media\sounds\anfast_lp\strings_track1\outro\end;
         Linger = 1;
         Layer = Music;
 
@@ -403,7 +403,7 @@ Sound Bank
                 Registered Wave
                 {
                     Wave Bank = HaloMusic;
-                    Wave Entry = media\sounds\anfast_lp\strings_track1\alt_out\end;
+                    Wave Entry = media\sounds\anfast_lp\strings_track1\outro\end;
                     Wave Entry Index = 8;
                 }
             }
@@ -757,7 +757,7 @@ Sound Bank
         Transition
         {
             From Sound = media\sounds\anfast_lp\strings_track1\loop\lps;
-            Transition Sound = media\sounds\anfast_lp\strings_track1\alt_out\end;
+            Transition Sound = media\sounds\anfast_lp\strings_track1\outro\end;
             From Flags = End of Loop;
             How Flags = Sound;
         }
