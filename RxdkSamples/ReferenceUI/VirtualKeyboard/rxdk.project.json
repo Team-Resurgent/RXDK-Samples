@@ -1,0 +1,125 @@
+{
+  "name": "VirtualKeyboard",
+  "defaultConfiguration": "Debug",
+  "configurations": {
+    "Debug": {
+      "configuration": "debug",
+      "sources": [
+        "VirtualKeyboard.cpp",
+        "..\\..\\Common\\src\\XBApp.cpp",
+        "..\\..\\Common\\src\\XBFont.cpp",
+        "..\\..\\Common\\src\\XBHelp.cpp",
+        "..\\..\\Common\\src\\XBInput.cpp",
+        "..\\..\\Common\\src\\XBMesh.cpp",
+        "..\\..\\Common\\src\\XBProfiling.cpp",
+        "..\\..\\Common\\src\\XBResource.cpp",
+        "..\\..\\Common\\src\\XBUtil.cpp",
+        "..\\..\\Common\\src\\XbSound.cpp",
+        "..\\..\\Common\\src\\XbStopWatch.cpp"
+      ],
+      "resources": [
+        "ControllerS.rdf",
+        "font12.rdf",
+        "font18.rdf",
+        "gamepad.rdf",
+        "resource.rdf",
+        "Xboxdings_24.rdf"
+      ],
+      "libraries": [
+        "libxbdm",
+        "libxapi",
+        "libd3d8",
+        "libd3dx8",
+        "libxgraphics",
+        "libdsound",
+        "libkernel",
+        "libc",
+        "libcpp"
+      ],
+      "includePaths": [
+        "..\\..\\Common\\include"
+      ],
+      "defines": [
+        "_USE_XGMATH",
+        "XBOX_SAMPLE"
+      ],
+      "deployPaths": [
+        "media"
+      ],
+      "createIso": true,
+      "imageBuild": {
+        "stackSize": 65536,
+        "debug": true,
+        "noLogo": true,
+        "noLibWarn": true,
+        "limitMemory": false,
+        "dontModifyHardDisk": false,
+        "dontMountUtilityDrive": true,
+        "formatUtilityDrive": false,
+        "testId": "0xffff0101",
+        "testName": "VirtualKeyboard",
+        "testVersion": "4096"
+      },
+      "outputDir": "out\\Debug"
+    },
+    "Release": {
+      "configuration": "release",
+      "sources": [
+        "VirtualKeyboard.cpp",
+        "..\\..\\Common\\src\\XBApp.cpp",
+        "..\\..\\Common\\src\\XBFont.cpp",
+        "..\\..\\Common\\src\\XBHelp.cpp",
+        "..\\..\\Common\\src\\XBInput.cpp",
+        "..\\..\\Common\\src\\XBMesh.cpp",
+        "..\\..\\Common\\src\\XBProfiling.cpp",
+        "..\\..\\Common\\src\\XBResource.cpp",
+        "..\\..\\Common\\src\\XBUtil.cpp",
+        "..\\..\\Common\\src\\XbSound.cpp",
+        "..\\..\\Common\\src\\XbStopWatch.cpp"
+      ],
+      "resources": [
+        "ControllerS.rdf",
+        "font12.rdf",
+        "font18.rdf",
+        "gamepad.rdf",
+        "resource.rdf",
+        "Xboxdings_24.rdf"
+      ],
+      "libraries": [
+        "libxapi",
+        "libd3d8",
+        "libd3dx8",
+        "libxgraphics",
+        "libdsound",
+        "libkernel",
+        "libc",
+        "libcpp"
+      ],
+      "includePaths": [
+        "..\\..\\Common\\include"
+      ],
+      "defines": [
+        "_USE_XGMATH",
+        "XBOX_SAMPLE"
+      ],
+      "deployPaths": [
+        "media"
+      ],
+      "createIso": true,
+      "imageBuild": {
+        "stackSize": 65536,
+        "debug": true,
+        "noLogo": true,
+        "noLibWarn": true,
+        "limitMemory": false,
+        "dontModifyHardDisk": false,
+        "dontMountUtilityDrive": true,
+        "formatUtilityDrive": false,
+        "testId": "0xffff0101",
+        "testName": "VirtualKeyboard",
+        "testVersion": "4096"
+      },
+      "outputDir": "out\\Release"
+    }
+  }
+}

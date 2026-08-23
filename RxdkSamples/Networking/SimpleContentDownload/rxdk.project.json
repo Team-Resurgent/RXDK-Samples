@@ -1,0 +1,135 @@
+{
+  "name": "SimpleContentDownload",
+  "defaultConfiguration": "Debug",
+  "configurations": {
+    "Debug": {
+      "configuration": "debug",
+      "sources": [
+        "SimpleContentDownload.cpp",
+        "..\\..\\Common\\src\\XBApp.cpp",
+        "..\\..\\Common\\src\\XBFont.cpp",
+        "..\\..\\Common\\src\\XBHelp.cpp",
+        "..\\..\\Common\\src\\XBInput.cpp",
+        "..\\..\\Common\\src\\XBMesh.cpp",
+        "..\\..\\Common\\src\\XBProfiling.cpp",
+        "..\\..\\Common\\src\\XBResource.cpp",
+        "..\\..\\Common\\src\\XBUtil.cpp",
+        "..\\..\\Common\\src\\XbConfig.cpp",
+        "..\\..\\Common\\src\\XbMemUnit.cpp",
+        "..\\..\\Common\\src\\XbNet.cpp",
+        "..\\..\\Common\\src\\XbOnline.cpp",
+        "..\\..\\Common\\src\\XbOnlineTask.cpp",
+        "..\\..\\Common\\src\\XbStopWatch.cpp",
+        "..\\..\\Common\\src\\XbStorageDevice.cpp",
+        "..\\..\\Common\\src\\XbVoice.cpp"
+      ],
+      "resources": [
+        "Font.rdf",
+        "Gamepad.rdf"
+      ],
+      "libraries": [
+        "libxbdm",
+        "libxapi",
+        "libd3d8",
+        "libd3dx8",
+        "libxgraphics",
+        "libdsound",
+        "libkernel",
+        "libxonline",
+        "libxneto",
+        "libxvoice",
+        "libc",
+        "libcpp"
+      ],
+      "includePaths": [
+        "..\\..\\Common\\include"
+      ],
+      "defines": [
+        "_USE_XGMATH",
+        "XBOX_SAMPLE"
+      ],
+      "deployPaths": [
+        "media"
+      ],
+      "createIso": true,
+      "imageBuild": {
+        "stackSize": 65536,
+        "debug": true,
+        "noLogo": true,
+        "noLibWarn": true,
+        "limitMemory": false,
+        "dontModifyHardDisk": false,
+        "dontMountUtilityDrive": true,
+        "formatUtilityDrive": false,
+        "testId": "0xffff0113",
+        "testName": "SimpleContentDownload",
+        "testVersion": "4096"
+      },
+      "outputDir": "out\\Debug"
+    },
+    "Release": {
+      "configuration": "release",
+      "sources": [
+        "SimpleContentDownload.cpp",
+        "..\\..\\Common\\src\\XBApp.cpp",
+        "..\\..\\Common\\src\\XBFont.cpp",
+        "..\\..\\Common\\src\\XBHelp.cpp",
+        "..\\..\\Common\\src\\XBInput.cpp",
+        "..\\..\\Common\\src\\XBMesh.cpp",
+        "..\\..\\Common\\src\\XBProfiling.cpp",
+        "..\\..\\Common\\src\\XBResource.cpp",
+        "..\\..\\Common\\src\\XBUtil.cpp",
+        "..\\..\\Common\\src\\XbConfig.cpp",
+        "..\\..\\Common\\src\\XbMemUnit.cpp",
+        "..\\..\\Common\\src\\XbNet.cpp",
+        "..\\..\\Common\\src\\XbOnline.cpp",
+        "..\\..\\Common\\src\\XbOnlineTask.cpp",
+        "..\\..\\Common\\src\\XbStopWatch.cpp",
+        "..\\..\\Common\\src\\XbStorageDevice.cpp",
+        "..\\..\\Common\\src\\XbVoice.cpp"
+      ],
+      "resources": [
+        "Font.rdf",
+        "Gamepad.rdf"
+      ],
+      "libraries": [
+        "libxapi",
+        "libd3d8",
+        "libd3dx8",
+        "libxgraphics",
+        "libdsound",
+        "libkernel",
+        "libxonline",
+        "libxneto",
+        "libxvoice",
+        "libc",
+        "libcpp"
+      ],
+      "includePaths": [
+        "..\\..\\Common\\include"
+      ],
+      "defines": [
+        "_USE_XGMATH",
+        "XBOX_SAMPLE"
+      ],
+      "deployPaths": [
+        "media"
+      ],
+      "createIso": true,
+      "imageBuild": {
+        "stackSize": 65536,
+        "debug": true,
+        "noLogo": true,
+        "noLibWarn": true,
+        "limitMemory": false,
+        "dontModifyHardDisk": false,
+        "dontMountUtilityDrive": true,
+        "formatUtilityDrive": false,
+        "testId": "0xffff0113",
+        "testName": "SimpleContentDownload",
+        "testVersion": "4096"
+      },
+      "outputDir": "out\\Release"
+    }
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "name": "UIXPlayers",
+  "defaultConfiguration": "Debug",
+  "configurations": {
+    "Debug": {
+      "configuration": "debug",
+      "sources": [
+        "UIXPlayers.cpp",
+        "UIXSupport.cpp",
+        "XHVVoiceManager.cpp",
+        "..\\..\\Common\\src\\XBApp.cpp",
+        "..\\..\\Common\\src\\XBFont.cpp",
+        "..\\..\\Common\\src\\XBHelp.cpp",
+        "..\\..\\Common\\src\\XBInput.cpp",
+        "..\\..\\Common\\src\\XBMesh.cpp",
+        "..\\..\\Common\\src\\XBProfiling.cpp",
+        "..\\..\\Common\\src\\XBResource.cpp",
+        "..\\..\\Common\\src\\XBUtil.cpp",
+        "..\\..\\Common\\src\\XbNet.cpp",
+        "..\\..\\Common\\src\\XbStopWatch.cpp"
+      ],
+      "resources": [
+        "font.rdf",
+        "font_cht.rdf",
+        "font_jpn.rdf",
+        "font_kor.rdf",
+        "gamepad.rdf"
+      ],
+      "libraries": [
+        "libxbdm",
+        "libxapi",
+        "libd3d8",
+        "libd3dx8",
+        "libxgraphics",
+        "libdsound",
+        "libxact",
+        "libkernel",
+        "libuix",
+        "libxonline",
+        "libxneto",
+        "libxvoice",
+        "libc",
+        "libcpp"
+      ],
+      "includePaths": [
+        "..\\..\\Common\\include"
+      ],
+      "defines": [
+        "_USE_XGMATH",
+        "XBOX_SAMPLE"
+      ],
+      "deployPaths": [
+        "media"
+      ],
+      "createIso": true,
+      "imageBuild": {
+        "stackSize": 65536,
+        "debug": true,
+        "noLogo": true,
+        "noLibWarn": true,
+        "limitMemory": false,
+        "dontModifyHardDisk": false,
+        "dontMountUtilityDrive": true,
+        "formatUtilityDrive": false,
+        "testId": "0xFFFFAB21",
+        "testName": "UIXPlayers",
+        "testVersion": "4096"
+      },
+      "outputDir": "out\\Debug"
+    },
+    "Release": {
+      "configuration": "release",
+      "sources": [
+        "UIXPlayers.cpp",
+        "UIXSupport.cpp",
+        "XHVVoiceManager.cpp",
+        "..\\..\\Common\\src\\XBApp.cpp",
+        "..\\..\\Common\\src\\XBFont.cpp",
+        "..\\..\\Common\\src\\XBHelp.cpp",
+        "..\\..\\Common\\src\\XBInput.cpp",
+        "..\\..\\Common\\src\\XBMesh.cpp",
+        "..\\..\\Common\\src\\XBProfiling.cpp",
+        "..\\..\\Common\\src\\XBResource.cpp",
+        "..\\..\\Common\\src\\XBUtil.cpp",
+        "..\\..\\Common\\src\\XbNet.cpp",
+        "..\\..\\Common\\src\\XbStopWatch.cpp"
+      ],
+      "resources": [
+        "font.rdf",
+        "font_cht.rdf",
+        "font_jpn.rdf",
+        "font_kor.rdf",
+        "gamepad.rdf"
+      ],
+      "libraries": [
+        "libxapi",
+        "libd3d8",
+        "libd3dx8",
+        "libxgraphics",
+        "libdsound",
+        "libxact",
+        "libkernel",
+        "libuix",
+        "libxonline",
+        "libxneto",
+        "libxvoice",
+        "libc",
+        "libcpp"
+      ],
+      "includePaths": [
+        "..\\..\\Common\\include"
+      ],
+      "defines": [
+        "_USE_XGMATH",
+        "XBOX_SAMPLE"
+      ],
+      "deployPaths": [
+        "media"
+      ],
+      "createIso": true,
+      "imageBuild": {
+        "stackSize": 65536,
+        "debug": true,
+        "noLogo": true,
+        "noLibWarn": true,
+        "limitMemory": false,
+        "dontModifyHardDisk": false,
+        "dontMountUtilityDrive": true,
+        "formatUtilityDrive": false,
+        "testId": "0xFFFFAB21",
+        "testName": "UIXPlayers",
+        "testVersion": "4096"
+      },
+      "outputDir": "out\\Release"
+    }
+  }
+}

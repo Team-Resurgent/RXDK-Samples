@@ -1,0 +1,185 @@
+{
+  "name": "TechCertGame",
+  "defaultConfiguration": "Debug",
+  "configurations": {
+    "Debug": {
+      "configuration": "debug",
+      "sources": [
+        "App.cpp",
+        "AudioEngine.cpp",
+        "Controller.cpp",
+        "Demo.cpp",
+        "File.cpp",
+        "Game.cpp",
+        "Globals.cpp",
+        "HeightField.cpp",
+        "Light.cpp",
+        "LoadSave.cpp",
+        "Math3d.cpp",
+        "Menu.cpp",
+        "MenuOptions.cpp",
+        "Mesh.cpp",
+        "PhysicsObject.cpp",
+        "PhysicsSystem.cpp",
+        "Polyhedron.cpp",
+        "Shader.cpp",
+        "SoundEffect.cpp",
+        "Splash.cpp",
+        "StartScreen.cpp",
+        "Text.cpp",
+        "Vehicle.cpp",
+        "..\\..\\Common\\src\\XBApp.cpp",
+        "..\\..\\Common\\src\\XBFont.cpp",
+        "..\\..\\Common\\src\\XBHelp.cpp",
+        "..\\..\\Common\\src\\XBInput.cpp",
+        "..\\..\\Common\\src\\XBMesh.cpp",
+        "..\\..\\Common\\src\\XBProfiling.cpp",
+        "..\\..\\Common\\src\\XBResource.cpp",
+        "..\\..\\Common\\src\\XBUtil.cpp",
+        "..\\..\\Common\\src\\XbConfig.cpp",
+        "..\\..\\Common\\src\\XbMemUnit.cpp",
+        "..\\..\\Common\\src\\XbSavedGame.cpp",
+        "..\\..\\Common\\src\\XbSound.cpp",
+        "..\\..\\Common\\src\\XbStopWatch.cpp",
+        "..\\..\\Common\\src\\XbStorageDevice.cpp"
+      ],
+      "resources": [
+        "font.rdf",
+        "font12.rdf",
+        "font16.rdf",
+        "font9.rdf",
+        "LoadSaveResource.rdf",
+        "MenuResource.rdf",
+        "Xboxdings_24.rdf",
+        "XactSounds.xap"
+      ],
+      "libraries": [
+        "libxbdm",
+        "libxapi",
+        "libd3d8",
+        "libd3dx8",
+        "libxgraphics",
+        "libdsound",
+        "libxact",
+        "libkernel",
+        "libc",
+        "libcpp"
+      ],
+      "includePaths": [
+        "..\\..\\Common\\include"
+      ],
+      "defines": [
+        "_USE_XGMATH",
+        "XBOX_SAMPLE"
+      ],
+      "deployPaths": [
+        "media"
+      ],
+      "createIso": true,
+      "imageBuild": {
+        "stackSize": 65536,
+        "debug": true,
+        "noLogo": true,
+        "noLibWarn": true,
+        "limitMemory": false,
+        "dontModifyHardDisk": false,
+        "dontMountUtilityDrive": true,
+        "formatUtilityDrive": false,
+        "testId": "0xFFFF4004",
+        "testName": "TechCertGame",
+        "testVersion": "4096",
+        "titleImage": "titleimage.xbx"
+      },
+      "outputDir": "out\\Debug"
+    },
+    "Release": {
+      "configuration": "release",
+      "sources": [
+        "App.cpp",
+        "AudioEngine.cpp",
+        "Controller.cpp",
+        "Demo.cpp",
+        "File.cpp",
+        "Game.cpp",
+        "Globals.cpp",
+        "HeightField.cpp",
+        "Light.cpp",
+        "LoadSave.cpp",
+        "Math3d.cpp",
+        "Menu.cpp",
+        "MenuOptions.cpp",
+        "Mesh.cpp",
+        "PhysicsObject.cpp",
+        "PhysicsSystem.cpp",
+        "Polyhedron.cpp",
+        "Shader.cpp",
+        "SoundEffect.cpp",
+        "Splash.cpp",
+        "StartScreen.cpp",
+        "Text.cpp",
+        "Vehicle.cpp",
+        "..\\..\\Common\\src\\XBApp.cpp",
+        "..\\..\\Common\\src\\XBFont.cpp",
+        "..\\..\\Common\\src\\XBHelp.cpp",
+        "..\\..\\Common\\src\\XBInput.cpp",
+        "..\\..\\Common\\src\\XBMesh.cpp",
+        "..\\..\\Common\\src\\XBProfiling.cpp",
+        "..\\..\\Common\\src\\XBResource.cpp",
+        "..\\..\\Common\\src\\XBUtil.cpp",
+        "..\\..\\Common\\src\\XbConfig.cpp",
+        "..\\..\\Common\\src\\XbMemUnit.cpp",
+        "..\\..\\Common\\src\\XbSavedGame.cpp",
+        "..\\..\\Common\\src\\XbSound.cpp",
+        "..\\..\\Common\\src\\XbStopWatch.cpp",
+        "..\\..\\Common\\src\\XbStorageDevice.cpp"
+      ],
+      "resources": [
+        "font.rdf",
+        "font12.rdf",
+        "font16.rdf",
+        "font9.rdf",
+        "LoadSaveResource.rdf",
+        "MenuResource.rdf",
+        "Xboxdings_24.rdf",
+        "XactSounds.xap"
+      ],
+      "libraries": [
+        "libxapi",
+        "libd3d8",
+        "libd3dx8",
+        "libxgraphics",
+        "libdsound",
+        "libxact",
+        "libkernel",
+        "libc",
+        "libcpp"
+      ],
+      "includePaths": [
+        "..\\..\\Common\\include"
+      ],
+      "defines": [
+        "_USE_XGMATH",
+        "XBOX_SAMPLE"
+      ],
+      "deployPaths": [
+        "media"
+      ],
+      "createIso": true,
+      "imageBuild": {
+        "stackSize": 65536,
+        "debug": true,
+        "noLogo": true,
+        "noLibWarn": true,
+        "limitMemory": false,
+        "dontModifyHardDisk": false,
+        "dontMountUtilityDrive": true,
+        "formatUtilityDrive": false,
+        "testId": "0xFFFF4004",
+        "testName": "TechCertGame",
+        "testVersion": "4096",
+        "titleImage": "titleimage.xbx"
+      },
+      "outputDir": "out\\Release"
+    }
+  }
+}

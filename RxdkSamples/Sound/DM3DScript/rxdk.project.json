@@ -1,0 +1,117 @@
+{
+  "name": "DM3DScript",
+  "defaultConfiguration": "Debug",
+  "configurations": {
+    "Debug": {
+      "configuration": "debug",
+      "sources": [
+        "DM3DScript.cpp",
+        "..\\..\\Common\\src\\XBApp.cpp",
+        "..\\..\\Common\\src\\XBFont.cpp",
+        "..\\..\\Common\\src\\XBHelp.cpp",
+        "..\\..\\Common\\src\\XBInput.cpp",
+        "..\\..\\Common\\src\\XBMesh.cpp",
+        "..\\..\\Common\\src\\XBProfiling.cpp",
+        "..\\..\\Common\\src\\XBResource.cpp",
+        "..\\..\\Common\\src\\XBUtil.cpp",
+        "..\\..\\Common\\src\\XBSound.cpp"
+      ],
+      "resources": [
+        "font.rdf",
+        "gamepad.rdf"
+      ],
+      "libraries": [
+        "libxbdm",
+        "libxapi",
+        "libd3d8",
+        "libd3dx8",
+        "libxgraphics",
+        "libdsound",
+        "libdmusic",
+        "libkernel",
+        "libc",
+        "libcpp"
+      ],
+      "includePaths": [
+        "..\\..\\Common\\include"
+      ],
+      "defines": [
+        "_USE_XGMATH",
+        "XBOX_SAMPLE"
+      ],
+      "deployPaths": [
+        "media"
+      ],
+      "createIso": true,
+      "imageBuild": {
+        "stackSize": 65536,
+        "debug": true,
+        "noLogo": true,
+        "noLibWarn": true,
+        "limitMemory": false,
+        "dontModifyHardDisk": false,
+        "dontMountUtilityDrive": true,
+        "formatUtilityDrive": false,
+        "testId": "0xffff0517",
+        "testName": "DM3DScript",
+        "testVersion": "4096"
+      },
+      "outputDir": "out\\Debug"
+    },
+    "Release": {
+      "configuration": "release",
+      "sources": [
+        "DM3DScript.cpp",
+        "..\\..\\Common\\src\\XBApp.cpp",
+        "..\\..\\Common\\src\\XBFont.cpp",
+        "..\\..\\Common\\src\\XBHelp.cpp",
+        "..\\..\\Common\\src\\XBInput.cpp",
+        "..\\..\\Common\\src\\XBMesh.cpp",
+        "..\\..\\Common\\src\\XBProfiling.cpp",
+        "..\\..\\Common\\src\\XBResource.cpp",
+        "..\\..\\Common\\src\\XBUtil.cpp",
+        "..\\..\\Common\\src\\XBSound.cpp"
+      ],
+      "resources": [
+        "font.rdf",
+        "gamepad.rdf"
+      ],
+      "libraries": [
+        "libxapi",
+        "libd3d8",
+        "libd3dx8",
+        "libxgraphics",
+        "libdsound",
+        "libdmusic",
+        "libkernel",
+        "libc",
+        "libcpp"
+      ],
+      "includePaths": [
+        "..\\..\\Common\\include"
+      ],
+      "defines": [
+        "_USE_XGMATH",
+        "XBOX_SAMPLE"
+      ],
+      "deployPaths": [
+        "media"
+      ],
+      "createIso": true,
+      "imageBuild": {
+        "stackSize": 65536,
+        "debug": true,
+        "noLogo": true,
+        "noLibWarn": true,
+        "limitMemory": false,
+        "dontModifyHardDisk": false,
+        "dontMountUtilityDrive": true,
+        "formatUtilityDrive": false,
+        "testId": "0xffff0517",
+        "testName": "DM3DScript",
+        "testVersion": "4096"
+      },
+      "outputDir": "out\\Release"
+    }
+  }
+}
