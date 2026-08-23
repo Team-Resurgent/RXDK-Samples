@@ -1,5 +1,17 @@
 # RXDK-Samples
 
+<p align="center"><b>The original Xbox XDK sample suite, ported to build against the open RXDK SDK — with a GUI harness for building and running them on emulator or real hardware</b></p>
+
+<p align="center">
+  <a href="https://github.com/Team-Resurgent/RXDK-Samples/blob/main/LICENSE.md"><img src="https://img.shields.io/badge/License-GPLv3-blue.svg" alt="License: GPL v3"></a>
+  <a href="https://discord.gg/VcdSfajQGK"><img src="https://img.shields.io/badge/chat-on%20discord-7289da.svg?logo=discord" alt="Discord"></a>
+</p>
+
+<p align="center">
+  <a href="https://ko-fi.com/J3J7L5UMN"><img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="ko-fi"></a>
+  <a href="https://www.patreon.com/teamresurgent"><img src="https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white" alt="Patreon"></a>
+</p>
+
 The original Xbox XDK sample suite, ported to build against **RXDK** (the open,
 self-contained Xbox SDK — see [RXDK-Libs](https://github.com/Team-Resurgent/RXDK-Libs)),
 together with a GUI harness for building and running them on emulator or real
