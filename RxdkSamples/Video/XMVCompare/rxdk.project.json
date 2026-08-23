@@ -55,7 +55,9 @@
         "formatUtilityDrive": false,
         "testId": "0xFFFF053D",
         "testName": "XMVCompare",
-        "testVersion": "4096"
+        "testVersion": "4096",
+        "titleImage": "..\\..\\Common\\rxdk-titleimage.xbx",
+        "defaultSaveImage": "..\\..\\Common\\rxdk-saveimage.xbx"
       },
       "outputDir": "out\\Debug"
     },
@@ -112,7 +114,9 @@
         "formatUtilityDrive": false,
         "testId": "0xFFFF053D",
         "testName": "XMVCompare",
-        "testVersion": "4096"
+        "testVersion": "4096",
+        "titleImage": "..\\..\\Common\\rxdk-titleimage.xbx",
+        "defaultSaveImage": "..\\..\\Common\\rxdk-saveimage.xbx"
       },
       "outputDir": "out\\Release"
     }

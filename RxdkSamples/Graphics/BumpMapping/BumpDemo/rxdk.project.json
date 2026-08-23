@@ -55,7 +55,8 @@
         "testId": "0xffff0302",
         "testName": "BumpDemo",
         "testVersion": "4096",
-        "titleImage": "titleimage.xbx"
+        "titleImage": "titleimage.xbx",
+        "defaultSaveImage": "saveimage.xbx"
       },
       "outputDir": "out\\Debug"
     },
@@ -111,7 +112,8 @@
         "testId": "0xffff0302",
         "testName": "BumpDemo",
         "testVersion": "4096",
-        "titleImage": "titleimage.xbx"
+        "titleImage": "titleimage.xbx",
+        "defaultSaveImage": "saveimage.xbx"
       },
       "outputDir": "out\\Release"
     }

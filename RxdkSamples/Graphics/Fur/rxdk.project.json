@@ -57,7 +57,9 @@
         "formatUtilityDrive": false,
         "testId": "0xffff0602",
         "testName": "Fur",
-        "testVersion": "4096"
+        "testVersion": "4096",
+        "titleImage": "titleimage.xbx",
+        "defaultSaveImage": "saveimage.xbx"
       },
       "outputDir": "out\\Debug"
     },
@@ -115,7 +117,9 @@
         "formatUtilityDrive": false,
         "testId": "0xffff0602",
         "testName": "Fur",
-        "testVersion": "4096"
+        "testVersion": "4096",
+        "titleImage": "titleimage.xbx",
+        "defaultSaveImage": "saveimage.xbx"
       },
       "outputDir": "out\\Release"
     }

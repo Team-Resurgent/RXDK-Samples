@@ -40,8 +40,9 @@
     <RxdkNoLibWarn>true</RxdkNoLibWarn>
     <RxdkTestId>0xffffaa01</RxdkTestId>
     <RxdkTestName>BumpLens</RxdkTestName>
-    <RxdkTitleImage>titleimage.xbx</RxdkTitleImage>
     <RxdkTestVersion>4096</RxdkTestVersion>
+    <RxdkTitleImage>titleimage.xbx</RxdkTitleImage>
+    <RxdkDefaultSaveImage>saveimage.xbx</RxdkDefaultSaveImage>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Xbox'">
     <RxdkBuildFlavor>Release</RxdkBuildFlavor>
@@ -55,8 +56,9 @@
     <RxdkDontMountUtilityDrive>true</RxdkDontMountUtilityDrive>
     <RxdkTestId>0xffffaa01</RxdkTestId>
     <RxdkTestName>BumpLens</RxdkTestName>
-    <RxdkTitleImage>titleimage.xbx</RxdkTitleImage>
     <RxdkTestVersion>4096</RxdkTestVersion>
+    <RxdkTitleImage>titleimage.xbx</RxdkTitleImage>
+    <RxdkDefaultSaveImage>saveimage.xbx</RxdkDefaultSaveImage>
   </PropertyGroup>
   <ItemGroup>
     <ClCompile Include="bumplens.cpp" />

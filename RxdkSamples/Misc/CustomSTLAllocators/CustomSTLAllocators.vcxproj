@@ -46,6 +46,8 @@
     <RxdkTestId>0xffff0119</RxdkTestId>
     <RxdkTestName>CustomSTLAllocators</RxdkTestName>
     <RxdkTestVersion>4096</RxdkTestVersion>
+    <RxdkTitleImage>..\..\Common\rxdk-titleimage.xbx</RxdkTitleImage>
+    <RxdkDefaultSaveImage>..\..\Common\rxdk-saveimage.xbx</RxdkDefaultSaveImage>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Xbox'">
     <RxdkBuildFlavor>Release</RxdkBuildFlavor>
@@ -65,6 +67,8 @@
     <RxdkTestId>0xffff0119</RxdkTestId>
     <RxdkTestName>CustomSTLAllocators</RxdkTestName>
     <RxdkTestVersion>4096</RxdkTestVersion>
+    <RxdkTitleImage>..\..\Common\rxdk-titleimage.xbx</RxdkTitleImage>
+    <RxdkDefaultSaveImage>..\..\Common\rxdk-saveimage.xbx</RxdkDefaultSaveImage>
   </PropertyGroup>
   <ItemGroup>
     <ClCompile Include="CustomSTLAllocators.cpp" />

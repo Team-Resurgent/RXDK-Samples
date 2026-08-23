@@ -89,7 +89,8 @@
         "testId": "0xffff011A",
         "testName": "TechCertDemo",
         "testVersion": "4096",
-        "titleImage": "titleimage.xbx"
+        "titleImage": "titleimage.xbx",
+        "defaultSaveImage": "saveimage.xbx"
       },
       "outputDir": "out\\Debug"
     },
@@ -179,7 +180,8 @@
         "testId": "0xffff011A",
         "testName": "TechCertDemo",
         "testVersion": "4096",
-        "titleImage": "titleimage.xbx"
+        "titleImage": "titleimage.xbx",
+        "defaultSaveImage": "saveimage.xbx"
       },
       "outputDir": "out\\Release"
     }

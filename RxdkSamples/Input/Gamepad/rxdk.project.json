@@ -54,7 +54,8 @@
         "testId": "0xffffedca",
         "testName": "Gamepad",
         "testVersion": "4096",
-        "titleImage": "titleimage.xbx"
+        "titleImage": "titleimage.xbx",
+        "defaultSaveImage": "saveimage.xbx"
       },
       "outputDir": "out\\Debug"
     },
@@ -109,7 +110,8 @@
         "testId": "0xffffedca",
         "testName": "Gamepad",
         "testVersion": "4096",
-        "titleImage": "titleimage.xbx"
+        "titleImage": "titleimage.xbx",
+        "defaultSaveImage": "saveimage.xbx"
       },
       "outputDir": "out\\Release"
     }

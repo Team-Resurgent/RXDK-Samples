@@ -88,7 +88,8 @@
         "testId": "0xFFFF4004",
         "testName": "TechCertGame",
         "testVersion": "4096",
-        "titleImage": "titleimage.xbx"
+        "titleImage": "titleimage.xbx",
+        "defaultSaveImage": "saveimage.xbx"
       },
       "outputDir": "out\\Debug"
     },
@@ -177,7 +178,8 @@
         "testId": "0xFFFF4004",
         "testName": "TechCertGame",
         "testVersion": "4096",
-        "titleImage": "titleimage.xbx"
+        "titleImage": "titleimage.xbx",
+        "defaultSaveImage": "saveimage.xbx"
       },
       "outputDir": "out\\Release"
     }

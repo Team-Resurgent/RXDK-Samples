@@ -40,6 +40,8 @@
     <RxdkTestId>0xFFEDE955</RxdkTestId>
     <RxdkTestName>SimpleConnect</RxdkTestName>
     <RxdkTestVersion>4096</RxdkTestVersion>
+    <RxdkTitleImage>..\..\Common\rxdk-titleimage.xbx</RxdkTitleImage>
+    <RxdkDefaultSaveImage>..\..\Common\rxdk-saveimage.xbx</RxdkDefaultSaveImage>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Xbox'">
     <RxdkBuildFlavor>Release</RxdkBuildFlavor>
@@ -53,6 +55,8 @@
     <RxdkTestId>0xFFEDE955</RxdkTestId>
     <RxdkTestName>SimpleConnect</RxdkTestName>
     <RxdkTestVersion>4096</RxdkTestVersion>
+    <RxdkTitleImage>..\..\Common\rxdk-titleimage.xbx</RxdkTitleImage>
+    <RxdkDefaultSaveImage>..\..\Common\rxdk-saveimage.xbx</RxdkDefaultSaveImage>
   </PropertyGroup>
   <ItemGroup>
     <ClCompile Include="SimpleConnect.cpp" />

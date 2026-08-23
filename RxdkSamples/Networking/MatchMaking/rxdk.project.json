@@ -69,7 +69,9 @@
         "formatUtilityDrive": false,
         "testId": "0xffff010D",
         "testName": "MatchMaking",
-        "testVersion": "4096"
+        "testVersion": "4096",
+        "titleImage": "..\\..\\Common\\rxdk-titleimage.xbx",
+        "defaultSaveImage": "..\\..\\Common\\rxdk-saveimage.xbx"
       },
       "outputDir": "out\\Debug"
     },
@@ -139,7 +141,9 @@
         "formatUtilityDrive": false,
         "testId": "0xffff010D",
         "testName": "MatchMaking",
-        "testVersion": "4096"
+        "testVersion": "4096",
+        "titleImage": "..\\..\\Common\\rxdk-titleimage.xbx",
+        "defaultSaveImage": "..\\..\\Common\\rxdk-saveimage.xbx"
       },
       "outputDir": "out\\Release"
     }

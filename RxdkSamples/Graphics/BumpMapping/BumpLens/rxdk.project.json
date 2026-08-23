@@ -53,7 +53,8 @@
         "testId": "0xffffaa01",
         "testName": "BumpLens",
         "testVersion": "4096",
-        "titleImage": "titleimage.xbx"
+        "titleImage": "titleimage.xbx",
+        "defaultSaveImage": "saveimage.xbx"
       },
       "outputDir": "out\\Debug"
     },
@@ -107,7 +108,8 @@
         "testId": "0xffffaa01",
         "testName": "BumpLens",
         "testVersion": "4096",
-        "titleImage": "titleimage.xbx"
+        "titleImage": "titleimage.xbx",
+        "defaultSaveImage": "saveimage.xbx"
       },
       "outputDir": "out\\Release"
     }
