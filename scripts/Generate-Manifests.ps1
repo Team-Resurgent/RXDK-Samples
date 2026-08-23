@@ -127,6 +127,10 @@ Info "Combining into committed multi-config rxdk.project.json..."
 & $python (Join-Path $ScriptDir 'combine-manifests.py')
 if ($LASTEXITCODE -ne 0) { Die "Manifest combine failed (exit $LASTEXITCODE)." }
 
+Info "Generating per-sample VS 2022 solutions..."
+& $python (Join-Path $ScriptDir 'gen-solutions.py')
+if ($LASTEXITCODE -ne 0) { Die "Solution generation failed (exit $LASTEXITCODE)." }
+
 if ($Check) {
     Info "Checking committed manifests are up to date..."
     Push-Location $RepoRoot
@@ -134,13 +138,13 @@ if ($Check) {
         # Filter in PowerShell rather than via a git pathspec glob (git doesn't treat ** the way
         # shells do, so a pathspec could silently match nothing and hide real drift).
         $dirty = git status --porcelain -- RxdkSamples |
-            Where-Object { $_ -match 'rxdk\.project\.json$' }
+            Where-Object { $_ -match '(rxdk\.project\.json|\.sln)$' }
     } finally {
         Pop-Location
     }
     if ($dirty) {
         Write-Host ""
-        Write-Host "Committed rxdk.project.json files are OUT OF DATE with their .vcxproj:" -ForegroundColor Red
+        Write-Host "Committed manifests/solutions are OUT OF DATE with their .vcxproj:" -ForegroundColor Red
         $dirty -split "`n" | Where-Object { $_ } | ForEach-Object { Write-Host "  $_" -ForegroundColor Yellow }
         Write-Host ""
         Die "Run scripts\Generate-Manifests.ps1 and commit the result."

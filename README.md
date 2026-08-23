@@ -57,17 +57,21 @@ multi-config manifest (`Debug`/`Release`) that **RXDK-VSCode** loads to build th
 sample on Windows, Linux, or macOS — so the same project opens in either IDE. The
 `.vcxproj` is authoritative: the manifest is *derived* from it.
 
+Each sample also commits a `<Sample>.sln` next to its `.vcxproj`, so you can open a
+single sample directly in Visual Studio 2022 (double-click the `.sln`).
+
 If you edit a sample's `.vcxproj` (add a source, change libraries/defines, …),
-regenerate the committed manifests and commit the result:
+regenerate the committed manifests **and solutions** and commit the result:
 
 ```powershell
 pwsh scripts/Generate-Manifests.ps1
 ```
 
 This runs the `RxdkGenerateManifest` MSBuild target for both configurations across
-all samples and merges each pair into the committed manifest. It needs the RXDK
-`Xbox` platform installed (VS command *RXDK: Install Xbox Platform*). CI runs
-`scripts/Generate-Manifests.ps1 -Check` and fails a PR whose manifests are stale.
+all samples, merges each pair into the committed manifest, and regenerates each
+per-sample `.sln`. It needs the RXDK `Xbox` platform installed (VS command *RXDK:
+Install Xbox Platform*). CI runs `scripts/Generate-Manifests.ps1 -Check` and fails
+a PR whose manifests or solutions are stale.
 
 ## Using the runner
 
