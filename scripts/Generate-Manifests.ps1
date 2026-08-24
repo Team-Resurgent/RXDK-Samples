@@ -147,7 +147,30 @@ if ($Check) {
         Write-Host "Committed manifests/solutions are OUT OF DATE with their .vcxproj:" -ForegroundColor Red
         $dirty -split "`n" | Where-Object { $_ } | ForEach-Object { Write-Host "  $_" -ForegroundColor Yellow }
         Write-Host ""
-        Die "Run scripts\Generate-Manifests.ps1 and commit the result."
+        # Show WHY they drifted, so a CI failure is diagnosable from the log rather than a guess.
+        Push-Location $RepoRoot
+        try {
+            $first = (($dirty -split "`n" | Where-Object { $_ } | Select-Object -First 1) -replace '^\s*\S+\s+', '').Trim()
+            Write-Host "--- content diff (first drifted file: $first) ---" -ForegroundColor Red
+            $diff = git diff --no-color -- $first 2>$null
+            if ($diff) {
+                # A real content difference: print a bounded slice.
+                $diff | Select-Object -First 80 | ForEach-Object { Write-Host $_ }
+            } elseif ($first) {
+                # git diff is empty but status says modified => the drift is line-endings (or mode)
+                # only. Make that explicit and show the raw first line of each side.
+                Write-Host "(git diff empty -> drift is LINE-ENDINGS/mode only, not content)" -ForegroundColor Yellow
+                $repoLine = ((git show "HEAD:$first" 2>$null) -split "`n" | Select-Object -First 1)
+                $workRaw  = [System.IO.File]::ReadAllText((Join-Path $RepoRoot $first))
+                $workLine = ($workRaw -split "`n" | Select-Object -First 1)
+                Write-Host ("  committed first line ends with CR: {0}" -f ($repoLine -match "`r$"))
+                Write-Host ("  regenerated first line ends with CR: {0}" -f ($workLine -match "`r$"))
+            }
+        } finally {
+            Pop-Location
+        }
+        Write-Host ""
+        Die "Run scripts\Generate-Manifests.ps1 and commit the result (see the diff above for the cause)."
     }
     Ok "All committed manifests are in sync."
 } else {
