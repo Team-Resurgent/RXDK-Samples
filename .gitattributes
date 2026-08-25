@@ -1,0 +1,7 @@
+# The generated project files have fixed line endings; pin them so a Windows CI checkout
+# (core.autocrlf) never reads them as drift against what the generators reproduce.
+#
+# rxdk.project.json is written with LF by scripts/combine-manifests.py (newline="\n").
+rxdk.project.json text eol=lf
+# .sln is written in Visual Studio's CRLF format by scripts/gen-solutions.py.
+*.sln text eol=crlf
