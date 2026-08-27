@@ -28,10 +28,11 @@
     <PackageReference Include="FlashCap" Version="1.10.0" />
   </ItemGroup>
 
-  <!-- Managed xbdm client (for the HW screenshot-to-clipboard). Lives in the sibling
-       RXDK-Tools checkout; the runner is a dev tool that expects it alongside this repo. -->
+  <!-- Managed xbdm client (for the HW screenshot-to-clipboard). RXDK-Tools is
+       vendored as a submodule under external/ so the runner stays self-contained
+       within this repo (initialize submodules after cloning). -->
   <ItemGroup>
-    <ProjectReference Include="..\..\RXDK-Tools\src\Rxdk.Xbdm.Managed\Rxdk.Xbdm.Managed.csproj" />
+    <ProjectReference Include="..\external\RXDK-Tools\src\Rxdk.Xbdm.Managed\Rxdk.Xbdm.Managed.csproj" />
   </ItemGroup>
 
 </Project>
