@@ -6,14 +6,14 @@
       "configuration": "debug",
       "sources": [
         "volumetexture.cpp",
-        "..\\..\\Common\\Src\\xbapp.cpp",
-        "..\\..\\Common\\Src\\xbfont.cpp",
-        "..\\..\\Common\\Src\\xbhelp.cpp",
-        "..\\..\\Common\\Src\\xbinput.cpp",
-        "..\\..\\Common\\Src\\xbmesh.cpp",
-        "..\\..\\Common\\Src\\xbprofiling.cpp",
-        "..\\..\\Common\\Src\\xbresource.cpp",
-        "..\\..\\Common\\Src\\xbutil.cpp"
+        "../../Common/Src/xbapp.cpp",
+        "../../Common/Src/xbfont.cpp",
+        "../../Common/Src/xbhelp.cpp",
+        "../../Common/Src/xbinput.cpp",
+        "../../Common/Src/xbmesh.cpp",
+        "../../Common/Src/xbprofiling.cpp",
+        "../../Common/Src/xbresource.cpp",
+        "../../Common/Src/xbutil.cpp"
       ],
       "resources": [
         "font.rdf",
@@ -31,7 +31,7 @@
         "libcpp"
       ],
       "includePaths": [
-        "..\\..\\Common\\Include"
+        "../../Common/Include"
       ],
       "defines": [
         "_USE_XGMATH",
@@ -41,6 +41,7 @@
         "Media"
       ],
       "createIso": true,
+      "forceCopy": false,
       "imageBuild": {
         "stackSize": 65536,
         "debug": true,
@@ -53,23 +54,23 @@
         "testId": "0xffff0031",
         "testName": "VolumeTexture",
         "testVersion": "4096",
-        "titleImage": "..\\..\\Common\\rxdk-titleimage.xbx",
-        "defaultSaveImage": "..\\..\\Common\\rxdk-saveimage.xbx"
+        "titleImage": "../../Common/rxdk-titleimage.xbx",
+        "defaultSaveImage": "../../Common/rxdk-saveimage.xbx"
       },
-      "outputDir": "out\\Debug"
+      "outputDir": "out/Debug"
     },
     "Release": {
       "configuration": "release",
       "sources": [
         "volumetexture.cpp",
-        "..\\..\\Common\\Src\\xbapp.cpp",
-        "..\\..\\Common\\Src\\xbfont.cpp",
-        "..\\..\\Common\\Src\\xbhelp.cpp",
-        "..\\..\\Common\\Src\\xbinput.cpp",
-        "..\\..\\Common\\Src\\xbmesh.cpp",
-        "..\\..\\Common\\Src\\xbprofiling.cpp",
-        "..\\..\\Common\\Src\\xbresource.cpp",
-        "..\\..\\Common\\Src\\xbutil.cpp"
+        "../../Common/Src/xbapp.cpp",
+        "../../Common/Src/xbfont.cpp",
+        "../../Common/Src/xbhelp.cpp",
+        "../../Common/Src/xbinput.cpp",
+        "../../Common/Src/xbmesh.cpp",
+        "../../Common/Src/xbprofiling.cpp",
+        "../../Common/Src/xbresource.cpp",
+        "../../Common/Src/xbutil.cpp"
       ],
       "resources": [
         "font.rdf",
@@ -86,7 +87,7 @@
         "libcpp"
       ],
       "includePaths": [
-        "..\\..\\Common\\Include"
+        "../../Common/Include"
       ],
       "defines": [
         "_USE_XGMATH",
@@ -96,6 +97,7 @@
         "Media"
       ],
       "createIso": true,
+      "forceCopy": false,
       "imageBuild": {
         "stackSize": 65536,
         "debug": true,
@@ -108,10 +110,10 @@
         "testId": "0xffff0031",
         "testName": "VolumeTexture",
         "testVersion": "4096",
-        "titleImage": "..\\..\\Common\\rxdk-titleimage.xbx",
-        "defaultSaveImage": "..\\..\\Common\\rxdk-saveimage.xbx"
+        "titleImage": "../../Common/rxdk-titleimage.xbx",
+        "defaultSaveImage": "../../Common/rxdk-saveimage.xbx"
       },
-      "outputDir": "out\\Release"
+      "outputDir": "out/Release"
     }
   }
 }

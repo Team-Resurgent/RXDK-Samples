@@ -10,15 +10,15 @@
         "octosphere.cpp",
         "XBFur.cpp",
         "XBFurMesh.cpp",
-        "..\\..\\Common\\Src\\xbapp.cpp",
-        "..\\..\\Common\\Src\\xbfont.cpp",
-        "..\\..\\Common\\Src\\xbhelp.cpp",
-        "..\\..\\Common\\Src\\xbinput.cpp",
-        "..\\..\\Common\\Src\\xbmesh.cpp",
-        "..\\..\\Common\\Src\\xbprofiling.cpp",
-        "..\\..\\Common\\Src\\xbresource.cpp",
-        "..\\..\\Common\\Src\\xbutil.cpp",
-        "..\\..\\Common\\Src\\xbsound.cpp"
+        "../../Common/Src/xbapp.cpp",
+        "../../Common/Src/xbfont.cpp",
+        "../../Common/Src/xbhelp.cpp",
+        "../../Common/Src/xbinput.cpp",
+        "../../Common/Src/xbmesh.cpp",
+        "../../Common/Src/xbprofiling.cpp",
+        "../../Common/Src/xbresource.cpp",
+        "../../Common/Src/xbutil.cpp",
+        "../../Common/Src/xbsound.cpp"
       ],
       "resources": [
         "font.rdf",
@@ -36,7 +36,7 @@
         "libcpp"
       ],
       "includePaths": [
-        "..\\..\\Common\\Include"
+        "../../Common/Include"
       ],
       "defines": [
         "_USE_XGMATH",
@@ -46,6 +46,7 @@
         "Media"
       ],
       "createIso": true,
+      "forceCopy": false,
       "imageBuild": {
         "stackSize": 65536,
         "debug": true,
@@ -61,7 +62,7 @@
         "titleImage": "titleimage.xbx",
         "defaultSaveImage": "saveimage.xbx"
       },
-      "outputDir": "out\\Debug"
+      "outputDir": "out/Debug"
     },
     "Release": {
       "configuration": "release",
@@ -71,15 +72,15 @@
         "octosphere.cpp",
         "XBFur.cpp",
         "XBFurMesh.cpp",
-        "..\\..\\Common\\Src\\xbapp.cpp",
-        "..\\..\\Common\\Src\\xbfont.cpp",
-        "..\\..\\Common\\Src\\xbhelp.cpp",
-        "..\\..\\Common\\Src\\xbinput.cpp",
-        "..\\..\\Common\\Src\\xbmesh.cpp",
-        "..\\..\\Common\\Src\\xbprofiling.cpp",
-        "..\\..\\Common\\Src\\xbresource.cpp",
-        "..\\..\\Common\\Src\\xbutil.cpp",
-        "..\\..\\Common\\Src\\xbsound.cpp"
+        "../../Common/Src/xbapp.cpp",
+        "../../Common/Src/xbfont.cpp",
+        "../../Common/Src/xbhelp.cpp",
+        "../../Common/Src/xbinput.cpp",
+        "../../Common/Src/xbmesh.cpp",
+        "../../Common/Src/xbprofiling.cpp",
+        "../../Common/Src/xbresource.cpp",
+        "../../Common/Src/xbutil.cpp",
+        "../../Common/Src/xbsound.cpp"
       ],
       "resources": [
         "font.rdf",
@@ -96,7 +97,7 @@
         "libcpp"
       ],
       "includePaths": [
-        "..\\..\\Common\\Include"
+        "../../Common/Include"
       ],
       "defines": [
         "_USE_XGMATH",
@@ -106,6 +107,7 @@
         "Media"
       ],
       "createIso": true,
+      "forceCopy": false,
       "imageBuild": {
         "stackSize": 65536,
         "debug": true,
@@ -121,7 +123,7 @@
         "titleImage": "titleimage.xbx",
         "defaultSaveImage": "saveimage.xbx"
       },
-      "outputDir": "out\\Release"
+      "outputDir": "out/Release"
     }
   }
 }

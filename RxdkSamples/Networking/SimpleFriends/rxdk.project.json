@@ -22,13 +22,14 @@
         "libcpp"
       ],
       "includePaths": [
-        "..\\..\\Common\\Include"
+        "../../Common/Include"
       ],
       "defines": [
         "_USE_XGMATH",
         "XBOX_SAMPLE"
       ],
       "createIso": true,
+      "forceCopy": false,
       "imageBuild": {
         "stackSize": 65536,
         "debug": true,
@@ -41,10 +42,10 @@
         "testId": "0xFFED75AA",
         "testName": "SimpleFriends",
         "testVersion": "4096",
-        "titleImage": "..\\..\\Common\\rxdk-titleimage.xbx",
-        "defaultSaveImage": "..\\..\\Common\\rxdk-saveimage.xbx"
+        "titleImage": "../../Common/rxdk-titleimage.xbx",
+        "defaultSaveImage": "../../Common/rxdk-saveimage.xbx"
       },
-      "outputDir": "out\\Debug"
+      "outputDir": "out/Debug"
     },
     "Release": {
       "configuration": "release",
@@ -65,13 +66,14 @@
         "libcpp"
       ],
       "includePaths": [
-        "..\\..\\Common\\Include"
+        "../../Common/Include"
       ],
       "defines": [
         "_USE_XGMATH",
         "XBOX_SAMPLE"
       ],
       "createIso": true,
+      "forceCopy": false,
       "imageBuild": {
         "stackSize": 65536,
         "debug": true,
@@ -84,10 +86,10 @@
         "testId": "0xFFED75AA",
         "testName": "SimpleFriends",
         "testVersion": "4096",
-        "titleImage": "..\\..\\Common\\rxdk-titleimage.xbx",
-        "defaultSaveImage": "..\\..\\Common\\rxdk-saveimage.xbx"
+        "titleImage": "../../Common/rxdk-titleimage.xbx",
+        "defaultSaveImage": "../../Common/rxdk-saveimage.xbx"
       },
-      "outputDir": "out\\Release"
+      "outputDir": "out/Release"
     }
   }
 }

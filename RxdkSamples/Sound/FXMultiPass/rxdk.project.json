@@ -6,15 +6,15 @@
       "configuration": "debug",
       "sources": [
         "FXMultiPass.cpp",
-        "..\\..\\Common\\Src\\xbapp.cpp",
-        "..\\..\\Common\\Src\\xbfont.cpp",
-        "..\\..\\Common\\Src\\xbhelp.cpp",
-        "..\\..\\Common\\Src\\xbinput.cpp",
-        "..\\..\\Common\\Src\\xbmesh.cpp",
-        "..\\..\\Common\\Src\\xbprofiling.cpp",
-        "..\\..\\Common\\Src\\xbresource.cpp",
-        "..\\..\\Common\\Src\\xbutil.cpp",
-        "..\\..\\Common\\Src\\xbsound.cpp"
+        "../../Common/Src/xbapp.cpp",
+        "../../Common/Src/xbfont.cpp",
+        "../../Common/Src/xbhelp.cpp",
+        "../../Common/Src/xbinput.cpp",
+        "../../Common/Src/xbmesh.cpp",
+        "../../Common/Src/xbprofiling.cpp",
+        "../../Common/Src/xbresource.cpp",
+        "../../Common/Src/xbutil.cpp",
+        "../../Common/Src/xbsound.cpp"
       ],
       "resources": [
         "font.rdf",
@@ -32,7 +32,7 @@
         "libcpp"
       ],
       "includePaths": [
-        "..\\..\\Common\\Include"
+        "../../Common/Include"
       ],
       "defines": [
         "_USE_XGMATH",
@@ -43,11 +43,12 @@
       ],
       "embed": [
         {
-          "path": "Media\\dspimage.bin",
+          "path": "Media/dspimage.bin",
           "name": "DSPImage"
         }
       ],
       "createIso": true,
+      "forceCopy": false,
       "imageBuild": {
         "stackSize": 65536,
         "debug": true,
@@ -60,24 +61,24 @@
         "testId": "0xffff0519",
         "testName": "FXMultiPass",
         "testVersion": "4096",
-        "titleImage": "..\\..\\Common\\rxdk-titleimage.xbx",
-        "defaultSaveImage": "..\\..\\Common\\rxdk-saveimage.xbx"
+        "titleImage": "../../Common/rxdk-titleimage.xbx",
+        "defaultSaveImage": "../../Common/rxdk-saveimage.xbx"
       },
-      "outputDir": "out\\Debug"
+      "outputDir": "out/Debug"
     },
     "Release": {
       "configuration": "release",
       "sources": [
         "FXMultiPass.cpp",
-        "..\\..\\Common\\Src\\xbapp.cpp",
-        "..\\..\\Common\\Src\\xbfont.cpp",
-        "..\\..\\Common\\Src\\xbhelp.cpp",
-        "..\\..\\Common\\Src\\xbinput.cpp",
-        "..\\..\\Common\\Src\\xbmesh.cpp",
-        "..\\..\\Common\\Src\\xbprofiling.cpp",
-        "..\\..\\Common\\Src\\xbresource.cpp",
-        "..\\..\\Common\\Src\\xbutil.cpp",
-        "..\\..\\Common\\Src\\xbsound.cpp"
+        "../../Common/Src/xbapp.cpp",
+        "../../Common/Src/xbfont.cpp",
+        "../../Common/Src/xbhelp.cpp",
+        "../../Common/Src/xbinput.cpp",
+        "../../Common/Src/xbmesh.cpp",
+        "../../Common/Src/xbprofiling.cpp",
+        "../../Common/Src/xbresource.cpp",
+        "../../Common/Src/xbutil.cpp",
+        "../../Common/Src/xbsound.cpp"
       ],
       "resources": [
         "font.rdf",
@@ -94,7 +95,7 @@
         "libcpp"
       ],
       "includePaths": [
-        "..\\..\\Common\\Include"
+        "../../Common/Include"
       ],
       "defines": [
         "_USE_XGMATH",
@@ -105,11 +106,12 @@
       ],
       "embed": [
         {
-          "path": "Media\\dspimage.bin",
+          "path": "Media/dspimage.bin",
           "name": "DSPImage"
         }
       ],
       "createIso": true,
+      "forceCopy": false,
       "imageBuild": {
         "stackSize": 65536,
         "debug": true,
@@ -122,10 +124,10 @@
         "testId": "0xffff0519",
         "testName": "FXMultiPass",
         "testVersion": "4096",
-        "titleImage": "..\\..\\Common\\rxdk-titleimage.xbx",
-        "defaultSaveImage": "..\\..\\Common\\rxdk-saveimage.xbx"
+        "titleImage": "../../Common/rxdk-titleimage.xbx",
+        "defaultSaveImage": "../../Common/rxdk-saveimage.xbx"
       },
-      "outputDir": "out\\Release"
+      "outputDir": "out/Release"
     }
   }
 }

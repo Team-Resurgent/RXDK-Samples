@@ -21,6 +21,17 @@ import json
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "RxdkSamples")
 ROOT = os.path.normpath(ROOT)
 
+def slash(v):
+    """Backslash -> forward slash, recursively through the manifest."""
+    if isinstance(v, str):
+        return v.replace("\\", "/")
+    if isinstance(v, list):
+        return [slash(x) for x in v]
+    if isinstance(v, dict):
+        return {k: slash(x) for k, x in v.items()}
+    return v
+
+
 made = 0
 skipped = []
 for vcx in glob.glob(os.path.join(ROOT, "**", "*.vcxproj"), recursive=True):
@@ -38,6 +49,13 @@ for vcx in glob.glob(os.path.join(ROOT, "**", "*.vcxproj"), recursive=True):
     # name is shared at the top level; drop the redundant per-config copies.
     for body in (D, R):
         body.pop("name", None)
+    # Forward slashes only. The .vcxproj lists items MSBuild-style with backslashes and
+    # RxdkGenerateManifest copies them verbatim, but older engines only convert '/' to the
+    # host separator (never '\'), so "..\..\Common\Src\xbapp.cpp" was a literal backslash
+    # filename on Linux/macOS and RXDK-VSCode could not build the sample there. Newer engines
+    # normalise at load as well; the committed file should be clean regardless. Every string
+    # here is a path or something that never contains a backslash (defines, lib names).
+    D, R = slash(D), slash(R)
     manifest = {
         "name": name,
         "defaultConfiguration": "Debug",
