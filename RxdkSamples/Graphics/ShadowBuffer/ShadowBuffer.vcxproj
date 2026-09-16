@@ -12,7 +12,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{0B4A4D57-3BF7-4072-AB13-23E834A89F6D}</ProjectGuid>
+    <ProjectGuid>{8402BB11-E99C-4636-B987-EE117F132072}</ProjectGuid>
     <Keyword>RXDK</Keyword>
     <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
     <ApplicationType>RXDK</ApplicationType>
@@ -77,9 +77,9 @@
     <ClCompile Include="..\..\Common\Src\xbutil.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="font.rdf" />
-    <None Include="gamepad.rdf" />
-    <None Include="resource.rdf" />
+    <RxdkResource Include="font.rdf" />
+    <RxdkResource Include="gamepad.rdf" />
+    <RxdkResource Include="resource.rdf" />
   </ItemGroup>
   <ItemGroup>
     <IsoCopy Include="Media\**" />

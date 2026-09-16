@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.0.0
 MinimumVisualStudioVersion = 10.0.0.0
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LowLevelVoiceChat", "LowLevelVoiceChat.vcxproj", "{6EBDFF1B-22FF-417F-AD56-45C53686402D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LowLevelVoiceChat", "LowLevelVoiceChat.vcxproj", "{D46EE372-0246-47DC-82C0-27B88190AEF0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Xbox = Release|Xbox
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6EBDFF1B-22FF-417F-AD56-45C53686402D}.Debug|Xbox.ActiveCfg = Debug|Xbox
-		{6EBDFF1B-22FF-417F-AD56-45C53686402D}.Debug|Xbox.Build.0 = Debug|Xbox
-		{6EBDFF1B-22FF-417F-AD56-45C53686402D}.Release|Xbox.ActiveCfg = Release|Xbox
-		{6EBDFF1B-22FF-417F-AD56-45C53686402D}.Release|Xbox.Build.0 = Release|Xbox
+		{D46EE372-0246-47DC-82C0-27B88190AEF0}.Debug|Xbox.ActiveCfg = Debug|Xbox
+		{D46EE372-0246-47DC-82C0-27B88190AEF0}.Debug|Xbox.Build.0 = Debug|Xbox
+		{D46EE372-0246-47DC-82C0-27B88190AEF0}.Release|Xbox.ActiveCfg = Release|Xbox
+		{D46EE372-0246-47DC-82C0-27B88190AEF0}.Release|Xbox.Build.0 = Release|Xbox
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

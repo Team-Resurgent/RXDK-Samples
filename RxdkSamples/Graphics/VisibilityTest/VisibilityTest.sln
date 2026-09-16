@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.0.0
 MinimumVisualStudioVersion = 10.0.0.0
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VisibilityTest", "VisibilityTest.vcxproj", "{D4559FEE-542E-438A-AA80-5C4ABCE66EC5}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VisibilityTest", "VisibilityTest.vcxproj", "{861521AE-1E3B-4664-9902-9C86FD0418AD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Xbox = Release|Xbox
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D4559FEE-542E-438A-AA80-5C4ABCE66EC5}.Debug|Xbox.ActiveCfg = Debug|Xbox
-		{D4559FEE-542E-438A-AA80-5C4ABCE66EC5}.Debug|Xbox.Build.0 = Debug|Xbox
-		{D4559FEE-542E-438A-AA80-5C4ABCE66EC5}.Release|Xbox.ActiveCfg = Release|Xbox
-		{D4559FEE-542E-438A-AA80-5C4ABCE66EC5}.Release|Xbox.Build.0 = Release|Xbox
+		{861521AE-1E3B-4664-9902-9C86FD0418AD}.Debug|Xbox.ActiveCfg = Debug|Xbox
+		{861521AE-1E3B-4664-9902-9C86FD0418AD}.Debug|Xbox.Build.0 = Debug|Xbox
+		{861521AE-1E3B-4664-9902-9C86FD0418AD}.Release|Xbox.ActiveCfg = Release|Xbox
+		{861521AE-1E3B-4664-9902-9C86FD0418AD}.Release|Xbox.Build.0 = Release|Xbox
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

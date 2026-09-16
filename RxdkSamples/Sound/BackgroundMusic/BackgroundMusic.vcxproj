@@ -12,7 +12,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{F3C30D0D-F611-42B5-B863-F41F6ACE92AF}</ProjectGuid>
+    <ProjectGuid>{E907D61A-EEE0-4D7D-B2D8-A851827170A1}</ProjectGuid>
     <Keyword>RXDK</Keyword>
     <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
     <ApplicationType>RXDK</ApplicationType>
@@ -79,8 +79,8 @@
     <ClCompile Include="..\..\Common\Src\xbsound.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Font.rdf" />
-    <None Include="Gamepad.rdf" />
+    <RxdkResource Include="Font.rdf" />
+    <RxdkResource Include="Gamepad.rdf" />
   </ItemGroup>
   <ItemGroup>
     <IsoCopy Include="Media\**" />

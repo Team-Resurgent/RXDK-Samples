@@ -12,7 +12,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{601EE2FD-DA4F-4D37-B2DE-CE85D51F590C}</ProjectGuid>
+    <ProjectGuid>{E88CE48C-615F-4526-833B-C7B2576BFBDA}</ProjectGuid>
     <Keyword>RXDK</Keyword>
     <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
     <ApplicationType>RXDK</ApplicationType>
@@ -83,12 +83,12 @@
     <ClCompile Include="..\..\Common\Src\xbstoragedevice.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="font.rdf" />
-    <None Include="font12.rdf" />
-    <None Include="font16.rdf" />
-    <None Include="font9.rdf" />
-    <None Include="gamepad.rdf" />
-    <None Include="loadsaveresource.rdf" />
+    <RxdkResource Include="font.rdf" />
+    <RxdkResource Include="font12.rdf" />
+    <RxdkResource Include="font16.rdf" />
+    <RxdkResource Include="font9.rdf" />
+    <RxdkResource Include="gamepad.rdf" />
+    <RxdkResource Include="loadsaveresource.rdf" />
   </ItemGroup>
   <ItemGroup>
     <IsoCopy Include="Media\**" />

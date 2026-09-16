@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.0.0
 MinimumVisualStudioVersion = 10.0.0.0
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SimpleSignatureService", "SimpleSignatureService.vcxproj", "{98095DF2-77D8-4772-B3F0-3CCE18EEEB5E}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SimpleSignatureService", "SimpleSignatureService.vcxproj", "{A794FCB7-9DA0-402C-A49C-8DCE3D1AB989}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Xbox = Release|Xbox
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{98095DF2-77D8-4772-B3F0-3CCE18EEEB5E}.Debug|Xbox.ActiveCfg = Debug|Xbox
-		{98095DF2-77D8-4772-B3F0-3CCE18EEEB5E}.Debug|Xbox.Build.0 = Debug|Xbox
-		{98095DF2-77D8-4772-B3F0-3CCE18EEEB5E}.Release|Xbox.ActiveCfg = Release|Xbox
-		{98095DF2-77D8-4772-B3F0-3CCE18EEEB5E}.Release|Xbox.Build.0 = Release|Xbox
+		{A794FCB7-9DA0-402C-A49C-8DCE3D1AB989}.Debug|Xbox.ActiveCfg = Debug|Xbox
+		{A794FCB7-9DA0-402C-A49C-8DCE3D1AB989}.Debug|Xbox.Build.0 = Debug|Xbox
+		{A794FCB7-9DA0-402C-A49C-8DCE3D1AB989}.Release|Xbox.ActiveCfg = Release|Xbox
+		{A794FCB7-9DA0-402C-A49C-8DCE3D1AB989}.Release|Xbox.Build.0 = Release|Xbox
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

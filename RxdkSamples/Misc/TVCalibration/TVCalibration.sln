@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.0.0
 MinimumVisualStudioVersion = 10.0.0.0
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TVCalibration", "TVCalibration.vcxproj", "{B1CC92E4-F92E-4E20-832D-DD6A8833CFBD}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TVCalibration", "TVCalibration.vcxproj", "{298B92CC-EB21-4289-BBE1-EE27A22987EC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Xbox = Release|Xbox
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B1CC92E4-F92E-4E20-832D-DD6A8833CFBD}.Debug|Xbox.ActiveCfg = Debug|Xbox
-		{B1CC92E4-F92E-4E20-832D-DD6A8833CFBD}.Debug|Xbox.Build.0 = Debug|Xbox
-		{B1CC92E4-F92E-4E20-832D-DD6A8833CFBD}.Release|Xbox.ActiveCfg = Release|Xbox
-		{B1CC92E4-F92E-4E20-832D-DD6A8833CFBD}.Release|Xbox.Build.0 = Release|Xbox
+		{298B92CC-EB21-4289-BBE1-EE27A22987EC}.Debug|Xbox.ActiveCfg = Debug|Xbox
+		{298B92CC-EB21-4289-BBE1-EE27A22987EC}.Debug|Xbox.Build.0 = Debug|Xbox
+		{298B92CC-EB21-4289-BBE1-EE27A22987EC}.Release|Xbox.ActiveCfg = Release|Xbox
+		{298B92CC-EB21-4289-BBE1-EE27A22987EC}.Release|Xbox.Build.0 = Release|Xbox
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

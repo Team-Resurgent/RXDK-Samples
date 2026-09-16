@@ -12,7 +12,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{5D974961-A3CE-41D0-A296-A5D6376DBCF3}</ProjectGuid>
+    <ProjectGuid>{26381EB0-3334-4BA2-9CFD-9B080916988F}</ProjectGuid>
     <Keyword>RXDK</Keyword>
     <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
     <ApplicationType>RXDK</ApplicationType>
@@ -77,7 +77,7 @@
     <ClCompile Include="..\..\Common\Src\xbutil.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="XactSounds.xap" />
+    <RxdkResource Include="XactSounds.xap" />
   </ItemGroup>
   <ItemGroup>
     <IsoCopy Include="Media\**" />

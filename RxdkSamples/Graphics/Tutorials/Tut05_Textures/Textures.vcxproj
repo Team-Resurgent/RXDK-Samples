@@ -12,7 +12,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{66267D5A-D32A-4BC3-9F0B-0EA6C0A207BF}</ProjectGuid>
+    <ProjectGuid>{16067EB2-76AC-43F1-B2B7-290A78F0A1A8}</ProjectGuid>
     <Keyword>RXDK</Keyword>
     <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
     <ApplicationType>RXDK</ApplicationType>
@@ -69,7 +69,7 @@
     <ClCompile Include="textures.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="resource.rdf" />
+    <RxdkResource Include="resource.rdf" />
   </ItemGroup>
   <ItemGroup>
     <IsoCopy Include="Media\**" />

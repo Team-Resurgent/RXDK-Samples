@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.0.0
 MinimumVisualStudioVersion = 10.0.0.0
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Rumble", "Rumble.vcxproj", "{65F839C3-4669-4D30-B9A2-E13940C7821B}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Rumble", "Rumble.vcxproj", "{9D0AD88A-E6EB-453D-A1AC-C297D15C13BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Xbox = Release|Xbox
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{65F839C3-4669-4D30-B9A2-E13940C7821B}.Debug|Xbox.ActiveCfg = Debug|Xbox
-		{65F839C3-4669-4D30-B9A2-E13940C7821B}.Debug|Xbox.Build.0 = Debug|Xbox
-		{65F839C3-4669-4D30-B9A2-E13940C7821B}.Release|Xbox.ActiveCfg = Release|Xbox
-		{65F839C3-4669-4D30-B9A2-E13940C7821B}.Release|Xbox.Build.0 = Release|Xbox
+		{9D0AD88A-E6EB-453D-A1AC-C297D15C13BA}.Debug|Xbox.ActiveCfg = Debug|Xbox
+		{9D0AD88A-E6EB-453D-A1AC-C297D15C13BA}.Debug|Xbox.Build.0 = Debug|Xbox
+		{9D0AD88A-E6EB-453D-A1AC-C297D15C13BA}.Release|Xbox.ActiveCfg = Release|Xbox
+		{9D0AD88A-E6EB-453D-A1AC-C297D15C13BA}.Release|Xbox.Build.0 = Release|Xbox
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

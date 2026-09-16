@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.0.0
 MinimumVisualStudioVersion = 10.0.0.0
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FXMultiPass", "FXMultiPass.vcxproj", "{CFE0ED5D-E4BE-43FC-83CE-EF49C3C5BC02}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FXMultiPass", "FXMultiPass.vcxproj", "{F99DDF29-DC2F-4C8B-93BC-52163B53F736}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Xbox = Release|Xbox
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{CFE0ED5D-E4BE-43FC-83CE-EF49C3C5BC02}.Debug|Xbox.ActiveCfg = Debug|Xbox
-		{CFE0ED5D-E4BE-43FC-83CE-EF49C3C5BC02}.Debug|Xbox.Build.0 = Debug|Xbox
-		{CFE0ED5D-E4BE-43FC-83CE-EF49C3C5BC02}.Release|Xbox.ActiveCfg = Release|Xbox
-		{CFE0ED5D-E4BE-43FC-83CE-EF49C3C5BC02}.Release|Xbox.Build.0 = Release|Xbox
+		{F99DDF29-DC2F-4C8B-93BC-52163B53F736}.Debug|Xbox.ActiveCfg = Debug|Xbox
+		{F99DDF29-DC2F-4C8B-93BC-52163B53F736}.Debug|Xbox.Build.0 = Debug|Xbox
+		{F99DDF29-DC2F-4C8B-93BC-52163B53F736}.Release|Xbox.ActiveCfg = Release|Xbox
+		{F99DDF29-DC2F-4C8B-93BC-52163B53F736}.Release|Xbox.Build.0 = Release|Xbox
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.0.0
 MinimumVisualStudioVersion = 10.0.0.0
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VertexShaders", "VertexShaders.vcxproj", "{6A50A405-2769-42A1-954C-C648956152B5}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VertexShaders", "VertexShaders.vcxproj", "{06184FAA-6F02-403D-83EB-7A2AD8444A10}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Xbox = Release|Xbox
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6A50A405-2769-42A1-954C-C648956152B5}.Debug|Xbox.ActiveCfg = Debug|Xbox
-		{6A50A405-2769-42A1-954C-C648956152B5}.Debug|Xbox.Build.0 = Debug|Xbox
-		{6A50A405-2769-42A1-954C-C648956152B5}.Release|Xbox.ActiveCfg = Release|Xbox
-		{6A50A405-2769-42A1-954C-C648956152B5}.Release|Xbox.Build.0 = Release|Xbox
+		{06184FAA-6F02-403D-83EB-7A2AD8444A10}.Debug|Xbox.ActiveCfg = Debug|Xbox
+		{06184FAA-6F02-403D-83EB-7A2AD8444A10}.Debug|Xbox.Build.0 = Debug|Xbox
+		{06184FAA-6F02-403D-83EB-7A2AD8444A10}.Release|Xbox.ActiveCfg = Release|Xbox
+		{06184FAA-6F02-403D-83EB-7A2AD8444A10}.Release|Xbox.Build.0 = Release|Xbox
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.0.0
 MinimumVisualStudioVersion = 10.0.0.0
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ShadowVolume", "ShadowVolume.vcxproj", "{FC479627-E0C7-4079-95F7-D69C2F911BCE}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ShadowVolume", "ShadowVolume.vcxproj", "{CC4977EC-4597-4424-AE4C-746C90FE16BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Xbox = Release|Xbox
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FC479627-E0C7-4079-95F7-D69C2F911BCE}.Debug|Xbox.ActiveCfg = Debug|Xbox
-		{FC479627-E0C7-4079-95F7-D69C2F911BCE}.Debug|Xbox.Build.0 = Debug|Xbox
-		{FC479627-E0C7-4079-95F7-D69C2F911BCE}.Release|Xbox.ActiveCfg = Release|Xbox
-		{FC479627-E0C7-4079-95F7-D69C2F911BCE}.Release|Xbox.Build.0 = Release|Xbox
+		{CC4977EC-4597-4424-AE4C-746C90FE16BD}.Debug|Xbox.ActiveCfg = Debug|Xbox
+		{CC4977EC-4597-4424-AE4C-746C90FE16BD}.Debug|Xbox.Build.0 = Debug|Xbox
+		{CC4977EC-4597-4424-AE4C-746C90FE16BD}.Release|Xbox.ActiveCfg = Release|Xbox
+		{CC4977EC-4597-4424-AE4C-746C90FE16BD}.Release|Xbox.Build.0 = Release|Xbox
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

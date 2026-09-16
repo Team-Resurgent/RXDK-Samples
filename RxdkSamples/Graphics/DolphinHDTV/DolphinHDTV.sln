@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.0.0
 MinimumVisualStudioVersion = 10.0.0.0
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DolphinHDTV", "DolphinHDTV.vcxproj", "{C8F13B09-4BAE-4E93-923F-90F61F18FAF7}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DolphinHDTV", "DolphinHDTV.vcxproj", "{A08B46D2-FDDB-4737-B497-BE007FC030B1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Xbox = Release|Xbox
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C8F13B09-4BAE-4E93-923F-90F61F18FAF7}.Debug|Xbox.ActiveCfg = Debug|Xbox
-		{C8F13B09-4BAE-4E93-923F-90F61F18FAF7}.Debug|Xbox.Build.0 = Debug|Xbox
-		{C8F13B09-4BAE-4E93-923F-90F61F18FAF7}.Release|Xbox.ActiveCfg = Release|Xbox
-		{C8F13B09-4BAE-4E93-923F-90F61F18FAF7}.Release|Xbox.Build.0 = Release|Xbox
+		{A08B46D2-FDDB-4737-B497-BE007FC030B1}.Debug|Xbox.ActiveCfg = Debug|Xbox
+		{A08B46D2-FDDB-4737-B497-BE007FC030B1}.Debug|Xbox.Build.0 = Debug|Xbox
+		{A08B46D2-FDDB-4737-B497-BE007FC030B1}.Release|Xbox.ActiveCfg = Release|Xbox
+		{A08B46D2-FDDB-4737-B497-BE007FC030B1}.Release|Xbox.Build.0 = Release|Xbox
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

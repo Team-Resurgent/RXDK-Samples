@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.0.0
 MinimumVisualStudioVersion = 10.0.0.0
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StencilMirror", "StencilMirror.vcxproj", "{B4ED3497-C40F-4CC0-B8D7-8EA632DC04E3}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StencilMirror", "StencilMirror.vcxproj", "{D91400A5-B7AD-4260-BE2A-586AF34CC91B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Xbox = Release|Xbox
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B4ED3497-C40F-4CC0-B8D7-8EA632DC04E3}.Debug|Xbox.ActiveCfg = Debug|Xbox
-		{B4ED3497-C40F-4CC0-B8D7-8EA632DC04E3}.Debug|Xbox.Build.0 = Debug|Xbox
-		{B4ED3497-C40F-4CC0-B8D7-8EA632DC04E3}.Release|Xbox.ActiveCfg = Release|Xbox
-		{B4ED3497-C40F-4CC0-B8D7-8EA632DC04E3}.Release|Xbox.Build.0 = Release|Xbox
+		{D91400A5-B7AD-4260-BE2A-586AF34CC91B}.Debug|Xbox.ActiveCfg = Debug|Xbox
+		{D91400A5-B7AD-4260-BE2A-586AF34CC91B}.Debug|Xbox.Build.0 = Debug|Xbox
+		{D91400A5-B7AD-4260-BE2A-586AF34CC91B}.Release|Xbox.ActiveCfg = Release|Xbox
+		{D91400A5-B7AD-4260-BE2A-586AF34CC91B}.Release|Xbox.Build.0 = Release|Xbox
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

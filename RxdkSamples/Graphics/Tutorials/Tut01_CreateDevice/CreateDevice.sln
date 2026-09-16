@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.0.0
 MinimumVisualStudioVersion = 10.0.0.0
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CreateDevice", "CreateDevice.vcxproj", "{EDE7F836-F996-4F28-9EDB-6A87FEC2C5A4}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CreateDevice", "CreateDevice.vcxproj", "{4C43A365-391A-47CC-8A15-A9EBA38F26A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Xbox = Release|Xbox
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EDE7F836-F996-4F28-9EDB-6A87FEC2C5A4}.Debug|Xbox.ActiveCfg = Debug|Xbox
-		{EDE7F836-F996-4F28-9EDB-6A87FEC2C5A4}.Debug|Xbox.Build.0 = Debug|Xbox
-		{EDE7F836-F996-4F28-9EDB-6A87FEC2C5A4}.Release|Xbox.ActiveCfg = Release|Xbox
-		{EDE7F836-F996-4F28-9EDB-6A87FEC2C5A4}.Release|Xbox.Build.0 = Release|Xbox
+		{4C43A365-391A-47CC-8A15-A9EBA38F26A9}.Debug|Xbox.ActiveCfg = Debug|Xbox
+		{4C43A365-391A-47CC-8A15-A9EBA38F26A9}.Debug|Xbox.Build.0 = Debug|Xbox
+		{4C43A365-391A-47CC-8A15-A9EBA38F26A9}.Release|Xbox.ActiveCfg = Release|Xbox
+		{4C43A365-391A-47CC-8A15-A9EBA38F26A9}.Release|Xbox.Build.0 = Release|Xbox
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

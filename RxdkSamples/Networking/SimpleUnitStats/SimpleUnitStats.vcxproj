@@ -12,7 +12,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{58DD7EAA-25C6-4A2F-9B0F-95657AF2F32A}</ProjectGuid>
+    <ProjectGuid>{BA6910CD-62C7-4CBD-9E45-267C6FB51E27}</ProjectGuid>
     <Keyword>RXDK</Keyword>
     <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
     <ApplicationType>RXDK</ApplicationType>

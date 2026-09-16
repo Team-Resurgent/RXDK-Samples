@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.0.0
 MinimumVisualStudioVersion = 10.0.0.0
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HostMigration", "HostMigration.vcxproj", "{3DEA5BEA-6946-4586-9866-FE520A3EBD5C}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HostMigration", "HostMigration.vcxproj", "{859688B5-362C-46B0-A300-87C27406202E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Xbox = Release|Xbox
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3DEA5BEA-6946-4586-9866-FE520A3EBD5C}.Debug|Xbox.ActiveCfg = Debug|Xbox
-		{3DEA5BEA-6946-4586-9866-FE520A3EBD5C}.Debug|Xbox.Build.0 = Debug|Xbox
-		{3DEA5BEA-6946-4586-9866-FE520A3EBD5C}.Release|Xbox.ActiveCfg = Release|Xbox
-		{3DEA5BEA-6946-4586-9866-FE520A3EBD5C}.Release|Xbox.Build.0 = Release|Xbox
+		{859688B5-362C-46B0-A300-87C27406202E}.Debug|Xbox.ActiveCfg = Debug|Xbox
+		{859688B5-362C-46B0-A300-87C27406202E}.Debug|Xbox.Build.0 = Debug|Xbox
+		{859688B5-362C-46B0-A300-87C27406202E}.Release|Xbox.ActiveCfg = Release|Xbox
+		{859688B5-362C-46B0-A300-87C27406202E}.Release|Xbox.Build.0 = Release|Xbox
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

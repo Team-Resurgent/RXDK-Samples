@@ -12,7 +12,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{F8533803-4F6C-46E5-AAA0-B28A95CF249E}</ProjectGuid>
+    <ProjectGuid>{ED1A51E5-17D6-4F01-A484-744A47987633}</ProjectGuid>
     <Keyword>RXDK</Keyword>
     <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
     <ApplicationType>RXDK</ApplicationType>
@@ -88,11 +88,11 @@
     <ClCompile Include="..\..\Common\Src\xbNet.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="font.rdf" />
-    <None Include="gamepad.rdf" />
-    <None Include="iconfont.rdf" />
-    <None Include="marketplacemedia.rdf" />
-    <None Include="xactsounds.xap" />
+    <RxdkResource Include="font.rdf" />
+    <RxdkResource Include="gamepad.rdf" />
+    <RxdkResource Include="iconfont.rdf" />
+    <RxdkResource Include="marketplacemedia.rdf" />
+    <RxdkResource Include="xactsounds.xap" />
   </ItemGroup>
   <ItemGroup>
     <IsoCopy Include="Media\**" />

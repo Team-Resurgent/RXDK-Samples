@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.0.0
 MinimumVisualStudioVersion = 10.0.0.0
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VolumeSprites", "VolumeSprites.vcxproj", "{9834AF4B-89D1-4B3C-8EAB-59337ECBE702}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VolumeSprites", "VolumeSprites.vcxproj", "{D9EA5523-CBC9-44C9-AC17-A52AFEE22144}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Xbox = Release|Xbox
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9834AF4B-89D1-4B3C-8EAB-59337ECBE702}.Debug|Xbox.ActiveCfg = Debug|Xbox
-		{9834AF4B-89D1-4B3C-8EAB-59337ECBE702}.Debug|Xbox.Build.0 = Debug|Xbox
-		{9834AF4B-89D1-4B3C-8EAB-59337ECBE702}.Release|Xbox.ActiveCfg = Release|Xbox
-		{9834AF4B-89D1-4B3C-8EAB-59337ECBE702}.Release|Xbox.Build.0 = Release|Xbox
+		{D9EA5523-CBC9-44C9-AC17-A52AFEE22144}.Debug|Xbox.ActiveCfg = Debug|Xbox
+		{D9EA5523-CBC9-44C9-AC17-A52AFEE22144}.Debug|Xbox.Build.0 = Debug|Xbox
+		{D9EA5523-CBC9-44C9-AC17-A52AFEE22144}.Release|Xbox.ActiveCfg = Release|Xbox
+		{D9EA5523-CBC9-44C9-AC17-A52AFEE22144}.Release|Xbox.Build.0 = Release|Xbox
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

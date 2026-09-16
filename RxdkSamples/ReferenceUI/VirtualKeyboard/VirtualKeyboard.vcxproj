@@ -12,7 +12,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{3EEB5644-4974-411F-8447-6B4433F6353C}</ProjectGuid>
+    <ProjectGuid>{15D2F69A-7A5B-44F8-946C-4D45B33B9EFA}</ProjectGuid>
     <Keyword>RXDK</Keyword>
     <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
     <ApplicationType>RXDK</ApplicationType>
@@ -79,12 +79,12 @@
     <ClCompile Include="..\..\Common\Src\xbstopwatch.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="ControllerS.rdf" />
-    <None Include="font12.rdf" />
-    <None Include="font18.rdf" />
-    <None Include="gamepad.rdf" />
-    <None Include="resource.rdf" />
-    <None Include="xboxdings_24.rdf" />
+    <RxdkResource Include="ControllerS.rdf" />
+    <RxdkResource Include="font12.rdf" />
+    <RxdkResource Include="font18.rdf" />
+    <RxdkResource Include="gamepad.rdf" />
+    <RxdkResource Include="resource.rdf" />
+    <RxdkResource Include="xboxdings_24.rdf" />
   </ItemGroup>
   <ItemGroup>
     <IsoCopy Include="Media\**" />

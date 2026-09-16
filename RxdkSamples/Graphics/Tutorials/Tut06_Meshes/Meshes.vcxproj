@@ -12,7 +12,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{028D8490-9871-4B68-ACA0-A44F81504D31}</ProjectGuid>
+    <ProjectGuid>{AEC5C469-94BF-4850-9985-005B686C8223}</ProjectGuid>
     <Keyword>RXDK</Keyword>
     <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
     <ApplicationType>RXDK</ApplicationType>
@@ -69,7 +69,7 @@
     <ClCompile Include="meshes.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="resource.rdf" />
+    <RxdkResource Include="resource.rdf" />
   </ItemGroup>
   <ItemGroup>
     <IsoCopy Include="Media\**" />

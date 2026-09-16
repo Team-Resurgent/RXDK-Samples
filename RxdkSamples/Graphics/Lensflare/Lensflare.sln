@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.0.0
 MinimumVisualStudioVersion = 10.0.0.0
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lensflare", "Lensflare.vcxproj", "{9BAD65B6-CAED-416E-8ADF-C961F326D05B}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lensflare", "Lensflare.vcxproj", "{245EB53C-317C-466C-AD99-2D6EF0195DF2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Xbox = Release|Xbox
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9BAD65B6-CAED-416E-8ADF-C961F326D05B}.Debug|Xbox.ActiveCfg = Debug|Xbox
-		{9BAD65B6-CAED-416E-8ADF-C961F326D05B}.Debug|Xbox.Build.0 = Debug|Xbox
-		{9BAD65B6-CAED-416E-8ADF-C961F326D05B}.Release|Xbox.ActiveCfg = Release|Xbox
-		{9BAD65B6-CAED-416E-8ADF-C961F326D05B}.Release|Xbox.Build.0 = Release|Xbox
+		{245EB53C-317C-466C-AD99-2D6EF0195DF2}.Debug|Xbox.ActiveCfg = Debug|Xbox
+		{245EB53C-317C-466C-AD99-2D6EF0195DF2}.Debug|Xbox.Build.0 = Debug|Xbox
+		{245EB53C-317C-466C-AD99-2D6EF0195DF2}.Release|Xbox.ActiveCfg = Release|Xbox
+		{245EB53C-317C-466C-AD99-2D6EF0195DF2}.Release|Xbox.Build.0 = Release|Xbox
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
