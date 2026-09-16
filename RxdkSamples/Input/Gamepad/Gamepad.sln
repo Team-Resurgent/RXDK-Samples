@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.0.0
 MinimumVisualStudioVersion = 10.0.0.0
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Gamepad", "Gamepad.vcxproj", "{077244A2-2CC0-470B-BB81-E472DC81E7CC}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Gamepad", "Gamepad.vcxproj", "{3414A4C8-03BD-40F7-8927-AD5869DB25F8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Xbox = Release|Xbox
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{077244A2-2CC0-470B-BB81-E472DC81E7CC}.Debug|Xbox.ActiveCfg = Debug|Xbox
-		{077244A2-2CC0-470B-BB81-E472DC81E7CC}.Debug|Xbox.Build.0 = Debug|Xbox
-		{077244A2-2CC0-470B-BB81-E472DC81E7CC}.Release|Xbox.ActiveCfg = Release|Xbox
-		{077244A2-2CC0-470B-BB81-E472DC81E7CC}.Release|Xbox.Build.0 = Release|Xbox
+		{3414A4C8-03BD-40F7-8927-AD5869DB25F8}.Debug|Xbox.ActiveCfg = Debug|Xbox
+		{3414A4C8-03BD-40F7-8927-AD5869DB25F8}.Debug|Xbox.Build.0 = Debug|Xbox
+		{3414A4C8-03BD-40F7-8927-AD5869DB25F8}.Release|Xbox.ActiveCfg = Release|Xbox
+		{3414A4C8-03BD-40F7-8927-AD5869DB25F8}.Release|Xbox.Build.0 = Release|Xbox
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

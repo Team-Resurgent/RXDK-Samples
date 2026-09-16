@@ -12,7 +12,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{E4F80AE7-23C2-4DCC-9458-203FF2038207}</ProjectGuid>
+    <ProjectGuid>{B036C7DF-2B80-4B8F-921A-E3A6D6CE3781}</ProjectGuid>
     <Keyword>RXDK</Keyword>
     <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
     <ApplicationType>RXDK</ApplicationType>
@@ -81,7 +81,7 @@
     <RxdkResource Include="Gamepad.rdf" />
   </ItemGroup>
   <ItemGroup>
-    <IsoCopy Include="Media\**" />
+    <IsoCopyDir Include="Media" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
 </Project>

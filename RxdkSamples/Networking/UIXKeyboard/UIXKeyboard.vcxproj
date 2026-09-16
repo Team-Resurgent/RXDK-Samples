@@ -12,7 +12,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{AB12351A-31F7-439D-9436-48ED2433154B}</ProjectGuid>
+    <ProjectGuid>{82E11E8E-FEB3-45DB-97E8-82CEE653324E}</ProjectGuid>
     <Keyword>RXDK</Keyword>
     <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
     <ApplicationType>RXDK</ApplicationType>
@@ -87,7 +87,7 @@
     <RxdkResource Include="UIXKeyboard.xap" />
   </ItemGroup>
   <ItemGroup>
-    <IsoCopy Include="Media\**" />
+    <IsoCopyDir Include="Media" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
 </Project>

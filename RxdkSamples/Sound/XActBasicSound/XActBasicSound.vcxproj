@@ -12,7 +12,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{26381EB0-3334-4BA2-9CFD-9B080916988F}</ProjectGuid>
+    <ProjectGuid>{AF02F3B4-E14B-4850-BB47-E10D0C588CFF}</ProjectGuid>
     <Keyword>RXDK</Keyword>
     <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
     <ApplicationType>RXDK</ApplicationType>
@@ -80,7 +80,7 @@
     <RxdkResource Include="XactSounds.xap" />
   </ItemGroup>
   <ItemGroup>
-    <IsoCopy Include="Media\**" />
+    <IsoCopyDir Include="Media" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
 </Project>

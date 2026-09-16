@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.0.0
 MinimumVisualStudioVersion = 10.0.0.0
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "XActBasicSound", "XActBasicSound.vcxproj", "{26381EB0-3334-4BA2-9CFD-9B080916988F}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "XActBasicSound", "XActBasicSound.vcxproj", "{AF02F3B4-E14B-4850-BB47-E10D0C588CFF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Xbox = Release|Xbox
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{26381EB0-3334-4BA2-9CFD-9B080916988F}.Debug|Xbox.ActiveCfg = Debug|Xbox
-		{26381EB0-3334-4BA2-9CFD-9B080916988F}.Debug|Xbox.Build.0 = Debug|Xbox
-		{26381EB0-3334-4BA2-9CFD-9B080916988F}.Release|Xbox.ActiveCfg = Release|Xbox
-		{26381EB0-3334-4BA2-9CFD-9B080916988F}.Release|Xbox.Build.0 = Release|Xbox
+		{AF02F3B4-E14B-4850-BB47-E10D0C588CFF}.Debug|Xbox.ActiveCfg = Debug|Xbox
+		{AF02F3B4-E14B-4850-BB47-E10D0C588CFF}.Debug|Xbox.Build.0 = Debug|Xbox
+		{AF02F3B4-E14B-4850-BB47-E10D0C588CFF}.Release|Xbox.ActiveCfg = Release|Xbox
+		{AF02F3B4-E14B-4850-BB47-E10D0C588CFF}.Release|Xbox.Build.0 = Release|Xbox
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.0.0
 MinimumVisualStudioVersion = 10.0.0.0
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AlphaFog", "AlphaFog.vcxproj", "{99D50A80-050E-402D-947F-1331E5E891EA}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AlphaFog", "AlphaFog.vcxproj", "{9F5F97B1-3FEF-40AE-A8E7-14C65147F9A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Xbox = Release|Xbox
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{99D50A80-050E-402D-947F-1331E5E891EA}.Debug|Xbox.ActiveCfg = Debug|Xbox
-		{99D50A80-050E-402D-947F-1331E5E891EA}.Debug|Xbox.Build.0 = Debug|Xbox
-		{99D50A80-050E-402D-947F-1331E5E891EA}.Release|Xbox.ActiveCfg = Release|Xbox
-		{99D50A80-050E-402D-947F-1331E5E891EA}.Release|Xbox.Build.0 = Release|Xbox
+		{9F5F97B1-3FEF-40AE-A8E7-14C65147F9A4}.Debug|Xbox.ActiveCfg = Debug|Xbox
+		{9F5F97B1-3FEF-40AE-A8E7-14C65147F9A4}.Debug|Xbox.Build.0 = Debug|Xbox
+		{9F5F97B1-3FEF-40AE-A8E7-14C65147F9A4}.Release|Xbox.ActiveCfg = Release|Xbox
+		{9F5F97B1-3FEF-40AE-A8E7-14C65147F9A4}.Release|Xbox.Build.0 = Release|Xbox
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.0.0
 MinimumVisualStudioVersion = 10.0.0.0
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TechCertGame", "TechCertGame.vcxproj", "{ECDDB0E3-8986-4B31-9B83-998104F81BC9}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TechCertGame", "TechCertGame.vcxproj", "{F0EE2731-BC30-4CEA-8ADB-EDB11DE6A4DC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Xbox = Release|Xbox
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{ECDDB0E3-8986-4B31-9B83-998104F81BC9}.Debug|Xbox.ActiveCfg = Debug|Xbox
-		{ECDDB0E3-8986-4B31-9B83-998104F81BC9}.Debug|Xbox.Build.0 = Debug|Xbox
-		{ECDDB0E3-8986-4B31-9B83-998104F81BC9}.Release|Xbox.ActiveCfg = Release|Xbox
-		{ECDDB0E3-8986-4B31-9B83-998104F81BC9}.Release|Xbox.Build.0 = Release|Xbox
+		{F0EE2731-BC30-4CEA-8ADB-EDB11DE6A4DC}.Debug|Xbox.ActiveCfg = Debug|Xbox
+		{F0EE2731-BC30-4CEA-8ADB-EDB11DE6A4DC}.Debug|Xbox.Build.0 = Debug|Xbox
+		{F0EE2731-BC30-4CEA-8ADB-EDB11DE6A4DC}.Release|Xbox.ActiveCfg = Release|Xbox
+		{F0EE2731-BC30-4CEA-8ADB-EDB11DE6A4DC}.Release|Xbox.Build.0 = Release|Xbox
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

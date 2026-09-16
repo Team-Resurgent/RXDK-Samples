@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.0.0
 MinimumVisualStudioVersion = 10.0.0.0
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DMNotifications", "DMNotifications.vcxproj", "{3D9B9835-BA48-4834-9DAF-F7795CB0ADD3}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DMNotifications", "DMNotifications.vcxproj", "{0D69FD63-9101-45F2-BC70-184E28DAF317}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Xbox = Release|Xbox
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3D9B9835-BA48-4834-9DAF-F7795CB0ADD3}.Debug|Xbox.ActiveCfg = Debug|Xbox
-		{3D9B9835-BA48-4834-9DAF-F7795CB0ADD3}.Debug|Xbox.Build.0 = Debug|Xbox
-		{3D9B9835-BA48-4834-9DAF-F7795CB0ADD3}.Release|Xbox.ActiveCfg = Release|Xbox
-		{3D9B9835-BA48-4834-9DAF-F7795CB0ADD3}.Release|Xbox.Build.0 = Release|Xbox
+		{0D69FD63-9101-45F2-BC70-184E28DAF317}.Debug|Xbox.ActiveCfg = Debug|Xbox
+		{0D69FD63-9101-45F2-BC70-184E28DAF317}.Debug|Xbox.Build.0 = Debug|Xbox
+		{0D69FD63-9101-45F2-BC70-184E28DAF317}.Release|Xbox.ActiveCfg = Release|Xbox
+		{0D69FD63-9101-45F2-BC70-184E28DAF317}.Release|Xbox.Build.0 = Release|Xbox
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

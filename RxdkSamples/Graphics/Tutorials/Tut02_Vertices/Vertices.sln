@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.0.0
 MinimumVisualStudioVersion = 10.0.0.0
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Vertices", "Vertices.vcxproj", "{C56366D7-FAC1-454E-8711-253EC92B31D8}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Vertices", "Vertices.vcxproj", "{F7CD110A-9AFD-49DB-BA63-88502254831D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Xbox = Release|Xbox
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C56366D7-FAC1-454E-8711-253EC92B31D8}.Debug|Xbox.ActiveCfg = Debug|Xbox
-		{C56366D7-FAC1-454E-8711-253EC92B31D8}.Debug|Xbox.Build.0 = Debug|Xbox
-		{C56366D7-FAC1-454E-8711-253EC92B31D8}.Release|Xbox.ActiveCfg = Release|Xbox
-		{C56366D7-FAC1-454E-8711-253EC92B31D8}.Release|Xbox.Build.0 = Release|Xbox
+		{F7CD110A-9AFD-49DB-BA63-88502254831D}.Debug|Xbox.ActiveCfg = Debug|Xbox
+		{F7CD110A-9AFD-49DB-BA63-88502254831D}.Debug|Xbox.Build.0 = Debug|Xbox
+		{F7CD110A-9AFD-49DB-BA63-88502254831D}.Release|Xbox.ActiveCfg = Release|Xbox
+		{F7CD110A-9AFD-49DB-BA63-88502254831D}.Release|Xbox.Build.0 = Release|Xbox
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

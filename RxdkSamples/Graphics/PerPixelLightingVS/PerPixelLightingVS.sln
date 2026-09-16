@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.0.0
 MinimumVisualStudioVersion = 10.0.0.0
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PerPixelLightingVS", "PerPixelLightingVS.vcxproj", "{D2177CA0-9CB3-4B65-8669-2D2DC070D7B2}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PerPixelLightingVS", "PerPixelLightingVS.vcxproj", "{6BC2F17D-7683-4505-B23D-9C215B627A9A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Xbox = Release|Xbox
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D2177CA0-9CB3-4B65-8669-2D2DC070D7B2}.Debug|Xbox.ActiveCfg = Debug|Xbox
-		{D2177CA0-9CB3-4B65-8669-2D2DC070D7B2}.Debug|Xbox.Build.0 = Debug|Xbox
-		{D2177CA0-9CB3-4B65-8669-2D2DC070D7B2}.Release|Xbox.ActiveCfg = Release|Xbox
-		{D2177CA0-9CB3-4B65-8669-2D2DC070D7B2}.Release|Xbox.Build.0 = Release|Xbox
+		{6BC2F17D-7683-4505-B23D-9C215B627A9A}.Debug|Xbox.ActiveCfg = Debug|Xbox
+		{6BC2F17D-7683-4505-B23D-9C215B627A9A}.Debug|Xbox.Build.0 = Debug|Xbox
+		{6BC2F17D-7683-4505-B23D-9C215B627A9A}.Release|Xbox.ActiveCfg = Release|Xbox
+		{6BC2F17D-7683-4505-B23D-9C215B627A9A}.Release|Xbox.Build.0 = Release|Xbox
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

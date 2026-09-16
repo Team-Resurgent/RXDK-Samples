@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.0.0
 MinimumVisualStudioVersion = 10.0.0.0
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LSPSERVERCLIENT", "LSPSERVERCLIENT.vcxproj", "{8531F23B-0E97-4CA5-B805-71815265D91F}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LSPSERVERCLIENT", "LSPSERVERCLIENT.vcxproj", "{413A4891-E57C-4920-9371-6D844E2B8835}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Xbox = Release|Xbox
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8531F23B-0E97-4CA5-B805-71815265D91F}.Debug|Xbox.ActiveCfg = Debug|Xbox
-		{8531F23B-0E97-4CA5-B805-71815265D91F}.Debug|Xbox.Build.0 = Debug|Xbox
-		{8531F23B-0E97-4CA5-B805-71815265D91F}.Release|Xbox.ActiveCfg = Release|Xbox
-		{8531F23B-0E97-4CA5-B805-71815265D91F}.Release|Xbox.Build.0 = Release|Xbox
+		{413A4891-E57C-4920-9371-6D844E2B8835}.Debug|Xbox.ActiveCfg = Debug|Xbox
+		{413A4891-E57C-4920-9371-6D844E2B8835}.Debug|Xbox.Build.0 = Debug|Xbox
+		{413A4891-E57C-4920-9371-6D844E2B8835}.Release|Xbox.ActiveCfg = Release|Xbox
+		{413A4891-E57C-4920-9371-6D844E2B8835}.Release|Xbox.Build.0 = Release|Xbox
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

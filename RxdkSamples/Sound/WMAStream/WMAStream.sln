@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.0.0
 MinimumVisualStudioVersion = 10.0.0.0
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WMAStream", "WMAStream.vcxproj", "{3CBEBF94-A06F-44D2-8676-490C20F9F369}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WMAStream", "WMAStream.vcxproj", "{DCF091A8-B9AC-4B8B-B8F8-C5A2421F1C41}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Xbox = Release|Xbox
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3CBEBF94-A06F-44D2-8676-490C20F9F369}.Debug|Xbox.ActiveCfg = Debug|Xbox
-		{3CBEBF94-A06F-44D2-8676-490C20F9F369}.Debug|Xbox.Build.0 = Debug|Xbox
-		{3CBEBF94-A06F-44D2-8676-490C20F9F369}.Release|Xbox.ActiveCfg = Release|Xbox
-		{3CBEBF94-A06F-44D2-8676-490C20F9F369}.Release|Xbox.Build.0 = Release|Xbox
+		{DCF091A8-B9AC-4B8B-B8F8-C5A2421F1C41}.Debug|Xbox.ActiveCfg = Debug|Xbox
+		{DCF091A8-B9AC-4B8B-B8F8-C5A2421F1C41}.Debug|Xbox.Build.0 = Debug|Xbox
+		{DCF091A8-B9AC-4B8B-B8F8-C5A2421F1C41}.Release|Xbox.ActiveCfg = Release|Xbox
+		{DCF091A8-B9AC-4B8B-B8F8-C5A2421F1C41}.Release|Xbox.Build.0 = Release|Xbox
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

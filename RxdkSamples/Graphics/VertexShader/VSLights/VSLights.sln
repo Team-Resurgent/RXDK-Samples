@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.0.0
 MinimumVisualStudioVersion = 10.0.0.0
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VSLights", "VSLights.vcxproj", "{8C4C1ECD-BAC3-4FAE-A54C-640AC431DF1F}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VSLights", "VSLights.vcxproj", "{49361450-981A-41F4-A564-28A2E9C59DFE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Xbox = Release|Xbox
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8C4C1ECD-BAC3-4FAE-A54C-640AC431DF1F}.Debug|Xbox.ActiveCfg = Debug|Xbox
-		{8C4C1ECD-BAC3-4FAE-A54C-640AC431DF1F}.Debug|Xbox.Build.0 = Debug|Xbox
-		{8C4C1ECD-BAC3-4FAE-A54C-640AC431DF1F}.Release|Xbox.ActiveCfg = Release|Xbox
-		{8C4C1ECD-BAC3-4FAE-A54C-640AC431DF1F}.Release|Xbox.Build.0 = Release|Xbox
+		{49361450-981A-41F4-A564-28A2E9C59DFE}.Debug|Xbox.ActiveCfg = Debug|Xbox
+		{49361450-981A-41F4-A564-28A2E9C59DFE}.Debug|Xbox.Build.0 = Debug|Xbox
+		{49361450-981A-41F4-A564-28A2E9C59DFE}.Release|Xbox.ActiveCfg = Release|Xbox
+		{49361450-981A-41F4-A564-28A2E9C59DFE}.Release|Xbox.Build.0 = Release|Xbox
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

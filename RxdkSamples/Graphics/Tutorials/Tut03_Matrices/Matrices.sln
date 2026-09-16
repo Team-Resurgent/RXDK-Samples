@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.0.0
 MinimumVisualStudioVersion = 10.0.0.0
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Matrices", "Matrices.vcxproj", "{7EAA0F39-C18B-43F0-AAC2-854A1DA484FC}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Matrices", "Matrices.vcxproj", "{194B2513-ECDF-48B6-BA3C-F807428BFDFD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Xbox = Release|Xbox
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7EAA0F39-C18B-43F0-AAC2-854A1DA484FC}.Debug|Xbox.ActiveCfg = Debug|Xbox
-		{7EAA0F39-C18B-43F0-AAC2-854A1DA484FC}.Debug|Xbox.Build.0 = Debug|Xbox
-		{7EAA0F39-C18B-43F0-AAC2-854A1DA484FC}.Release|Xbox.ActiveCfg = Release|Xbox
-		{7EAA0F39-C18B-43F0-AAC2-854A1DA484FC}.Release|Xbox.Build.0 = Release|Xbox
+		{194B2513-ECDF-48B6-BA3C-F807428BFDFD}.Debug|Xbox.ActiveCfg = Debug|Xbox
+		{194B2513-ECDF-48B6-BA3C-F807428BFDFD}.Debug|Xbox.Build.0 = Debug|Xbox
+		{194B2513-ECDF-48B6-BA3C-F807428BFDFD}.Release|Xbox.ActiveCfg = Release|Xbox
+		{194B2513-ECDF-48B6-BA3C-F807428BFDFD}.Release|Xbox.Build.0 = Release|Xbox
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

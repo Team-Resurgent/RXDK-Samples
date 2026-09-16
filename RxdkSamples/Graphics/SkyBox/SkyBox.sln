@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.0.0
 MinimumVisualStudioVersion = 10.0.0.0
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SkyBox", "SkyBox.vcxproj", "{528F0876-285A-4DB8-B4C9-A7BC63394C75}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SkyBox", "SkyBox.vcxproj", "{9C993CA0-5A94-4DCA-8E7C-22FAACCE3C3F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Xbox = Release|Xbox
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{528F0876-285A-4DB8-B4C9-A7BC63394C75}.Debug|Xbox.ActiveCfg = Debug|Xbox
-		{528F0876-285A-4DB8-B4C9-A7BC63394C75}.Debug|Xbox.Build.0 = Debug|Xbox
-		{528F0876-285A-4DB8-B4C9-A7BC63394C75}.Release|Xbox.ActiveCfg = Release|Xbox
-		{528F0876-285A-4DB8-B4C9-A7BC63394C75}.Release|Xbox.Build.0 = Release|Xbox
+		{9C993CA0-5A94-4DCA-8E7C-22FAACCE3C3F}.Debug|Xbox.ActiveCfg = Debug|Xbox
+		{9C993CA0-5A94-4DCA-8E7C-22FAACCE3C3F}.Debug|Xbox.Build.0 = Debug|Xbox
+		{9C993CA0-5A94-4DCA-8E7C-22FAACCE3C3F}.Release|Xbox.ActiveCfg = Release|Xbox
+		{9C993CA0-5A94-4DCA-8E7C-22FAACCE3C3F}.Release|Xbox.Build.0 = Release|Xbox
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

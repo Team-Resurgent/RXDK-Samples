@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.0.0
 MinimumVisualStudioVersion = 10.0.0.0
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EnvelopeGenerator", "EnvelopeGenerator.vcxproj", "{74EE21C4-F034-4E9B-9A3E-E79D530B5518}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EnvelopeGenerator", "EnvelopeGenerator.vcxproj", "{E671617A-5FC3-4182-86C4-7A561887B4B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Xbox = Release|Xbox
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{74EE21C4-F034-4E9B-9A3E-E79D530B5518}.Debug|Xbox.ActiveCfg = Debug|Xbox
-		{74EE21C4-F034-4E9B-9A3E-E79D530B5518}.Debug|Xbox.Build.0 = Debug|Xbox
-		{74EE21C4-F034-4E9B-9A3E-E79D530B5518}.Release|Xbox.ActiveCfg = Release|Xbox
-		{74EE21C4-F034-4E9B-9A3E-E79D530B5518}.Release|Xbox.Build.0 = Release|Xbox
+		{E671617A-5FC3-4182-86C4-7A561887B4B7}.Debug|Xbox.ActiveCfg = Debug|Xbox
+		{E671617A-5FC3-4182-86C4-7A561887B4B7}.Debug|Xbox.Build.0 = Debug|Xbox
+		{E671617A-5FC3-4182-86C4-7A561887B4B7}.Release|Xbox.ActiveCfg = Release|Xbox
+		{E671617A-5FC3-4182-86C4-7A561887B4B7}.Release|Xbox.Build.0 = Release|Xbox
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

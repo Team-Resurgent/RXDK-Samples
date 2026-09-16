@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.0.0
 MinimumVisualStudioVersion = 10.0.0.0
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DMTool", "DMTool.vcxproj", "{B1EA2EF5-7EF7-41CB-A7C3-6128F3A06334}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DMTool", "DMTool.vcxproj", "{56301E94-0CEE-419C-A5A3-D72495387BF2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Xbox = Release|Xbox
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B1EA2EF5-7EF7-41CB-A7C3-6128F3A06334}.Debug|Xbox.ActiveCfg = Debug|Xbox
-		{B1EA2EF5-7EF7-41CB-A7C3-6128F3A06334}.Debug|Xbox.Build.0 = Debug|Xbox
-		{B1EA2EF5-7EF7-41CB-A7C3-6128F3A06334}.Release|Xbox.ActiveCfg = Release|Xbox
-		{B1EA2EF5-7EF7-41CB-A7C3-6128F3A06334}.Release|Xbox.Build.0 = Release|Xbox
+		{56301E94-0CEE-419C-A5A3-D72495387BF2}.Debug|Xbox.ActiveCfg = Debug|Xbox
+		{56301E94-0CEE-419C-A5A3-D72495387BF2}.Debug|Xbox.Build.0 = Debug|Xbox
+		{56301E94-0CEE-419C-A5A3-D72495387BF2}.Release|Xbox.ActiveCfg = Release|Xbox
+		{56301E94-0CEE-419C-A5A3-D72495387BF2}.Release|Xbox.Build.0 = Release|Xbox
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

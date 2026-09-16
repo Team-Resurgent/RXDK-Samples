@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.0.0
 MinimumVisualStudioVersion = 10.0.0.0
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PlayField", "PlayField.vcxproj", "{9293FCE2-2FEF-4263-AE8D-21D0BCBF7EBD}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PlayField", "PlayField.vcxproj", "{AA6E7534-D495-437B-B483-1881FA778544}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Xbox = Release|Xbox
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9293FCE2-2FEF-4263-AE8D-21D0BCBF7EBD}.Debug|Xbox.ActiveCfg = Debug|Xbox
-		{9293FCE2-2FEF-4263-AE8D-21D0BCBF7EBD}.Debug|Xbox.Build.0 = Debug|Xbox
-		{9293FCE2-2FEF-4263-AE8D-21D0BCBF7EBD}.Release|Xbox.ActiveCfg = Release|Xbox
-		{9293FCE2-2FEF-4263-AE8D-21D0BCBF7EBD}.Release|Xbox.Build.0 = Release|Xbox
+		{AA6E7534-D495-437B-B483-1881FA778544}.Debug|Xbox.ActiveCfg = Debug|Xbox
+		{AA6E7534-D495-437B-B483-1881FA778544}.Debug|Xbox.Build.0 = Debug|Xbox
+		{AA6E7534-D495-437B-B483-1881FA778544}.Release|Xbox.ActiveCfg = Release|Xbox
+		{AA6E7534-D495-437B-B483-1881FA778544}.Release|Xbox.Build.0 = Release|Xbox
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

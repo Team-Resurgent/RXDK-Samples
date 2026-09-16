@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.0.0
 MinimumVisualStudioVersion = 10.0.0.0
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ELO", "ELO.vcxproj", "{3697629F-F8E6-486D-813A-12AD076070BC}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ELO", "ELO.vcxproj", "{24CD80D0-0C6C-45B0-BC40-736AD424BB85}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Xbox = Release|Xbox
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3697629F-F8E6-486D-813A-12AD076070BC}.Debug|Xbox.ActiveCfg = Debug|Xbox
-		{3697629F-F8E6-486D-813A-12AD076070BC}.Debug|Xbox.Build.0 = Debug|Xbox
-		{3697629F-F8E6-486D-813A-12AD076070BC}.Release|Xbox.ActiveCfg = Release|Xbox
-		{3697629F-F8E6-486D-813A-12AD076070BC}.Release|Xbox.Build.0 = Release|Xbox
+		{24CD80D0-0C6C-45B0-BC40-736AD424BB85}.Debug|Xbox.ActiveCfg = Debug|Xbox
+		{24CD80D0-0C6C-45B0-BC40-736AD424BB85}.Debug|Xbox.Build.0 = Debug|Xbox
+		{24CD80D0-0C6C-45B0-BC40-736AD424BB85}.Release|Xbox.ActiveCfg = Release|Xbox
+		{24CD80D0-0C6C-45B0-BC40-736AD424BB85}.Release|Xbox.Build.0 = Release|Xbox
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

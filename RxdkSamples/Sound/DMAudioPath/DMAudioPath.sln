@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.0.0
 MinimumVisualStudioVersion = 10.0.0.0
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DMAudioPath", "DMAudioPath.vcxproj", "{EB9FE892-720A-4AAC-B961-370FD67F942C}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DMAudioPath", "DMAudioPath.vcxproj", "{E41E985F-3FA6-4A2C-80A8-02E4F42F75CC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Xbox = Release|Xbox
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EB9FE892-720A-4AAC-B961-370FD67F942C}.Debug|Xbox.ActiveCfg = Debug|Xbox
-		{EB9FE892-720A-4AAC-B961-370FD67F942C}.Debug|Xbox.Build.0 = Debug|Xbox
-		{EB9FE892-720A-4AAC-B961-370FD67F942C}.Release|Xbox.ActiveCfg = Release|Xbox
-		{EB9FE892-720A-4AAC-B961-370FD67F942C}.Release|Xbox.Build.0 = Release|Xbox
+		{E41E985F-3FA6-4A2C-80A8-02E4F42F75CC}.Debug|Xbox.ActiveCfg = Debug|Xbox
+		{E41E985F-3FA6-4A2C-80A8-02E4F42F75CC}.Debug|Xbox.Build.0 = Debug|Xbox
+		{E41E985F-3FA6-4A2C-80A8-02E4F42F75CC}.Release|Xbox.ActiveCfg = Release|Xbox
+		{E41E985F-3FA6-4A2C-80A8-02E4F42F75CC}.Release|Xbox.Build.0 = Release|Xbox
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

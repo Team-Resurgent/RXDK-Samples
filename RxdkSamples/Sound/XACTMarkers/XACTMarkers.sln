@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.0.0
 MinimumVisualStudioVersion = 10.0.0.0
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "XACTMarkers", "XACTMarkers.vcxproj", "{948DF539-8F35-455F-97F0-49934EA209EC}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "XACTMarkers", "XACTMarkers.vcxproj", "{583B0F8F-AB22-4393-B3BE-24DFC4DB4670}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Xbox = Release|Xbox
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{948DF539-8F35-455F-97F0-49934EA209EC}.Debug|Xbox.ActiveCfg = Debug|Xbox
-		{948DF539-8F35-455F-97F0-49934EA209EC}.Debug|Xbox.Build.0 = Debug|Xbox
-		{948DF539-8F35-455F-97F0-49934EA209EC}.Release|Xbox.ActiveCfg = Release|Xbox
-		{948DF539-8F35-455F-97F0-49934EA209EC}.Release|Xbox.Build.0 = Release|Xbox
+		{583B0F8F-AB22-4393-B3BE-24DFC4DB4670}.Debug|Xbox.ActiveCfg = Debug|Xbox
+		{583B0F8F-AB22-4393-B3BE-24DFC4DB4670}.Debug|Xbox.Build.0 = Debug|Xbox
+		{583B0F8F-AB22-4393-B3BE-24DFC4DB4670}.Release|Xbox.ActiveCfg = Release|Xbox
+		{583B0F8F-AB22-4393-B3BE-24DFC4DB4670}.Release|Xbox.Build.0 = Release|Xbox
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

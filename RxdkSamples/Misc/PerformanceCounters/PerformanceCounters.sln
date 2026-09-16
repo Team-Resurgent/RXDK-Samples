@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.0.0
 MinimumVisualStudioVersion = 10.0.0.0
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PerformanceCounters", "PerformanceCounters.vcxproj", "{779ECCCD-1458-466E-93ED-F4FA354EA3F4}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PerformanceCounters", "PerformanceCounters.vcxproj", "{184986A7-F748-4385-A2A1-639877DDF2BC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Xbox = Release|Xbox
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{779ECCCD-1458-466E-93ED-F4FA354EA3F4}.Debug|Xbox.ActiveCfg = Debug|Xbox
-		{779ECCCD-1458-466E-93ED-F4FA354EA3F4}.Debug|Xbox.Build.0 = Debug|Xbox
-		{779ECCCD-1458-466E-93ED-F4FA354EA3F4}.Release|Xbox.ActiveCfg = Release|Xbox
-		{779ECCCD-1458-466E-93ED-F4FA354EA3F4}.Release|Xbox.Build.0 = Release|Xbox
+		{184986A7-F748-4385-A2A1-639877DDF2BC}.Debug|Xbox.ActiveCfg = Debug|Xbox
+		{184986A7-F748-4385-A2A1-639877DDF2BC}.Debug|Xbox.Build.0 = Debug|Xbox
+		{184986A7-F748-4385-A2A1-639877DDF2BC}.Release|Xbox.ActiveCfg = Release|Xbox
+		{184986A7-F748-4385-A2A1-639877DDF2BC}.Release|Xbox.Build.0 = Release|Xbox
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

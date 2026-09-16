@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.0.0
 MinimumVisualStudioVersion = 10.0.0.0
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PersistDisplay", "PersistDisplay.vcxproj", "{D2C1D8B9-5217-4900-9366-7E0E0959F82B}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PersistDisplay", "PersistDisplay.vcxproj", "{AFB2653F-FBC9-47D6-A782-8052C3F2B302}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Xbox = Release|Xbox
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D2C1D8B9-5217-4900-9366-7E0E0959F82B}.Debug|Xbox.ActiveCfg = Debug|Xbox
-		{D2C1D8B9-5217-4900-9366-7E0E0959F82B}.Debug|Xbox.Build.0 = Debug|Xbox
-		{D2C1D8B9-5217-4900-9366-7E0E0959F82B}.Release|Xbox.ActiveCfg = Release|Xbox
-		{D2C1D8B9-5217-4900-9366-7E0E0959F82B}.Release|Xbox.Build.0 = Release|Xbox
+		{AFB2653F-FBC9-47D6-A782-8052C3F2B302}.Debug|Xbox.ActiveCfg = Debug|Xbox
+		{AFB2653F-FBC9-47D6-A782-8052C3F2B302}.Debug|Xbox.Build.0 = Debug|Xbox
+		{AFB2653F-FBC9-47D6-A782-8052C3F2B302}.Release|Xbox.ActiveCfg = Release|Xbox
+		{AFB2653F-FBC9-47D6-A782-8052C3F2B302}.Release|Xbox.Build.0 = Release|Xbox
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

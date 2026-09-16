@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.0.0
 MinimumVisualStudioVersion = 10.0.0.0
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WaveBank", "WaveBank.vcxproj", "{7368648B-8058-414F-9DBD-3869B176A669}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WaveBank", "WaveBank.vcxproj", "{C5E89EC2-A330-465B-AE2F-EFD30B2D8EBA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Xbox = Release|Xbox
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7368648B-8058-414F-9DBD-3869B176A669}.Debug|Xbox.ActiveCfg = Debug|Xbox
-		{7368648B-8058-414F-9DBD-3869B176A669}.Debug|Xbox.Build.0 = Debug|Xbox
-		{7368648B-8058-414F-9DBD-3869B176A669}.Release|Xbox.ActiveCfg = Release|Xbox
-		{7368648B-8058-414F-9DBD-3869B176A669}.Release|Xbox.Build.0 = Release|Xbox
+		{C5E89EC2-A330-465B-AE2F-EFD30B2D8EBA}.Debug|Xbox.ActiveCfg = Debug|Xbox
+		{C5E89EC2-A330-465B-AE2F-EFD30B2D8EBA}.Debug|Xbox.Build.0 = Debug|Xbox
+		{C5E89EC2-A330-465B-AE2F-EFD30B2D8EBA}.Release|Xbox.ActiveCfg = Release|Xbox
+		{C5E89EC2-A330-465B-AE2F-EFD30B2D8EBA}.Release|Xbox.Build.0 = Release|Xbox
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
