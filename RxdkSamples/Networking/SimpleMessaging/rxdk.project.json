@@ -9,19 +9,19 @@
         "SimpleMessaging.cpp"
       ],
       "libraries": [
-        "libxbdmd",
-        "libxapid",
-        "libd3d8d",
-        "libd3dx8d",
-        "libxgraphicsd",
-        "libdsoundd",
-        "libkerneld",
-        "libxonlined",
-        "libxnetod",
-        "libxvoiced",
-        "libcd",
-        "libcppd",
-        "libcompatd"
+        "libxbdmd.lib",
+        "libxapid.lib",
+        "libd3d8d.lib",
+        "libd3dx8d.lib",
+        "libxgraphicsd.lib",
+        "libdsoundd.lib",
+        "libkerneld.lib",
+        "libxonlined.lib",
+        "libxnetod.lib",
+        "libxvoiced.lib",
+        "libcd.lib",
+        "libcppd.lib",
+        "libcompatd.lib"
       ],
       "includePaths": [
         "../../Common/Include"
@@ -56,18 +56,18 @@
         "SimpleMessaging.cpp"
       ],
       "libraries": [
-        "libxapi",
-        "libd3d8",
-        "libd3dx8",
-        "libxgraphics",
-        "libdsound",
-        "libkernel",
-        "libxonline",
-        "libxneto",
-        "libxvoice",
-        "libc",
-        "libcpp",
-        "libcompat"
+        "libxapi.lib",
+        "libd3d8.lib",
+        "libd3dx8.lib",
+        "libxgraphics.lib",
+        "libdsound.lib",
+        "libkernel.lib",
+        "libxonline.lib",
+        "libxneto.lib",
+        "libxvoice.lib",
+        "libc.lib",
+        "libcpp.lib",
+        "libcompat.lib"
       ],
       "includePaths": [
         "../../Common/Include"
