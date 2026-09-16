@@ -1,9 +1,9 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.0.31903.59
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TEAMS", "TEAMS.vcxproj", "{F78EC2DE-85F5-4A96-9409-37494349B41C}"
+VisualStudioVersion = 17.0.0.0
+MinimumVisualStudioVersion = 10.0.0.0
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TEAMS", "TEAMS.vcxproj", "{D74E4901-6CBF-41CC-A02B-EF23FF072A05}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Xbox = Release|Xbox
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F78EC2DE-85F5-4A96-9409-37494349B41C}.Debug|Xbox.ActiveCfg = Debug|Xbox
-		{F78EC2DE-85F5-4A96-9409-37494349B41C}.Debug|Xbox.Build.0 = Debug|Xbox
-		{F78EC2DE-85F5-4A96-9409-37494349B41C}.Release|Xbox.ActiveCfg = Release|Xbox
-		{F78EC2DE-85F5-4A96-9409-37494349B41C}.Release|Xbox.Build.0 = Release|Xbox
+		{D74E4901-6CBF-41CC-A02B-EF23FF072A05}.Debug|Xbox.ActiveCfg = Debug|Xbox
+		{D74E4901-6CBF-41CC-A02B-EF23FF072A05}.Debug|Xbox.Build.0 = Debug|Xbox
+		{D74E4901-6CBF-41CC-A02B-EF23FF072A05}.Release|Xbox.ActiveCfg = Release|Xbox
+		{D74E4901-6CBF-41CC-A02B-EF23FF072A05}.Release|Xbox.Build.0 = Release|Xbox
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,9 +1,9 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.0.31903.59
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MirrorClip", "MirrorClip.vcxproj", "{AB525983-DC95-4F7E-B933-1436D035BF89}"
+VisualStudioVersion = 17.0.0.0
+MinimumVisualStudioVersion = 10.0.0.0
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MirrorClip", "MirrorClip.vcxproj", "{34C8DDDB-5F9C-4796-9947-2CF71602404C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Xbox = Release|Xbox
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{AB525983-DC95-4F7E-B933-1436D035BF89}.Debug|Xbox.ActiveCfg = Debug|Xbox
-		{AB525983-DC95-4F7E-B933-1436D035BF89}.Debug|Xbox.Build.0 = Debug|Xbox
-		{AB525983-DC95-4F7E-B933-1436D035BF89}.Release|Xbox.ActiveCfg = Release|Xbox
-		{AB525983-DC95-4F7E-B933-1436D035BF89}.Release|Xbox.Build.0 = Release|Xbox
+		{34C8DDDB-5F9C-4796-9947-2CF71602404C}.Debug|Xbox.ActiveCfg = Debug|Xbox
+		{34C8DDDB-5F9C-4796-9947-2CF71602404C}.Debug|Xbox.Build.0 = Debug|Xbox
+		{34C8DDDB-5F9C-4796-9947-2CF71602404C}.Release|Xbox.ActiveCfg = Release|Xbox
+		{34C8DDDB-5F9C-4796-9947-2CF71602404C}.Release|Xbox.Build.0 = Release|Xbox
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

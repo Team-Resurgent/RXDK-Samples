@@ -1,9 +1,9 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.0.31903.59
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SphereMap", "SphereMap.vcxproj", "{946FD379-28B6-4BA1-B02D-BA81593C214B}"
+VisualStudioVersion = 17.0.0.0
+MinimumVisualStudioVersion = 10.0.0.0
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SphereMap", "SphereMap.vcxproj", "{E7D2799A-E18A-456E-87A1-464573E395EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Xbox = Release|Xbox
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{946FD379-28B6-4BA1-B02D-BA81593C214B}.Debug|Xbox.ActiveCfg = Debug|Xbox
-		{946FD379-28B6-4BA1-B02D-BA81593C214B}.Debug|Xbox.Build.0 = Debug|Xbox
-		{946FD379-28B6-4BA1-B02D-BA81593C214B}.Release|Xbox.ActiveCfg = Release|Xbox
-		{946FD379-28B6-4BA1-B02D-BA81593C214B}.Release|Xbox.Build.0 = Release|Xbox
+		{E7D2799A-E18A-456E-87A1-464573E395EE}.Debug|Xbox.ActiveCfg = Debug|Xbox
+		{E7D2799A-E18A-456E-87A1-464573E395EE}.Debug|Xbox.Build.0 = Debug|Xbox
+		{E7D2799A-E18A-456E-87A1-464573E395EE}.Release|Xbox.ActiveCfg = Release|Xbox
+		{E7D2799A-E18A-456E-87A1-464573E395EE}.Release|Xbox.Build.0 = Release|Xbox
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

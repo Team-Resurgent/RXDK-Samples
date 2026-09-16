@@ -1,9 +1,9 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.0.31903.59
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Textures", "Textures.vcxproj", "{C0FC4151-54F8-48DE-8361-E34601551D7E}"
+VisualStudioVersion = 17.0.0.0
+MinimumVisualStudioVersion = 10.0.0.0
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Textures", "Textures.vcxproj", "{66267D5A-D32A-4BC3-9F0B-0EA6C0A207BF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Xbox = Release|Xbox
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C0FC4151-54F8-48DE-8361-E34601551D7E}.Debug|Xbox.ActiveCfg = Debug|Xbox
-		{C0FC4151-54F8-48DE-8361-E34601551D7E}.Debug|Xbox.Build.0 = Debug|Xbox
-		{C0FC4151-54F8-48DE-8361-E34601551D7E}.Release|Xbox.ActiveCfg = Release|Xbox
-		{C0FC4151-54F8-48DE-8361-E34601551D7E}.Release|Xbox.Build.0 = Release|Xbox
+		{66267D5A-D32A-4BC3-9F0B-0EA6C0A207BF}.Debug|Xbox.ActiveCfg = Debug|Xbox
+		{66267D5A-D32A-4BC3-9F0B-0EA6C0A207BF}.Debug|Xbox.Build.0 = Debug|Xbox
+		{66267D5A-D32A-4BC3-9F0B-0EA6C0A207BF}.Release|Xbox.ActiveCfg = Release|Xbox
+		{66267D5A-D32A-4BC3-9F0B-0EA6C0A207BF}.Release|Xbox.Build.0 = Release|Xbox
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,9 +1,9 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.0.31903.59
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MultiShader", "MultiShader.vcxproj", "{DE1DAC7F-85DA-46CA-B0ED-5CC0A44D9EBD}"
+VisualStudioVersion = 17.0.0.0
+MinimumVisualStudioVersion = 10.0.0.0
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MultiShader", "MultiShader.vcxproj", "{4CC84331-1371-42CB-8D3D-6E77587FB58B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Xbox = Release|Xbox
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DE1DAC7F-85DA-46CA-B0ED-5CC0A44D9EBD}.Debug|Xbox.ActiveCfg = Debug|Xbox
-		{DE1DAC7F-85DA-46CA-B0ED-5CC0A44D9EBD}.Debug|Xbox.Build.0 = Debug|Xbox
-		{DE1DAC7F-85DA-46CA-B0ED-5CC0A44D9EBD}.Release|Xbox.ActiveCfg = Release|Xbox
-		{DE1DAC7F-85DA-46CA-B0ED-5CC0A44D9EBD}.Release|Xbox.Build.0 = Release|Xbox
+		{4CC84331-1371-42CB-8D3D-6E77587FB58B}.Debug|Xbox.ActiveCfg = Debug|Xbox
+		{4CC84331-1371-42CB-8D3D-6E77587FB58B}.Debug|Xbox.Build.0 = Debug|Xbox
+		{4CC84331-1371-42CB-8D3D-6E77587FB58B}.Release|Xbox.ActiveCfg = Release|Xbox
+		{4CC84331-1371-42CB-8D3D-6E77587FB58B}.Release|Xbox.Build.0 = Release|Xbox
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

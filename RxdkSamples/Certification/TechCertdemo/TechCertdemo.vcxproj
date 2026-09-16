@@ -12,67 +12,57 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{481E010B-FCC6-4A3C-9983-8E8B2AD80F0D}</ProjectGuid>
+    <ProjectGuid>{50A75C67-6206-4552-8E74-BEF4CCE05B9F}</ProjectGuid>
+    <Keyword>RXDK</Keyword>
+    <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
+    <ApplicationType>RXDK</ApplicationType>
+    <ApplicationTypeRevision>Current</ApplicationTypeRevision>
     <RootNamespace>XboxNamespace</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
     <ProjectName>TechCertdemo</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
-  <PropertyGroup Label="Configuration">
-    <ConfigurationType>Makefile</ConfigurationType>
-    <PlatformToolset Condition="'$(VisualStudioVersion)' == '17.0'">v143</PlatformToolset>
-    <PlatformToolset Condition="'$(VisualStudioVersion)' == '18.0'">v145</PlatformToolset>
-    <PlatformToolset Condition="'$(PlatformToolset)' == ''">v143</PlatformToolset>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Xbox'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>RXDK</PlatformToolset>
+    <ConfigurationType>Application</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Xbox'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>RXDK</PlatformToolset>
+    <ConfigurationType>Application</ConfigurationType>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
-  <PropertyGroup>
-    <NMakeOutput>$(MSBuildProjectDirectory)\$(RxdkOutDir)\$(MSBuildProjectName).xbe</NMakeOutput>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Xbox'">
-    <RxdkBuildFlavor>Debug</RxdkBuildFlavor>
-    <RxdkDeployPaths>Media</RxdkDeployPaths>
-    <RxdkStackSize>65536</RxdkStackSize>
-    <RxdkImageDebug>true</RxdkImageDebug>
-    <RxdkDontModifyHardDisk>false</RxdkDontModifyHardDisk>
-    <RxdkDontMountUtilityDrive>false</RxdkDontMountUtilityDrive>
-    <RxdkNoLibWarn>true</RxdkNoLibWarn>
-    <RxdkTestId>0xffff011A</RxdkTestId>
-    <RxdkTestName>TechCertDemo</RxdkTestName>
-    <RxdkTestVersion>4096</RxdkTestVersion>
-    <RxdkTitleImage>titleimage.xbx</RxdkTitleImage>
-    <RxdkDefaultSaveImage>saveimage.xbx</RxdkDefaultSaveImage>
-  </PropertyGroup>
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared" />
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Xbox'">
-    <ClCompile>
-      <PreprocessorDefinitions>_USE_XGMATH;XBOX_SAMPLE;XDEMO;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\..\Common\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-    </ClCompile>
     <Link>
-      <AdditionalDependencies>libxbdmd.lib;libxapid.lib;libd3d8d.lib;libd3dx8d.lib;libxgraphicsd.lib;libdsoundd.lib;libxactd.lib;libkerneld.lib;libcd.lib;libcppd.lib;libcompatd.lib</AdditionalDependencies>
+      <AdditionalOptions>%(Link.AdditionalOptions) -Wl,--whole-archive -llibcompatd -Wl,--no-whole-archive</AdditionalOptions>
+      <LibraryDependencies>libxbdmd;libxapid;libd3d8d;libd3dx8d;libxgraphicsd;libdsoundd;libxactd;libkerneld;libcd;libcppd</LibraryDependencies>
     </Link>
   </ItemDefinitionGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Xbox'">
-    <RxdkBuildFlavor>Release</RxdkBuildFlavor>
-    <RxdkReleaseOptimize>ReleaseFast</RxdkReleaseOptimize>
-    <RxdkDeployPaths>Media</RxdkDeployPaths>
-    <RxdkStackSize>65536</RxdkStackSize>
-    <RxdkImageDebug>true</RxdkImageDebug>
-    <RxdkDontModifyHardDisk>false</RxdkDontModifyHardDisk>
-    <RxdkDontMountUtilityDrive>false</RxdkDontMountUtilityDrive>
-    <RxdkTestId>0xffff011A</RxdkTestId>
-    <RxdkTestName>TechCertDemo</RxdkTestName>
-    <RxdkTestVersion>4096</RxdkTestVersion>
-    <RxdkTitleImage>titleimage.xbx</RxdkTitleImage>
-    <RxdkDefaultSaveImage>saveimage.xbx</RxdkDefaultSaveImage>
-  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Xbox'">
-    <ClCompile>
-      <PreprocessorDefinitions>_USE_XGMATH;XBOX_SAMPLE;XDEMO;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\..\Common\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-    </ClCompile>
     <Link>
-      <AdditionalDependencies>libxapi.lib;libd3d8.lib;libd3dx8.lib;libxgraphics.lib;libdsound.lib;libxact.lib;libkernel.lib;libc.lib;libcpp.lib;libcompat.lib</AdditionalDependencies>
+      <AdditionalOptions>%(Link.AdditionalOptions) -Wl,--whole-archive -llibcompat -Wl,--no-whole-archive</AdditionalOptions>
+      <LibraryDependencies>libxapi;libd3d8;libd3dx8;libxgraphics;libdsound;libxact;libkernel;libc;libcpp</LibraryDependencies>
     </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <RxdkAdditionalIncludeDirectories>..\..\Common\Include</RxdkAdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_USE_XGMATH;XBOX_SAMPLE;XDEMO</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup>
+    <ImageBld>
+      <TestId>0xffff011A</TestId>
+      <TestName>TechCertDemo</TestName>
+      <TestVersion>4096</TestVersion>
+      <TitleImage>titleimage.xbx</TitleImage>
+      <DefaultSaveImage>saveimage.xbx</DefaultSaveImage>
+    </ImageBld>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="app.cpp" />
@@ -114,45 +104,6 @@
     <ClCompile Include="..\..\Common\Src\xbstoragedevice.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="app.h" />
-    <ClInclude Include="audioengine.h" />
-    <ClInclude Include="controller.h" />
-    <ClInclude Include="demo.h" />
-    <ClInclude Include="file.h" />
-    <ClInclude Include="game.h" />
-    <ClInclude Include="globals.h" />
-    <ClInclude Include="heightfield.h" />
-    <ClInclude Include="light.h" />
-    <ClInclude Include="loadsave.h" />
-    <ClInclude Include="math3d.h" />
-    <ClInclude Include="menu.h" />
-    <ClInclude Include="menuoptions.h" />
-    <ClInclude Include="mesh.h" />
-    <ClInclude Include="physicsobject.h" />
-    <ClInclude Include="physicssystem.h" />
-    <ClInclude Include="polyhedron.h" />
-    <ClInclude Include="shader.h" />
-    <ClInclude Include="soundeffect.h" />
-    <ClInclude Include="splash.h" />
-    <ClInclude Include="startscreen.h" />
-    <ClInclude Include="text.h" />
-    <ClInclude Include="vehicle.h" />
-    <ClInclude Include="..\..\Common\Include\xbapp.h" />
-    <ClInclude Include="..\..\Common\Include\xbfont.h" />
-    <ClInclude Include="..\..\Common\Include\xbhelp.h" />
-    <ClInclude Include="..\..\Common\Include\xbinput.h" />
-    <ClInclude Include="..\..\Common\Include\xbmesh.h" />
-    <ClInclude Include="..\..\Common\Include\xbprofiling.h" />
-    <ClInclude Include="..\..\Common\Include\xbresource.h" />
-    <ClInclude Include="..\..\Common\Include\xbutil.h" />
-    <ClInclude Include="..\..\Common\Include\xbconfig.h" />
-    <ClInclude Include="..\..\Common\Include\xbmemunit.h" />
-    <ClInclude Include="..\..\Common\Include\xbsavedgame.h" />
-    <ClInclude Include="..\..\Common\Include\xbsound.h" />
-    <ClInclude Include="..\..\Common\Include\xbstopwatch.h" />
-    <ClInclude Include="..\..\Common\Include\xbstoragedevice.h" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="font.rdf" />
     <None Include="font12.rdf" />
     <None Include="font16.rdf" />
@@ -161,6 +112,9 @@
     <None Include="menuresource.rdf" />
     <None Include="Xboxdings_24.rdf" />
     <None Include="XactSounds.xap" />
+  </ItemGroup>
+  <ItemGroup>
+    <IsoCopy Include="Media\**" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
 </Project>

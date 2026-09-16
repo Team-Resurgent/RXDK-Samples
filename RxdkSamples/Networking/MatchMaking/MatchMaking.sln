@@ -1,9 +1,9 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.0.31903.59
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MatchMaking", "MatchMaking.vcxproj", "{FAF2CB30-530D-4B3C-9CF7-0F1B526F1299}"
+VisualStudioVersion = 17.0.0.0
+MinimumVisualStudioVersion = 10.0.0.0
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MatchMaking", "MatchMaking.vcxproj", "{76BF3BE9-3094-446E-A99A-81C6BC5270EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Xbox = Release|Xbox
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FAF2CB30-530D-4B3C-9CF7-0F1B526F1299}.Debug|Xbox.ActiveCfg = Debug|Xbox
-		{FAF2CB30-530D-4B3C-9CF7-0F1B526F1299}.Debug|Xbox.Build.0 = Debug|Xbox
-		{FAF2CB30-530D-4B3C-9CF7-0F1B526F1299}.Release|Xbox.ActiveCfg = Release|Xbox
-		{FAF2CB30-530D-4B3C-9CF7-0F1B526F1299}.Release|Xbox.Build.0 = Release|Xbox
+		{76BF3BE9-3094-446E-A99A-81C6BC5270EF}.Debug|Xbox.ActiveCfg = Debug|Xbox
+		{76BF3BE9-3094-446E-A99A-81C6BC5270EF}.Debug|Xbox.Build.0 = Debug|Xbox
+		{76BF3BE9-3094-446E-A99A-81C6BC5270EF}.Release|Xbox.ActiveCfg = Release|Xbox
+		{76BF3BE9-3094-446E-A99A-81C6BC5270EF}.Release|Xbox.Build.0 = Release|Xbox
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

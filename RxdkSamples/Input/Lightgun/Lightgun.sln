@@ -1,9 +1,9 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.0.31903.59
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lightgun", "Lightgun.vcxproj", "{8F132075-00E5-436F-8A4C-0F08FB9BABE9}"
+VisualStudioVersion = 17.0.0.0
+MinimumVisualStudioVersion = 10.0.0.0
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lightgun", "Lightgun.vcxproj", "{58501EE2-20EA-4837-B0DF-030842A72B69}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Xbox = Release|Xbox
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8F132075-00E5-436F-8A4C-0F08FB9BABE9}.Debug|Xbox.ActiveCfg = Debug|Xbox
-		{8F132075-00E5-436F-8A4C-0F08FB9BABE9}.Debug|Xbox.Build.0 = Debug|Xbox
-		{8F132075-00E5-436F-8A4C-0F08FB9BABE9}.Release|Xbox.ActiveCfg = Release|Xbox
-		{8F132075-00E5-436F-8A4C-0F08FB9BABE9}.Release|Xbox.Build.0 = Release|Xbox
+		{58501EE2-20EA-4837-B0DF-030842A72B69}.Debug|Xbox.ActiveCfg = Debug|Xbox
+		{58501EE2-20EA-4837-B0DF-030842A72B69}.Debug|Xbox.Build.0 = Debug|Xbox
+		{58501EE2-20EA-4837-B0DF-030842A72B69}.Release|Xbox.ActiveCfg = Release|Xbox
+		{58501EE2-20EA-4837-B0DF-030842A72B69}.Release|Xbox.Build.0 = Release|Xbox
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

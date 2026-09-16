@@ -1,9 +1,9 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.0.31903.59
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VoiceLoopBack", "VoiceLoopBack.vcxproj", "{4DFC9B29-B0E4-469B-A66F-F16183D1F206}"
+VisualStudioVersion = 17.0.0.0
+MinimumVisualStudioVersion = 10.0.0.0
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VoiceLoopBack", "VoiceLoopBack.vcxproj", "{2B5AE29E-C716-4CBD-A0C0-6F5BFFF7CA72}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Xbox = Release|Xbox
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4DFC9B29-B0E4-469B-A66F-F16183D1F206}.Debug|Xbox.ActiveCfg = Debug|Xbox
-		{4DFC9B29-B0E4-469B-A66F-F16183D1F206}.Debug|Xbox.Build.0 = Debug|Xbox
-		{4DFC9B29-B0E4-469B-A66F-F16183D1F206}.Release|Xbox.ActiveCfg = Release|Xbox
-		{4DFC9B29-B0E4-469B-A66F-F16183D1F206}.Release|Xbox.Build.0 = Release|Xbox
+		{2B5AE29E-C716-4CBD-A0C0-6F5BFFF7CA72}.Debug|Xbox.ActiveCfg = Debug|Xbox
+		{2B5AE29E-C716-4CBD-A0C0-6F5BFFF7CA72}.Debug|Xbox.Build.0 = Debug|Xbox
+		{2B5AE29E-C716-4CBD-A0C0-6F5BFFF7CA72}.Release|Xbox.ActiveCfg = Release|Xbox
+		{2B5AE29E-C716-4CBD-A0C0-6F5BFFF7CA72}.Release|Xbox.Build.0 = Release|Xbox
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

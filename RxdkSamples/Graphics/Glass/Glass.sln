@@ -1,9 +1,9 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.0.31903.59
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Glass", "Glass.vcxproj", "{F8C2E112-D322-4DB1-A7E7-279825A8EB3C}"
+VisualStudioVersion = 17.0.0.0
+MinimumVisualStudioVersion = 10.0.0.0
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Glass", "Glass.vcxproj", "{EEEA4AB8-6E04-4D19-91A7-CC20A50AAAE8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Xbox = Release|Xbox
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F8C2E112-D322-4DB1-A7E7-279825A8EB3C}.Debug|Xbox.ActiveCfg = Debug|Xbox
-		{F8C2E112-D322-4DB1-A7E7-279825A8EB3C}.Debug|Xbox.Build.0 = Debug|Xbox
-		{F8C2E112-D322-4DB1-A7E7-279825A8EB3C}.Release|Xbox.ActiveCfg = Release|Xbox
-		{F8C2E112-D322-4DB1-A7E7-279825A8EB3C}.Release|Xbox.Build.0 = Release|Xbox
+		{EEEA4AB8-6E04-4D19-91A7-CC20A50AAAE8}.Debug|Xbox.ActiveCfg = Debug|Xbox
+		{EEEA4AB8-6E04-4D19-91A7-CC20A50AAAE8}.Debug|Xbox.Build.0 = Debug|Xbox
+		{EEEA4AB8-6E04-4D19-91A7-CC20A50AAAE8}.Release|Xbox.ActiveCfg = Release|Xbox
+		{EEEA4AB8-6E04-4D19-91A7-CC20A50AAAE8}.Release|Xbox.Build.0 = Release|Xbox
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

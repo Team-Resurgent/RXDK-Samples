@@ -12,63 +12,58 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{3EC89A6C-5061-41E9-AF53-CF21EDA8D079}</ProjectGuid>
+    <ProjectGuid>{ECE5E1DB-BFA7-4520-A8A7-B1E020E3C256}</ProjectGuid>
+    <Keyword>RXDK</Keyword>
+    <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
+    <ApplicationType>RXDK</ApplicationType>
+    <ApplicationTypeRevision>Current</ApplicationTypeRevision>
     <RootNamespace>XboxNamespace</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
     <ProjectName>Matrices</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
-  <PropertyGroup Label="Configuration">
-    <ConfigurationType>Makefile</ConfigurationType>
-    <PlatformToolset Condition="'$(VisualStudioVersion)' == '17.0'">v143</PlatformToolset>
-    <PlatformToolset Condition="'$(VisualStudioVersion)' == '18.0'">v145</PlatformToolset>
-    <PlatformToolset Condition="'$(PlatformToolset)' == ''">v143</PlatformToolset>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Xbox'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>RXDK</PlatformToolset>
+    <ConfigurationType>Application</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Xbox'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>RXDK</PlatformToolset>
+    <ConfigurationType>Application</ConfigurationType>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
-  <PropertyGroup>
-    <NMakeOutput>$(MSBuildProjectDirectory)\$(RxdkOutDir)\$(MSBuildProjectName).xbe</NMakeOutput>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Xbox'">
-    <RxdkBuildFlavor>Debug</RxdkBuildFlavor>
-    <RxdkStackSize>65536</RxdkStackSize>
-    <RxdkImageDebug>true</RxdkImageDebug>
-    <RxdkDontMountUtilityDrive>true</RxdkDontMountUtilityDrive>
-    <RxdkNoLibWarn>true</RxdkNoLibWarn>
-    <RxdkTestId>0xffff001a</RxdkTestId>
-    <RxdkTestName>Matrices</RxdkTestName>
-    <RxdkTestVersion>4096</RxdkTestVersion>
-    <RxdkTitleImage>..\..\..\Common\rxdk-titleimage.xbx</RxdkTitleImage>
-    <RxdkDefaultSaveImage>..\..\..\Common\rxdk-saveimage.xbx</RxdkDefaultSaveImage>
-  </PropertyGroup>
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared" />
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Xbox'">
-    <ClCompile>
-      <PreprocessorDefinitions>_USE_XGMATH;XBOX_SAMPLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\..\..\Common\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-    </ClCompile>
     <Link>
-      <AdditionalDependencies>libxbdmd.lib;libxapid.lib;libd3d8d.lib;libd3dx8d.lib;libxgraphicsd.lib;libdsoundd.lib;libkerneld.lib;libcd.lib;libcppd.lib;libcompatd.lib</AdditionalDependencies>
+      <AdditionalOptions>%(Link.AdditionalOptions) -Wl,--whole-archive -llibcompatd -Wl,--no-whole-archive</AdditionalOptions>
+      <LibraryDependencies>libxbdmd;libxapid;libd3d8d;libd3dx8d;libxgraphicsd;libdsoundd;libkerneld;libcd;libcppd</LibraryDependencies>
     </Link>
   </ItemDefinitionGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Xbox'">
-    <RxdkBuildFlavor>Release</RxdkBuildFlavor>
-    <RxdkReleaseOptimize>ReleaseFast</RxdkReleaseOptimize>
-    <RxdkStackSize>65536</RxdkStackSize>
-    <RxdkImageDebug>true</RxdkImageDebug>
-    <RxdkDontMountUtilityDrive>true</RxdkDontMountUtilityDrive>
-    <RxdkTestId>0xffff001a</RxdkTestId>
-    <RxdkTestName>Matrices</RxdkTestName>
-    <RxdkTestVersion>4096</RxdkTestVersion>
-    <RxdkTitleImage>..\..\..\Common\rxdk-titleimage.xbx</RxdkTitleImage>
-    <RxdkDefaultSaveImage>..\..\..\Common\rxdk-saveimage.xbx</RxdkDefaultSaveImage>
-  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Xbox'">
-    <ClCompile>
-      <PreprocessorDefinitions>_USE_XGMATH;XBOX_SAMPLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\..\..\Common\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-    </ClCompile>
     <Link>
-      <AdditionalDependencies>libxapi.lib;libd3d8.lib;libd3dx8.lib;libxgraphics.lib;libdsound.lib;libkernel.lib;libc.lib;libcpp.lib;libcompat.lib</AdditionalDependencies>
+      <AdditionalOptions>%(Link.AdditionalOptions) -Wl,--whole-archive -llibcompat -Wl,--no-whole-archive</AdditionalOptions>
+      <LibraryDependencies>libxapi;libd3d8;libd3dx8;libxgraphics;libdsound;libkernel;libc;libcpp</LibraryDependencies>
     </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <RxdkAdditionalIncludeDirectories>..\..\..\Common\Include</RxdkAdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_USE_XGMATH;XBOX_SAMPLE</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup>
+    <ImageBld>
+      <DontMountUtilityDrive>true</DontMountUtilityDrive>
+      <TestId>0xffff001a</TestId>
+      <TestName>Matrices</TestName>
+      <TestVersion>4096</TestVersion>
+      <TitleImage>..\..\..\Common\rxdk-titleimage.xbx</TitleImage>
+      <DefaultSaveImage>..\..\..\Common\rxdk-saveimage.xbx</DefaultSaveImage>
+    </ImageBld>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="matrices.cpp" />
