@@ -20,15 +20,16 @@
         "resource.rdf"
       ],
       "libraries": [
-        "libxbdm",
-        "libxapi",
-        "libd3d8",
-        "libd3dx8",
-        "libxgraphics",
-        "libdsound",
-        "libkernel",
-        "libc",
-        "libcpp"
+        "libxbdmd",
+        "libxapid",
+        "libd3d8d",
+        "libd3dx8d",
+        "libxgraphicsd",
+        "libdsoundd",
+        "libkerneld",
+        "libcd",
+        "libcppd",
+        "libcompatd"
       ],
       "includePaths": [
         "../../Common/Include"
@@ -84,7 +85,8 @@
         "libdsound",
         "libkernel",
         "libc",
-        "libcpp"
+        "libcpp",
+        "libcompat"
       ],
       "includePaths": [
         "../../Common/Include"

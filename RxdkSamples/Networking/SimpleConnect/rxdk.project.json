@@ -10,17 +10,18 @@
         "match.cpp"
       ],
       "libraries": [
-        "libxbdm",
-        "libxapi",
-        "libd3d8",
-        "libd3dx8",
-        "libxgraphics",
-        "libdsound",
-        "libkernel",
-        "libxonline",
-        "libxneto",
-        "libc",
-        "libcpp"
+        "libxbdmd",
+        "libxapid",
+        "libd3d8d",
+        "libd3dx8d",
+        "libxgraphicsd",
+        "libdsoundd",
+        "libkerneld",
+        "libxonlined",
+        "libxnetod",
+        "libcd",
+        "libcppd",
+        "libcompatd"
       ],
       "includePaths": [
         "../../Common/Include"
@@ -65,7 +66,8 @@
         "libxonline",
         "libxneto",
         "libc",
-        "libcpp"
+        "libcpp",
+        "libcompat"
       ],
       "includePaths": [
         "../../Common/Include"

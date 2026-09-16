@@ -22,16 +22,17 @@
         "gamepad.rdf"
       ],
       "libraries": [
-        "libxbdm",
-        "libxapi",
-        "libd3d8",
-        "libd3dx8",
-        "libxgraphics",
-        "libdsound",
-        "libdmusic",
-        "libkernel",
-        "libc",
-        "libcpp"
+        "libxbdmd",
+        "libxapid",
+        "libd3d8d",
+        "libd3dx8d",
+        "libxgraphicsd",
+        "libdsoundd",
+        "libdmusicd",
+        "libkerneld",
+        "libcd",
+        "libcppd",
+        "libcompatd"
       ],
       "includePaths": [
         "../../Common/Include"
@@ -90,7 +91,8 @@
         "libdmusic",
         "libkernel",
         "libc",
-        "libcpp"
+        "libcpp",
+        "libcompat"
       ],
       "includePaths": [
         "../../Common/Include"

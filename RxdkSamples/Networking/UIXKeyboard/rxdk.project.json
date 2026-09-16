@@ -26,20 +26,21 @@
         "UIXKeyboard.xap"
       ],
       "libraries": [
-        "libxbdm",
-        "libxapi",
-        "libd3d8",
-        "libd3dx8",
-        "libxgraphics",
-        "libdsound",
-        "libxact",
-        "libxvoice",
-        "libkernel",
-        "libuix",
-        "libxonline",
-        "libxneto",
-        "libc",
-        "libcpp"
+        "libxbdmd",
+        "libxapid",
+        "libd3d8d",
+        "libd3dx8d",
+        "libxgraphicsd",
+        "libdsoundd",
+        "libxactd",
+        "libxvoiced",
+        "libkerneld",
+        "libuixd",
+        "libxonlined",
+        "libxnetod",
+        "libcd",
+        "libcppd",
+        "libcompatd"
       ],
       "includePaths": [
         "../../Common/Include"
@@ -106,7 +107,8 @@
         "libxonline",
         "libxneto",
         "libc",
-        "libcpp"
+        "libcpp",
+        "libcompat"
       ],
       "includePaths": [
         "../../Common/Include"
