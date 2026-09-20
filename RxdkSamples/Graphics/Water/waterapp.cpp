@@ -514,7 +514,12 @@ HRESULT CXBoxSample::Cleanup()
 // Desc: Get the FCC DWORD of the input string.
 //        The FCC value is used to set shader parameters
 //-----------------------------------------------------------------------------
-inline DWORD GetFCCFromString( const CHAR* str )
+// NB: external linkage (matches the declaration in waterdefs.h) -- packman.cpp
+// and the FCC_* macros call this across translation units, so it must have a
+// single out-of-line definition. Marking it `inline` here let an -O0 build emit
+// an out-of-line copy anyway, but under -Os clang inlined every local use and
+// emitted none, leaving the cross-TU references undefined at link.
+DWORD GetFCCFromString( const CHAR* str )
 {
     return MAKEFOURCC( str[0], str[1], str[2], str[3] );
 }
